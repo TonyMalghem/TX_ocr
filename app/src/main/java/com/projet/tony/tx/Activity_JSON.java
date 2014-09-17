@@ -29,6 +29,9 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 
+/*TODO
+* intégration de la caméra dans l'appli*/
+
 public class Activity_JSON extends ActionBarActivity {
     private TextView texte = null;
     private JSONObject parser=null;
