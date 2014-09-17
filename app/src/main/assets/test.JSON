@@ -1,0 +1,15 @@
+{
+	"enigme":
+	[
+		{
+			"id":"1",
+			"question":"qu'est ce qui est petit et marron?",
+			"reponse": ["marron"]
+		},
+		{
+			"id":"2",
+			"question":"qu'est ce que c'est le truc de Troie?",
+			"reponse":["tomate (legume)","tomate (fruit)","cheval","aigle"]
+		}
+	]
+}
