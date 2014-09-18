@@ -7,6 +7,7 @@ import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 
 import java.io.IOException;
+import java.util.List;
 
 //permet d'afficher ce que l'utilisateur pointe avec sa camera, c'est une grosse dale avec l'affichage de la camera en fait
 public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback {
@@ -35,6 +36,16 @@ public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback
     }
 
     public void surfaceChanged(SurfaceHolder holder, int format, int w, int h) {
+
+        Camera.Parameters parameters = mCamera.getParameters();
+        List<Camera.Size> sizes = parameters.getSupportedPictureSizes();
+        Log.d("CAM",""+sizes.get(0).height+"x" + sizes.get(0).width);
+        Log.d("CAM",""+sizes.get(1).height+"x" + sizes.get(1).width);
+        Log.d("CAM",""+sizes.get(2).height+"x" + sizes.get(2).width);
+        parameters.setPreviewSize(240,360);
+        requestLayout();
+        mCamera.setParameters(parameters);
+
         if(mHolder.getSurface()==null) {
             return;
         }
