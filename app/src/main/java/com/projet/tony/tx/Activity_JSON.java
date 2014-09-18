@@ -36,6 +36,7 @@ public class Activity_JSON extends ActionBarActivity {
     private TextView texte = null;
     private JSONObject parser=null;
     private JSONObject save=null;
+    private int Id_Question=1; // question actuelle
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -45,11 +46,9 @@ public class Activity_JSON extends ActionBarActivity {
 
 
         final TextView textView = (TextView) findViewById(R.id.textView);
-        textView.setText(get_question(1));
+        textView.setText(get_question(Id_Question));
 
 
-        final TextView textView2 = (TextView) findViewById(R.id.textView2);
-        textView2.setText(save.toString());
 
         final Button button = (Button) findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener() {
@@ -58,17 +57,29 @@ public class Activity_JSON extends ActionBarActivity {
 
                 final EditText editText = (EditText) findViewById(R.id.editText);
                 String rep=editText.getText().toString();
-                if(res(parser,rep,1)) editText.setText("True !");
+                if(res(parser,rep,Id_Question)) editText.setText("True !");
                 else editText.setText("False !");
-
-
-                question_done(1);
+                question_done(Id_Question);
                 saveXP();
+                changer_question();
+
+                if(Id_Question!=-1) {
+                    final TextView textView = (TextView) findViewById(R.id.textView);
+                    textView.setText(get_question(Id_Question));
+                }
+                else
+                {
+                    final TextView textView = (TextView) findViewById(R.id.textView);
+                    textView.setText("Plus de question !");
+                }
+
+                // lecture du fichier save
+                // a utiliser au démarage (faire un test pour savoir s'il existe dans le cas contraire ouvir le fichier save.JSON de l'asset)
+                /*
 
                 String ret = "";
-
                 try {
-                    InputStream inputStream = openFileInput("test.txt");
+                    InputStream inputStream = openFileInput("save.txt");
 
                     if ( inputStream != null ) {
                         InputStreamReader inputStreamReader = new InputStreamReader(inputStream);
@@ -91,14 +102,46 @@ public class Activity_JSON extends ActionBarActivity {
                 } catch (IOException e) {
                     Log.e("login activity", "Can not read file: " + e.toString());
                 }
+                */
             }
+
         });
 
     }
 
+    // change de question pour une question pas encore répondue
+public void changer_question()
+{
+    int i=0;
+    String done="y";
+    JSONArray enigme = null;
+    try {
+        enigme = save.getJSONArray("enigme");
+        JSONObject ret=enigme.getJSONObject(i);
+        while(done.compareTo("y")==0 && i<enigme.length())
+        {
+            ret = enigme.getJSONObject(i);
+            done=ret.getString("Done");
+            i++;
+        }
+        // si on a pas trouvé alors il n'y a plus de question sinon on met l'id réel de la question
+        if(ret.getString("Done").compareTo("y")==0)i=-1;
+    } catch (JSONException e) {
+        e.printStackTrace();
+    }
+
+
+
+
+
+    Id_Question=i;
+
+}
+
+
     public void saveXP()
     {
-        File file = getFileStreamPath("test.txt");
+        File file = getFileStreamPath("save.txt");
 
         if (!file.exists()) {
             try {
