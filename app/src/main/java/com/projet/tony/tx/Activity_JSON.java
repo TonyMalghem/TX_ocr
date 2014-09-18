@@ -13,6 +13,7 @@ import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -57,8 +58,9 @@ public class Activity_JSON extends ActionBarActivity {
 
                 final EditText editText = (EditText) findViewById(R.id.editText);
                 String rep=editText.getText().toString();
-                if(res(parser,rep,Id_Question)) editText.setText("True !");
-                else editText.setText("False !");
+                if(res(parser,rep,Id_Question)) Toast.makeText(getApplicationContext(),"Bonne réponse!",Toast.LENGTH_LONG).show();
+                else Toast.makeText(getApplicationContext(),"Mauvaise réponse!",Toast.LENGTH_LONG).show();
+                editText.setText("");
                 question_done(Id_Question);
                 saveXP();
                 changer_question();
