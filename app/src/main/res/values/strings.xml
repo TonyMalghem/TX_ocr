@@ -4,5 +4,9 @@
     <string name="app_name">TX</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_camera">CameraActivity</string>
+    <string name="take_pic">Capture!</string>
+    <string name="result_question">Résulat!</string>
+    <string name="ouvrir_camera">Ouvrir la camera</string>
 
 </resources>

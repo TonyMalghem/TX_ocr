@@ -1,6 +1,7 @@
 package com.projet.tony.tx;
 
 import android.content.Context;
+import android.content.Intent;
 import android.provider.MediaStore;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
@@ -271,7 +272,10 @@ public void changer_question()
         return quest;
     }
 
-
+    public void openCamera(View view) {
+        Intent intent = new Intent(this, CameraActivity.class);
+        startActivity(intent);
+    }
 
 
     @Override
