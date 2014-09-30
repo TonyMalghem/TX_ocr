@@ -30,7 +30,18 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.graphics.Matrix;
+import android.media.ExifInterface;
+import android.util.Log;
+import android.view.View;
+import android.widget.ImageView;
+import android.widget.TextView;
 
+import com.googlecode.tesseract.android.TessBaseAPI;
+
+import java.io.IOException;
 /*TODO
 * intégration de la caméra dans l'appli*/
 
@@ -50,7 +61,7 @@ public class Activity_JSON extends ActionBarActivity {
         final TextView textView = (TextView) findViewById(R.id.textView);
         textView.setText(get_question(Id_Question));
 
-
+    ocr();
 
         final Button button = (Button) findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener() {
@@ -75,37 +86,6 @@ public class Activity_JSON extends ActionBarActivity {
                     final TextView textView = (TextView) findViewById(R.id.textView);
                     textView.setText("Plus de question !");
                 }
-
-                // lecture du fichier save
-                // a utiliser au démarage (faire un test pour savoir s'il existe dans le cas contraire ouvir le fichier save.JSON de l'asset)
-                /*
-
-                String ret = "";
-                try {
-                    InputStream inputStream = openFileInput("save.txt");
-
-                    if ( inputStream != null ) {
-                        InputStreamReader inputStreamReader = new InputStreamReader(inputStream);
-                        BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
-                        String receiveString = "";
-                        StringBuilder stringBuilder = new StringBuilder();
-
-                        while ( (receiveString = bufferedReader.readLine()) != null ) {
-                            stringBuilder.append(receiveString);
-                        }
-
-                        inputStream.close();
-                        ret = stringBuilder.toString();
-                        final TextView textView2 = (TextView) findViewById(R.id.textView2);
-                        textView2.setText(ret);
-                    }
-                }
-                catch (FileNotFoundException e) {
-                    Log.e("login activity", "File not found: " + e.toString());
-                } catch (IOException e) {
-                    Log.e("login activity", "Can not read file: " + e.toString());
-                }
-                */
             }
 
         });
@@ -295,5 +275,98 @@ public void changer_question()
             return true;
         }
         return super.onOptionsItemSelected(item);
+    }
+
+
+
+
+
+
+
+
+
+
+    // OCR
+
+    String IMAGE_PATH="IMG_20140915_161253";
+    String LOG_TAG="error_ocr";
+    String LANG="eng";
+    String DATA_PATH="data.txt";
+    public void ocr() {
+
+        BitmapFactory.Options options = new BitmapFactory.Options();
+        options.inSampleSize = 2;
+        Bitmap bitmap = BitmapFactory.decodeFile(IMAGE_PATH, options);
+
+        try {
+            ExifInterface exif = new ExifInterface(IMAGE_PATH);
+            int exifOrientation = exif.getAttributeInt(ExifInterface.TAG_ORIENTATION, ExifInterface.ORIENTATION_NORMAL);
+
+            Log.v(LOG_TAG, "Orient: " + exifOrientation);
+
+            int rotate = 0;
+            switch (exifOrientation) {
+                case ExifInterface.ORIENTATION_ROTATE_90:
+                    rotate = 90;
+                    break;
+                case ExifInterface.ORIENTATION_ROTATE_180:
+                    rotate = 180;
+                    break;
+                case ExifInterface.ORIENTATION_ROTATE_270:
+                    rotate = 270;
+                    break;
+            }
+
+
+
+            Log.v(LOG_TAG, "Rotation: " + rotate);
+
+            if (rotate != 0) {
+
+                // Getting width & height of the given image.
+                int w = bitmap.getWidth();
+                int h = bitmap.getHeight();
+
+                // Setting pre rotate
+                Matrix mtx = new Matrix();
+                mtx.preRotate(rotate);
+
+                // Rotating Bitmap
+                bitmap = Bitmap.createBitmap(bitmap, 0, 0, w, h, mtx, false);
+                // tesseract req. ARGB_8888
+                bitmap = bitmap.copy(Bitmap.Config.ARGB_8888, true);
+            }
+
+
+        } catch (IOException e) {
+            Log.e(LOG_TAG, "Rotate or coversion failed: " + e.toString());
+        }
+
+ /*
+        ImageView iv = (ImageView) findViewById(R.id.image);
+        iv.setImageBitmap(bitmap);
+       iv.setVisibility(View.VISIBLE);
+*/
+        Log.v(LOG_TAG, "Before baseApi");
+
+        TessBaseAPI baseApi = new TessBaseAPI();
+  /*      baseApi.setDebug(true);
+        baseApi.init(DATA_PATH, LANG);
+        baseApi.setImage(bitmap);
+        String recognizedText = baseApi.getUTF8Text();
+        baseApi.end();
+
+        Log.v(LOG_TAG, "OCR Result: " + recognizedText);
+
+        // clean up and show
+        if (LANG.equalsIgnoreCase("eng")) {
+            recognizedText = recognizedText.replaceAll("[^a-zA-Z0-9]+", " ");
+        }
+        if (recognizedText.length() != 0) {
+            final TextView textView = (TextView) findViewById(R.id.field);
+            textView.setText(recognizedText.trim());
+        }
+ */
+
     }
 }
