@@ -2,6 +2,7 @@ package com.projet.tony.tx;
 
 import android.content.Context;
 import android.content.Intent;
+import android.os.Environment;
 import android.provider.MediaStore;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
@@ -288,15 +289,18 @@ public void changer_question()
 
     // OCR
 
-    String IMAGE_PATH="IMG_20140915_161253";
     String LOG_TAG="error_ocr";
     String LANG="eng";
-    String DATA_PATH="data.txt";
+    String DATA_PATH= Environment.getExternalStorageDirectory().getPath()+"/OCR/";
+    String IMAGE_PATH=DATA_PATH+"test-english-shht.jpg";
     public void ocr() {
 
         BitmapFactory.Options options = new BitmapFactory.Options();
         options.inSampleSize = 2;
         Bitmap bitmap = BitmapFactory.decodeFile(IMAGE_PATH, options);
+        ImageView iv = (ImageView) findViewById(R.id.image);
+        iv.setImageBitmap(bitmap);
+        iv.setVisibility(View.VISIBLE);
 
         try {
             ExifInterface exif = new ExifInterface(IMAGE_PATH);
@@ -342,15 +346,10 @@ public void changer_question()
             Log.e(LOG_TAG, "Rotate or coversion failed: " + e.toString());
         }
 
- /*
-        ImageView iv = (ImageView) findViewById(R.id.image);
-        iv.setImageBitmap(bitmap);
-       iv.setVisibility(View.VISIBLE);
-*/
         Log.v(LOG_TAG, "Before baseApi");
 
         TessBaseAPI baseApi = new TessBaseAPI();
-  /*      baseApi.setDebug(true);
+        baseApi.setDebug(true);
         baseApi.init(DATA_PATH, LANG);
         baseApi.setImage(bitmap);
         String recognizedText = baseApi.getUTF8Text();
@@ -366,7 +365,5 @@ public void changer_question()
             final TextView textView = (TextView) findViewById(R.id.field);
             textView.setText(recognizedText.trim());
         }
- */
-
     }
 }
