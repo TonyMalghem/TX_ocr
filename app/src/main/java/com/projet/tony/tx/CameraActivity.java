@@ -113,9 +113,10 @@ public class CameraActivity extends ActionBarActivity {
         public void onPictureTaken(byte[] data, Camera camera) {
 
             mCamera.startPreview();
-            File imageFolder = new File(Environment.getExternalStorageDirectory(),"CustomImages");
+            File imageFolder = new File(Environment.getExternalStorageDirectory(),"OCR/");
             Log.d("CAM","Creation du dossier " + imageFolder);
-            imageFolder.mkdirs();
+            if(!imageFolder.exists())
+                imageFolder.mkdir();
             SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyyMMdd-HHmmss");
             Date date = new Date();
             File image = new File(imageFolder,"image_" + simpleDateFormat.format(date) + ".jpg");
