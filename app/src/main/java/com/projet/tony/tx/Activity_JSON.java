@@ -45,6 +45,7 @@ import android.widget.TextView;
 import com.googlecode.tesseract.android.TessBaseAPI;
 
 import java.io.IOException;
+import java.util.Arrays;
 
 public class Activity_JSON extends ActionBarActivity {
     private TextView texte = null;
@@ -166,33 +167,28 @@ public class Activity_JSON extends ActionBarActivity {
     }
 
     // change de question pour une question pas encore répondue
-public void changer_question()
-{
-    int i=0;
-    String done="y";
-    JSONArray enigme = null;
-    try {
-        enigme = save.getJSONArray("enigme");
-        JSONObject ret=enigme.getJSONObject(i);
-        while(done.compareTo("y")==0 && i<enigme.length())
-        {
-            ret = enigme.getJSONObject(i);
-            done=ret.getString("Done");
-            i++;
+    public void changer_question()
+    {
+        int i=0;
+        String done="y";
+        JSONArray enigme = null;
+        try {
+            enigme = save.getJSONArray("enigme");
+            JSONObject ret=enigme.getJSONObject(i);
+            while(done.compareTo("y")==0 && i<enigme.length())
+            {
+                ret = enigme.getJSONObject(i);
+                done=ret.getString("Done");
+                i++;
+            }
+            // si on a pas trouvé alors il n'y a plus de question sinon on met l'id réel de la question
+            if(ret.getString("Done").compareTo("y")==0)i=-1;
+        } catch (JSONException e) {
+            e.printStackTrace();
         }
-        // si on a pas trouvé alors il n'y a plus de question sinon on met l'id réel de la question
-        if(ret.getString("Done").compareTo("y")==0)i=-1;
-    } catch (JSONException e) {
-        e.printStackTrace();
+
+        Id_Question=i;
     }
-
-
-
-
-
-    Id_Question=i;
-
-}
 
 
     public void saveXP()
@@ -349,17 +345,6 @@ public void changer_question()
         }
         return super.onOptionsItemSelected(item);
     }
-
-    /*public void recordFromAsset() {
-
-    }*/
-
-
-
-
-
-
-
 
     // OCR
 
