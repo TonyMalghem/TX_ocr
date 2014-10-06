@@ -2,6 +2,7 @@ package com.projet.tony.tx;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.res.AssetManager;
 import android.os.Environment;
 import android.provider.MediaStore;
 import android.support.v7.app.ActionBarActivity;
@@ -30,6 +31,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -43,8 +45,6 @@ import android.widget.TextView;
 import com.googlecode.tesseract.android.TessBaseAPI;
 
 import java.io.IOException;
-/*TODO
-* intégration de la caméra dans l'appli*/
 
 public class Activity_JSON extends ActionBarActivity {
     private TextView texte = null;
@@ -62,7 +62,6 @@ public class Activity_JSON extends ActionBarActivity {
         final TextView textView = (TextView) findViewById(R.id.textView);
         textView.setText(get_question(Id_Question));
 
-    ocr();
 
         final Button button = (Button) findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener() {
@@ -91,6 +90,79 @@ public class Activity_JSON extends ActionBarActivity {
 
         });
 
+        //création des dossiers nécessaires
+        File OCRDir = new File(Environment.getExternalStorageDirectory().getPath()+"/OCR/");
+        File tessDir = new File(OCRDir.getPath()+"/tessdata/");
+        File engTrainedData = new File(tessDir.getPath()+"/eng.traineddata");
+        File imageTest = new File(OCRDir.getPath()+"/test-english-shht.jpg");
+
+        if(!OCRDir.exists()) {
+            if(!OCRDir.mkdir()) {
+                Log.d("OCR","erreur creation dossier OCR");
+            }
+        }
+        if(!tessDir.exists()) {
+            if(!tessDir.mkdir()) {
+                Log.d("OCR","erreur creation dossier tessdata");
+            }
+        }
+        if(!engTrainedData.exists()) {
+            //chargement de eng.traineddata depuis assets dans /OCR
+            try {
+                AssetManager assetManager = getAssets();
+                String[] files = assetManager.list("traineddata");
+                InputStream in = null;
+                OutputStream out = null;
+                for (String f : files) {
+                    Log.d("OCR", f);
+                    in = assetManager.open("traineddata/" + f);
+                    out = new FileOutputStream(tessDir + "/" + f);
+                    copyFromAsset(in, out);
+                }
+            } catch (IOException e) {
+                Log.d("OCR", e.toString());
+            }
+        }
+
+        if(!imageTest.exists()) {
+            //chargement de eng.traineddata depuis assets dans /OCR
+            try {
+                AssetManager assetManager = getAssets();
+                String[] files = assetManager.list("imagesTest");
+                InputStream in = null;
+                OutputStream out = null;
+                for (String f : files) {
+                    Log.d("OCR", f);
+                    in = assetManager.open("imagesTest/" + f);
+                    out = new FileOutputStream(OCRDir + "/" + f);
+                    copyFromAsset(in, out);
+                }
+            } catch (IOException e) {
+                Log.d("OCR", e.toString());
+            }
+        }
+
+        if(OCRDir.exists() && tessDir.exists() && engTrainedData.exists()) {
+            ocr();
+        }
+    }
+
+    private void copyFromAsset(InputStream in, OutputStream out) {
+        try {
+            byte[] buffer = new byte[1024];
+            int read=0;
+            while((read=in.read(buffer))!=-1) {
+                out.write(buffer,0,read);
+            }
+            in.close();
+            in=null;
+            out.flush();
+            out.close();
+            out=null;
+        }
+        catch (IOException e) {
+            Log.d("OCR", e.toString());
+        }
     }
 
     // change de question pour une question pas encore répondue
@@ -278,7 +350,9 @@ public void changer_question()
         return super.onOptionsItemSelected(item);
     }
 
+    /*public void recordFromAsset() {
 
+    }*/
 
 
 
@@ -293,6 +367,7 @@ public void changer_question()
     String LANG="eng";
     String DATA_PATH= Environment.getExternalStorageDirectory().getPath()+"/OCR/";
     String IMAGE_PATH=DATA_PATH+"test-english-shht.jpg";
+
     public void ocr() {
 
         BitmapFactory.Options options = new BitmapFactory.Options();
