@@ -113,7 +113,7 @@ public class CameraActivity extends ActionBarActivity {
         public void onPictureTaken(byte[] data, Camera camera) {
 
             mCamera.startPreview();
-            File imageFolder = new File(Environment.getExternalStorageDirectory(),"OCR/");
+            File imageFolder = new File(Environment.getExternalStorageDirectory(),"OCR/images/");
             Log.d("CAM","Creation du dossier " + imageFolder);
             if(!imageFolder.exists())
                 imageFolder.mkdir();

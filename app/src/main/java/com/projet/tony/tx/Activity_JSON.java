@@ -45,6 +45,7 @@ import android.widget.TextView;
 import com.googlecode.tesseract.android.TessBaseAPI;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Activity_JSON extends ActionBarActivity {
@@ -52,6 +53,14 @@ public class Activity_JSON extends ActionBarActivity {
     private JSONObject parser=null;
     private JSONObject save=null;
     private int Id_Question=1; // question actuelle
+    private File OCRDir = new File(Environment.getExternalStorageDirectory().getPath()+"/OCR/");
+    private File tessDir = new File(OCRDir.getPath()+"/tessdata/");
+    private File imagesDir = new File(OCRDir.getPath()+"/images/");
+    private File engTrainedData = new File(tessDir.getPath()+"/eng.traineddata");
+    private File fraTrainedData = new File(tessDir.getPath()+"/fra.traineddata");
+    private File imageTestEng = new File(OCRDir.getPath()+"/test-english-shht.jpg");
+    private File imageTestFra = new File(OCRDir.getPath()+"/ici-parle-francais.jpg");
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -91,12 +100,6 @@ public class Activity_JSON extends ActionBarActivity {
 
         });
 
-        //création des dossiers nécessaires
-        File OCRDir = new File(Environment.getExternalStorageDirectory().getPath()+"/OCR/");
-        File tessDir = new File(OCRDir.getPath()+"/tessdata/");
-        File engTrainedData = new File(tessDir.getPath()+"/eng.traineddata");
-        File imageTest = new File(OCRDir.getPath()+"/test-english-shht.jpg");
-
         if(!OCRDir.exists()) {
             if(!OCRDir.mkdir()) {
                 Log.d("OCR","erreur creation dossier OCR");
@@ -107,7 +110,12 @@ public class Activity_JSON extends ActionBarActivity {
                 Log.d("OCR","erreur creation dossier tessdata");
             }
         }
-        if(!engTrainedData.exists()) {
+        if(!imagesDir.exists()) {
+            if(!imagesDir.mkdir()) {
+                Log.d("OCR","erreur creation dossier tessdata");
+            }
+        }
+        if(!engTrainedData.exists() && !fraTrainedData.exists()) {
             //chargement de eng.traineddata depuis assets dans /OCR
             try {
                 AssetManager assetManager = getAssets();
@@ -125,7 +133,7 @@ public class Activity_JSON extends ActionBarActivity {
             }
         }
 
-        if(!imageTest.exists()) {
+        /*if(!imageTestEng.exists() ||!imageTestFra.exists()) {
             //chargement de eng.traineddata depuis assets dans /OCR
             try {
                 AssetManager assetManager = getAssets();
@@ -141,8 +149,12 @@ public class Activity_JSON extends ActionBarActivity {
             } catch (IOException e) {
                 Log.d("OCR", e.toString());
             }
-        }
+        }*/
+    }
 
+    @Override
+    public void onResume() {
+        super.onResume();
         if(OCRDir.exists() && tessDir.exists() && engTrainedData.exists()) {
             ocr();
         }
@@ -349,81 +361,88 @@ public class Activity_JSON extends ActionBarActivity {
     // OCR
 
     String LOG_TAG="error_ocr";
-    String LANG="eng";
+    String LANG="fra";
     String DATA_PATH= Environment.getExternalStorageDirectory().getPath()+"/OCR/";
-    String IMAGE_PATH=DATA_PATH+"test-english-shht.jpg";
+    //String IMAGE_PATH=DATA_PATH+"ici-parle-francais.jpg";
 
     public void ocr() {
 
-        BitmapFactory.Options options = new BitmapFactory.Options();
-        options.inSampleSize = 2;
-        Bitmap bitmap = BitmapFactory.decodeFile(IMAGE_PATH, options);
-        ImageView iv = (ImageView) findViewById(R.id.image);
-        iv.setImageBitmap(bitmap);
-        iv.setVisibility(View.VISIBLE);
+        File imagesDirectory = new File(DATA_PATH + "/images/");
+        File[] imagesInDirectory = imagesDirectory.listFiles();
+        Arrays.sort(imagesInDirectory);
 
-        try {
-            ExifInterface exif = new ExifInterface(IMAGE_PATH);
-            int exifOrientation = exif.getAttributeInt(ExifInterface.TAG_ORIENTATION, ExifInterface.ORIENTATION_NORMAL);
+        if (imagesInDirectory.length != 0) {
+            String IMAGE_PATH = imagesInDirectory[imagesInDirectory.length - 1].getPath();
 
-            Log.v(LOG_TAG, "Orient: " + exifOrientation);
+            BitmapFactory.Options options = new BitmapFactory.Options();
+            options.inSampleSize = 2;
+            Bitmap bitmap = BitmapFactory.decodeFile(IMAGE_PATH, options);
+            ImageView iv = (ImageView) findViewById(R.id.image);
+            iv.setImageBitmap(bitmap);
+            iv.setVisibility(View.VISIBLE);
 
-            int rotate = 0;
-            switch (exifOrientation) {
-                case ExifInterface.ORIENTATION_ROTATE_90:
-                    rotate = 90;
-                    break;
-                case ExifInterface.ORIENTATION_ROTATE_180:
-                    rotate = 180;
-                    break;
-                case ExifInterface.ORIENTATION_ROTATE_270:
-                    rotate = 270;
-                    break;
+            try {
+                ExifInterface exif = new ExifInterface(IMAGE_PATH);
+                int exifOrientation = exif.getAttributeInt(ExifInterface.TAG_ORIENTATION, ExifInterface.ORIENTATION_NORMAL);
+
+                Log.v(LOG_TAG, "Orient: " + exifOrientation);
+
+                int rotate = 0;
+                switch (exifOrientation) {
+                    case ExifInterface.ORIENTATION_ROTATE_90:
+                        rotate = 90;
+                        break;
+                    case ExifInterface.ORIENTATION_ROTATE_180:
+                        rotate = 180;
+                        break;
+                    case ExifInterface.ORIENTATION_ROTATE_270:
+                        rotate = 270;
+                        break;
+                }
+
+
+                Log.v(LOG_TAG, "Rotation: " + rotate);
+
+                if (rotate != 0) {
+
+                    // Getting width & height of the given image.
+                    int w = bitmap.getWidth();
+                    int h = bitmap.getHeight();
+
+                    // Setting pre rotate
+                    Matrix mtx = new Matrix();
+                    mtx.preRotate(rotate);
+
+                    // Rotating Bitmap
+                    bitmap = Bitmap.createBitmap(bitmap, 0, 0, w, h, mtx, false);
+                    // tesseract req. ARGB_8888
+                    bitmap = bitmap.copy(Bitmap.Config.ARGB_8888, true);
+                }
+
+
+            } catch (IOException e) {
+                Log.e(LOG_TAG, "Rotate or coversion failed: " + e.toString());
             }
 
+            Log.v(LOG_TAG, "Before baseApi");
 
+            TessBaseAPI baseApi = new TessBaseAPI();
+            baseApi.setDebug(true);
+            baseApi.init(DATA_PATH, LANG);
+            baseApi.setImage(bitmap);
+            String recognizedText = baseApi.getUTF8Text();
+            baseApi.end();
 
-            Log.v(LOG_TAG, "Rotation: " + rotate);
+            Log.v(LOG_TAG, "OCR Result: " + recognizedText);
 
-            if (rotate != 0) {
-
-                // Getting width & height of the given image.
-                int w = bitmap.getWidth();
-                int h = bitmap.getHeight();
-
-                // Setting pre rotate
-                Matrix mtx = new Matrix();
-                mtx.preRotate(rotate);
-
-                // Rotating Bitmap
-                bitmap = Bitmap.createBitmap(bitmap, 0, 0, w, h, mtx, false);
-                // tesseract req. ARGB_8888
-                bitmap = bitmap.copy(Bitmap.Config.ARGB_8888, true);
+            // clean up and show
+            if (LANG.equalsIgnoreCase("eng")) {
+                recognizedText = recognizedText.replaceAll("[^a-zA-Z0-9]+", " ");
             }
-
-
-        } catch (IOException e) {
-            Log.e(LOG_TAG, "Rotate or coversion failed: " + e.toString());
-        }
-
-        Log.v(LOG_TAG, "Before baseApi");
-
-        TessBaseAPI baseApi = new TessBaseAPI();
-        baseApi.setDebug(true);
-        baseApi.init(DATA_PATH, LANG);
-        baseApi.setImage(bitmap);
-        String recognizedText = baseApi.getUTF8Text();
-        baseApi.end();
-
-        Log.v(LOG_TAG, "OCR Result: " + recognizedText);
-
-        // clean up and show
-        if (LANG.equalsIgnoreCase("eng")) {
-            recognizedText = recognizedText.replaceAll("[^a-zA-Z0-9]+", " ");
-        }
-        if (recognizedText.length() != 0) {
-            final TextView textView = (TextView) findViewById(R.id.field);
-            textView.setText(recognizedText.trim());
+            if (recognizedText.length() != 0) {
+                final TextView textView = (TextView) findViewById(R.id.field);
+                textView.setText(recognizedText.trim());
+            }
         }
     }
 }
