@@ -115,7 +115,7 @@ public class Activity_JSON extends ActionBarActivity {
                 Log.d("OCR","erreur creation dossier tessdata");
             }
         }
-        if(!engTrainedData.exists() && !fraTrainedData.exists()) {
+        if(!engTrainedData.exists() || !fraTrainedData.exists()) {
             //chargement de eng.traineddata depuis assets dans /OCR
             try {
                 AssetManager assetManager = getAssets();
