@@ -367,7 +367,7 @@ public class Activity_JSON extends ActionBarActivity {
 
     public void ocr() {
 
-        File imagesDirectory = new File(DATA_PATH + "/images/");
+        File imagesDirectory = new File(DATA_PATH + "images/");
         File[] imagesInDirectory = imagesDirectory.listFiles();
         Arrays.sort(imagesInDirectory);
 
