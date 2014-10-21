@@ -2,12 +2,12 @@
 <merger version="2" >
 
     <dataSet config="main" >
-        <source path="C:\Users\Tristan\TX_ocr\libraries\tess-two\res" />
-        <source path="C:\Users\Tristan\TX_ocr\libraries\tess-two\build\generated\res\rs\release" />
-        <source path="C:\Users\Tristan\TX_ocr\libraries\tess-two\build\generated\res\generated\release" />
+        <source path="C:\Users\Tony\Documents\GitHub\TX_ocr\libraries\tess-two\res" />
+        <source path="C:\Users\Tony\Documents\GitHub\TX_ocr\libraries\tess-two\build\generated\res\rs\release" />
+        <source path="C:\Users\Tony\Documents\GitHub\TX_ocr\libraries\tess-two\build\generated\res\generated\release" />
     </dataSet>
     <dataSet config="release" >
-        <source path="C:\Users\Tristan\TX_ocr\libraries\tess-two\src\release\res" />
+        <source path="C:\Users\Tony\Documents\GitHub\TX_ocr\libraries\tess-two\src\release\res" />
     </dataSet>
 
 </merger>
