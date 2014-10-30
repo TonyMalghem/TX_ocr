@@ -8,5 +8,8 @@
     <string name="take_pic">Capture!</string>
     <string name="result_question">Résulat!</string>
     <string name="ouvrir_camera">Ouvrir la camera</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="title_activity_page_menu">Page_menu</string>
+    <string name="title_activity_apropos">apropos</string>
 
 </resources>
