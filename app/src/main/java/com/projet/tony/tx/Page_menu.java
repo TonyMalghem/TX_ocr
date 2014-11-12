@@ -12,6 +12,7 @@ import android.widget.TextView;
 import android.widget.Button;
 
 import com.projet.tony.tx.background.Affichage;
+import com.projet.tony.tx.creation_mode.creation;
 
 
 public class Page_menu extends Activity {
@@ -64,7 +65,7 @@ public class Page_menu extends Activity {
 
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Page_menu.this, Activity_JSON.class);
+                Intent intent = new Intent(Page_menu.this, creation.class);
                 startActivity(intent);
             }
         });

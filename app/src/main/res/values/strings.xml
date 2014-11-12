@@ -11,5 +11,7 @@
     <string name="title_activity_menu">Menu</string>
     <string name="title_activity_page_menu">Page_menu</string>
     <string name="title_activity_apropos">apropos</string>
+    <string name="title_activity_creation">creation</string>
+    <string name="title_activity_ajout_question">Ajout_question</string>
 
 </resources>

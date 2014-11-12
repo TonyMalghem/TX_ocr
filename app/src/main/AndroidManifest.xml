@@ -38,6 +38,14 @@
             android:name=".Apropos"
             android:label="@string/title_activity_apropos" >
         </activity>
+        <activity
+            android:name=".creation_mode.creation"
+            android:label="@string/title_activity_creation" >
+        </activity>
+        <activity
+            android:name=".creation_mode.Ajout_question"
+            android:label="@string/title_activity_ajout_question" >
+        </activity>
     </application>
 
 </manifest>
