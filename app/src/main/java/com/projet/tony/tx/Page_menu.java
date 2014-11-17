@@ -64,7 +64,8 @@ public class Page_menu extends Activity {
 
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Page_menu.this, Partie.class);
+                //Intent intent = new Intent(Page_menu.this, Partie.class);
+                Intent intent = new Intent(Page_menu.this, Activity_JSON.class);
                 startActivity(intent);
             }
         });

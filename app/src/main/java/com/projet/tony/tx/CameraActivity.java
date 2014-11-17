@@ -1,5 +1,6 @@
 package com.projet.tony.tx;
 
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.hardware.Camera;
 import android.net.Uri;
@@ -129,6 +130,10 @@ public class CameraActivity extends ActionBarActivity {
                 fos.close();
                 //indique au gars que sa photo est enregistrée, je t'explique tout à l'heure pourquoi il le faut
                 Toast.makeText(getApplicationContext(),"Pic taken and recorded : " + image,Toast.LENGTH_LONG).show();
+                Intent intent = getIntent();
+                intent.putExtra("picFile",image.getAbsolutePath());
+                setResult(RESULT_OK,intent);
+                finish();
             }
             catch (FileNotFoundException e) {
                 Log.e("CAM",e.toString());
