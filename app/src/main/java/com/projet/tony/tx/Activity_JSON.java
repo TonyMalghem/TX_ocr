@@ -4,7 +4,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.res.AssetManager;
 import android.os.Environment;
-import android.provider.MediaStore;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -13,8 +12,6 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.RadioButton;
-import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -24,28 +21,21 @@ import org.json.JSONObject;
 
 import java.io.BufferedReader;
 import java.io.File;
-import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
-import java.io.OutputStreamWriter;
+
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Matrix;
 import android.media.ExifInterface;
-import android.util.Log;
-import android.view.View;
 import android.widget.ImageView;
-import android.widget.TextView;
 
 import com.googlecode.tesseract.android.TessBaseAPI;
 
-import java.io.IOException;
-import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Activity_JSON extends ActionBarActivity {
@@ -69,7 +59,7 @@ public class Activity_JSON extends ActionBarActivity {
         save = getJSONObject("save.JSON");
 
 
-        final TextView textView = (TextView) findViewById(R.id.textView);
+        final TextView textView = (TextView) findViewById(R.id.histoire);
         textView.setText(get_question(Id_Question));
 
 
@@ -88,12 +78,12 @@ public class Activity_JSON extends ActionBarActivity {
                 changer_question();
 
                 if(Id_Question!=-1) {
-                    final TextView textView = (TextView) findViewById(R.id.textView);
+                    final TextView textView = (TextView) findViewById(R.id.histoire);
                     textView.setText(get_question(Id_Question));
                 }
                 else
                 {
-                    final TextView textView = (TextView) findViewById(R.id.textView);
+                    final TextView textView = (TextView) findViewById(R.id.histoire);
                     textView.setText("Plus de question !");
                 }
             }

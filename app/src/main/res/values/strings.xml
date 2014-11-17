@@ -13,5 +13,8 @@
     <string name="title_activity_apropos">apropos</string>
     <string name="title_activity_creation">creation</string>
     <string name="title_activity_ajout_question">Ajout_question</string>
+    <string name="title_activity_selection_histoire">Selection_histoire</string>
+    <string name="title_activity_jeu">Jeu</string>
+    <string name="title_activity_partie">Partie</string>
 
 </resources>

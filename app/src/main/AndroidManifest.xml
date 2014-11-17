@@ -46,6 +46,18 @@
             android:name=".creation_mode.Ajout_question"
             android:label="@string/title_activity_ajout_question" >
         </activity>
+        <activity
+            android:name=".Selection_histoire"
+            android:label="@string/title_activity_selection_histoire" >
+        </activity>
+        <activity
+            android:name=".Jeu"
+            android:label="@string/title_activity_jeu" >
+        </activity>
+        <activity
+            android:name=".Partie"
+            android:label="@string/title_activity_partie" >
+        </activity>
     </application>
 
 </manifest>

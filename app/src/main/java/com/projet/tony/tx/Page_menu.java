@@ -4,6 +4,8 @@ import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Typeface;
 import android.os.Bundle;
+import android.os.Environment;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -14,6 +16,9 @@ import android.widget.Button;
 import com.projet.tony.tx.background.Affichage;
 import com.projet.tony.tx.creation_mode.creation;
 
+import java.io.File;
+import java.io.IOException;
+
 
 public class Page_menu extends Activity {
 
@@ -21,6 +26,15 @@ public class Page_menu extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_page_menu);
+
+         // creation du dossier
+
+        File dossier = new File(Environment.getExternalStorageDirectory() + File.separator + "Lost_letters");
+
+        if (!dossier.exists()) {
+            dossier.mkdir();
+        }
+
 
 
 
@@ -50,7 +64,7 @@ public class Page_menu extends Activity {
 
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Page_menu.this, Activity_JSON.class);
+                Intent intent = new Intent(Page_menu.this, Partie.class);
                 startActivity(intent);
             }
         });
@@ -91,6 +105,7 @@ public class Page_menu extends Activity {
         LinearLayout rl = (LinearLayout)me.findViewById(R.id.counterLayout);
         Affichage aff=new Affichage(me,rl);
 
+
     }
 
 
@@ -112,4 +127,8 @@ public class Page_menu extends Activity {
         }
         return super.onOptionsItemSelected(item);
     }
-}
+
+    }
+
+
+

@@ -1,9 +1,12 @@
 package com.projet.tony.tx.creation_mode;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
 import android.graphics.Typeface;
 import android.os.Bundle;
+import android.os.Environment;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -18,12 +21,20 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.io.BufferedOutputStream;
 import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class Ajout_question extends Activity {
-    @Override
+
+    protected JSONObject jsonfile=null;
+    protected String fichier;
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ajout_question);
@@ -32,20 +43,21 @@ public class Ajout_question extends Activity {
         // RECUP VAR
         /////////////////////
         Intent intent = getIntent();
-        String fichier = intent.getStringExtra("fichier");
+        fichier = intent.getStringExtra("fichier");
 
         ///////////////////////
         // GESTION DU TITRE  //
         ///////////////////////
 
-        JSONObject ttt=getJSONObject(fichier+".txt");
+        jsonfile=getJSONObject(fichier+".txt");
 
         TextView tv=(TextView) findViewById(R.id.titre);
         Typeface font = Typeface.createFromAsset(getAssets(), "KQ.ttf");
         tv.setTypeface(font);
         tv.setTextSize(25);
         tv.setText("Ajout de question");
-       // tv.setText(ttt.toString());
+
+
 
 
 
@@ -61,8 +73,11 @@ public class Ajout_question extends Activity {
 
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Ajout_question.this, Ajout_question.class);
-                startActivity(intent);
+                Valider();
+
+
+                jsonfile=getJSONObject(fichier+".txt");
+                Log.d("ajout : ","ok");
             }
         });
 
@@ -75,6 +90,7 @@ public class Ajout_question extends Activity {
 
             @Override
             public void onClick(View v) {
+                Valider();
                 Intent intent = new Intent(Ajout_question.this, Page_menu.class);
                 startActivity(intent);
             }
@@ -99,32 +115,29 @@ public class Ajout_question extends Activity {
 
 
     }
+    protected Integer id=0;
 
-/*
-    public void Valider(String fichier)
+    public void Valider()
     {
-        //////////////////
-        // recuperation du fichier json
-        ///////////////////
-        Integer id=0;
-        JSONObject base=getJSONObject(fichier+".txt");
+
+        JSONArray enigmes= null;
+        //nouvealle enigme
+        JSONObject enigme = new JSONObject();
+        // recup les enigmes
         try {
-           JSONArray enigmes=base.getJSONArray("enigme");
-            JSONObject last =enigmes.getJSONObject(enigmes.length());
-            id=Integer.parseInt(last.get("id").toString());
+            enigmes = jsonfile.getJSONArray("enigme");
         } catch (JSONException e) {
             e.printStackTrace();
         }
 
-       JSONObject enigme=new JSONObject();
         JSONArray reponses=new JSONArray();
 
         final EditText monedit =(EditText)findViewById(R.id.editText);
         final EditText monedit2 =(EditText)findViewById(R.id.editText2);
 
         try {
-
-            enigme.put("id",id+1);
+            id++;
+            enigme.put("id",id);
             enigme.put("question",monedit.getText().toString());
 
             // tableau de réponses
@@ -133,6 +146,35 @@ public class Ajout_question extends Activity {
 
 
             enigme.put("reponse",reponses);
+            enigmes.put(enigme);
+
+
+            // inscription dans le fichier
+
+            File file = new File(Environment.getExternalStorageDirectory() + File.separator +"Lost_letters/"+ fichier+".txt");
+
+            BufferedOutputStream writer = null;
+            try {
+                writer = new BufferedOutputStream(new FileOutputStream(file));
+            } catch (FileNotFoundException e) {
+                e.printStackTrace();
+            }
+            try {
+                Log.d("JSON",jsonfile.toString());
+                writer.write(jsonfile.toString().getBytes());
+               monedit.setText("");
+                monedit2.setText("");
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+
+            try {
+                writer.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+
+
         } catch (JSONException e) {
             e.printStackTrace();
         }
@@ -140,7 +182,7 @@ public class Ajout_question extends Activity {
 
 
     }
-*/
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -167,7 +209,7 @@ public class Ajout_question extends Activity {
         BufferedReader reader = null;
         JSONObject parser=null;
         try {
-            reader = new BufferedReader(new InputStreamReader(getAssets().open(Fichier)));
+            reader = new BufferedReader(new FileReader((Environment.getExternalStorageDirectory() + File.separator +"Lost_letters/"+Fichier)));
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -175,18 +217,29 @@ public class Ajout_question extends Activity {
         StringBuffer buff = new StringBuffer();
 
         try {
+
+
+
             while ((json = reader.readLine()) != null) {
+
                 buff.append(json + "\n");
 
                 try {
                     parser = new JSONObject(buff.toString());
                 } catch (JSONException e) {
+
                     e.printStackTrace();
                 }
+
+
             }
+
+
         } catch (IOException e) {
             e.printStackTrace();
         }
+
+
 
         return parser;
     }
