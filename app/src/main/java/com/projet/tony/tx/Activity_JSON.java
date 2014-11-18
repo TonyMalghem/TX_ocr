@@ -445,12 +445,24 @@ public class Activity_JSON extends ActionBarActivity {
                     /*if(py<101) {
                         Log.d("bla", "pixel(" + px + "," + py + "): red: " + Color.red(pColor) + " blue: " + Color.blue(pColor) + " green: " + Color.green(pColor));
                     }*/
+                    /*
                     if((Color.red(pColor)>89 && Color.red(pColor)<105) && (Color.blue(pColor)>95 && Color.blue(pColor)<120) && (Color.green(pColor)>100 && Color.green(pColor)<110)) {
                         mutableBitmap.setPixel(px,py,Color.argb(0,0,0,0));
                     }
                     else if(Color.red(pColor)>=105 && Color.blue(pColor)>=120 && Color.green(pColor)>=110) {
                         mutableBitmap.setPixel(px,py,Color.argb(0,255,255,255));
+                    }*/
+
+
+
+                    if((Color.red(pColor)<105) && (Color.blue(pColor)<120) && (Color.green(pColor)<110)) {
+                        mutableBitmap.setPixel(px,py,Color.argb(255,0,0,0));
                     }
+                    else {
+                        mutableBitmap.setPixel(px,py,Color.argb(255,255,255,255));
+                    }
+
+
                 }
             }
             /*Pix pix = Convert.convertTo8(ReadFile.readBitmap(mutableBitmap));
