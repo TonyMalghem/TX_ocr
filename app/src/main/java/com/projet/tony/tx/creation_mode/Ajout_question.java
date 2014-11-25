@@ -1,7 +1,6 @@
 package com.projet.tony.tx.creation_mode;
 
 import android.app.Activity;
-import android.content.Context;
 import android.content.Intent;
 import android.graphics.Typeface;
 import android.os.Bundle;
@@ -14,7 +13,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.projet.tony.tx.Page_menu;
+import com.projet.tony.tx.LostLetter.Page_menu;
 import com.projet.tony.tx.R;
 
 import org.json.JSONArray;
@@ -28,7 +27,6 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
 
 public class Ajout_question extends Activity {
 

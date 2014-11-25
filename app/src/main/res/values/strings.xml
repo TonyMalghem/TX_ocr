@@ -16,5 +16,7 @@
     <string name="title_activity_selection_histoire">Selection_histoire</string>
     <string name="title_activity_jeu">Jeu</string>
     <string name="title_activity_partie">Partie</string>
+    <string name="title_activity_main_change">Main_change</string>
+    <string name="title_activity_main_page">Main_page</string>
 
 </resources>
