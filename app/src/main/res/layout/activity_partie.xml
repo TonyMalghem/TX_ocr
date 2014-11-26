@@ -50,6 +50,13 @@
                             android:layout_height="wrap_content"
                             android:text="New Text"
                             android:id="@+id/histoire" />
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Lancer le jeu"
+                            android:id="@+id/button" />
+
                     </LinearLayout>
                 </ScrollView>
             </LinearLayout>

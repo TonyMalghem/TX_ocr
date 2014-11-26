@@ -1,11 +1,14 @@
 package com.projet.tony.tx.LostLetter;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.os.Environment;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -28,8 +31,28 @@ public class Partie extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_partie);
+
+
+        // jouer
+        final Button monbutt = (Button) findViewById(R.id.button);
+        Typeface font3 = Typeface.createFromAsset(getAssets(), "PRC.ttf");
+        monbutt.setTypeface(font3);
+
+        monbutt.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                //Intent intent = new Intent(Page_menu.this, Partie.class);
+                //Intent intent = new Intent(Page_menu.this, Activity_JSON.class);
+                Intent intent = new Intent(Partie.this, Activity_JSON.class);
+                startActivity(intent);
+            }
+        });
+
+
         // nom du jeu si ce n'est pas Lost Letters on ira le chercher dans le dossier sinon on le rajoute dans le dossier
-        String jeu="Lost Letters";
+        //String jeu="Lost Letters";
+        String jeu= MyProperties.getInstance().jeu;
         JSONObject jeu_content=null;
 
 

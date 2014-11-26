@@ -19,7 +19,6 @@
             android:name=".LostLetter.Page_menu"
             android:label="@string/title_activity_page_menu"
             android:screenOrientation="portrait" >
-
         </activity>
         <activity
             android:name=".LostLetter.CameraActivity"
@@ -43,7 +42,6 @@
             android:name=".creation_mode.Ajout_question"
             android:label="@string/title_activity_ajout_question" >
         </activity>
-
         <activity
             android:name=".LostLetter.Partie"
             android:label="@string/title_activity_partie" >
@@ -63,12 +61,15 @@
         <activity
             android:name=".Main_page"
             android:label="@string/title_activity_main_page" >
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".LostLetter.choix_histoire"
+            android:label="@string/title_activity_choix_histoire" >
         </activity>
     </application>
 

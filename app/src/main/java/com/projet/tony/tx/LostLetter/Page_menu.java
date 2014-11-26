@@ -64,7 +64,8 @@ public class Page_menu extends Activity {
             @Override
             public void onClick(View v) {
                 //Intent intent = new Intent(Page_menu.this, Partie.class);
-                Intent intent = new Intent(Page_menu.this, Activity_JSON.class);
+                //Intent intent = new Intent(Page_menu.this, Activity_JSON.class);
+                Intent intent = new Intent(Page_menu.this, Partie.class);
                 startActivity(intent);
             }
         });
@@ -84,6 +85,20 @@ public class Page_menu extends Activity {
             }
         });
 
+
+        // choix d'histoire
+
+        final Button monbutt4 = (Button) findViewById(R.id.button4);
+        monbutt4.setTypeface(font2);
+
+        monbutt4.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Page_menu.this, choix_histoire.class);
+                startActivity(intent);
+            }
+        });
 
         // a propos
 
