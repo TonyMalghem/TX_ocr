@@ -50,8 +50,8 @@ public class choix_histoire extends Activity {
                 Spinner spinner = (Spinner) findViewById(R.id.spinner);
                 Toast.makeText(getApplicationContext(), "Vous avez selectionné "+spinner.getSelectedItem().toString(), Toast.LENGTH_LONG).show();
                 MyProperties.getInstance().jeu=spinner.getSelectedItem().toString();
-               // Intent intent = new Intent(choix_histoire.this, Partie.class);
-               // startActivity(intent);
+                Intent intent = new Intent(choix_histoire.this, Page_menu.class);
+                startActivity(intent);
             }
         });
 

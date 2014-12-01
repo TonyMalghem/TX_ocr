@@ -22,10 +22,12 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.io.BufferedOutputStream;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
+import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -50,20 +52,38 @@ public class Activity_JSON extends ActionBarActivity {
     private File imagesDir = new File(OCRDir.getPath()+"/images/");
     private File engTrainedData = new File(tessDir.getPath()+"/eng.traineddata");
     private File fraTrainedData = new File(tessDir.getPath()+"/fra.traineddata");
+    private String fichier= "LostLetters.JSON";
     public final static int REQUEST_CAM = 42;
+    private String fichier_save;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_activity__json);
-        parser = getJSONObject("test.JSON");
-        save = getJSONObject("save.JSON");
+
+        //fichier du jeu
+        fichier= MyProperties.getInstance().jeu;
+Log.d("fichier : ",fichier);
+        parser = getJSONObject_jeu(fichier);
+
+        // création du fichier save en cas de premiere fois
+        if(fichier=="Lost Letters")
+        {
+            fichier_save=Environment.getExternalStorageDirectory() + File.separator +"Lost_letters/"+"save_"+fichier+".txt";
+        }
+        else
+        {
+            fichier_save=Environment.getExternalStorageDirectory() + File.separator +"Lost_letters/"+"save_"+fichier;
+        }
+
+
+        creer_save();
 
         final RelativeLayout relativeLayout = (RelativeLayout) findViewById(R.id.rl);
 
 
         question = (TextView) relativeLayout.findViewById(R.id.textView);
-        question.setText(get_question(Id_Question));
+        question.setText(get_question(Id_Question,fichier));
 
 
         final Button button = (Button) relativeLayout.findViewById(R.id.button);
@@ -73,16 +93,16 @@ public class Activity_JSON extends ActionBarActivity {
 
                 EditText editText = (EditText) relativeLayout.findViewById(R.id.editText);
                 String rep=editText.getText().toString();
-                if(res(parser,rep,Id_Question)) Toast.makeText(getApplicationContext(),"Bonne réponse!",Toast.LENGTH_LONG).show();
+                if(res(parser,rep,Id_Question,fichier)) Toast.makeText(getApplicationContext(),"Bonne réponse!",Toast.LENGTH_LONG).show();
                 else Toast.makeText(getApplicationContext(),"Mauvaise réponse!",Toast.LENGTH_LONG).show();
                 editText.setText("");
                 question_done(Id_Question);
-                saveXP();
+                //saveXP();
                 changer_question();
 
                 if(Id_Question!=-1) {
                     question = (TextView) relativeLayout.findViewById(R.id.textView);
-                    question.setText(get_question(Id_Question));
+                    question.setText(get_question(Id_Question,fichier));
                 }
                 else
                 {
@@ -147,6 +167,52 @@ public class Activity_JSON extends ActionBarActivity {
         }*/
     }
 
+    public void creer_save()
+    {
+
+        File file_save = new File(fichier_save);
+        Log.d("------> chemin : ",fichier_save );
+        if (!file_save.exists()) {
+            try {
+                file_save.createNewFile();
+
+                JSONObject base = new JSONObject();
+                JSONArray enigmes = new JSONArray();
+                try {
+                    base.put("enigme", enigmes);
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+
+                BufferedOutputStream writer = null;
+                try {
+                    writer = new BufferedOutputStream(new FileOutputStream(file_save));
+                } catch (FileNotFoundException e) {
+                    e.printStackTrace();
+                }
+
+                try {
+                    writer.write(base.toString().getBytes());
+                    Log.d("creer : ", base.toString());
+
+                } catch (IOException e) {
+
+                    e.printStackTrace();
+                }
+
+
+                try {
+                    writer.close();
+                    Log.d("save : ", "ok");
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+
+    }
     /*    @Override
         public void onResume() {
             super.onResume();
@@ -197,7 +263,7 @@ public class Activity_JSON extends ActionBarActivity {
         Id_Question=i;
     }
 
-
+/*
     public void saveXP()
     {
         File file = getFileStreamPath("save.txt");
@@ -229,17 +295,25 @@ public class Activity_JSON extends ActionBarActivity {
             e.printStackTrace();
         }
     }
+*/
 
 
     public JSONObject getJSONObject(String Fichier)
     {
+
         BufferedReader reader = null;
         JSONObject parser=null;
-        try {
-            reader = new BufferedReader(new InputStreamReader(getAssets().open(Fichier)));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+
+
+            try {
+                reader = new BufferedReader(new InputStreamReader(getAssets().open(Fichier)));
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+
+
+
+
         String json;
         StringBuffer buff = new StringBuffer();
 
@@ -258,6 +332,55 @@ public class Activity_JSON extends ActionBarActivity {
         }
 
         return parser;
+
+    }
+
+
+
+
+    public JSONObject getJSONObject_jeu(String Fichier)
+    {
+
+        BufferedReader reader = null;
+        JSONObject parser=null;
+
+        if(Fichier=="Lost Letters")
+        {
+            try {
+                reader = new BufferedReader(new InputStreamReader(getAssets().open("LostLetters.JSON")));
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+        else
+        {
+            try {
+                reader = new BufferedReader(new FileReader((Environment.getExternalStorageDirectory() + File.separator +"Lost_letters/"+Fichier)));
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+
+
+        String json;
+        StringBuffer buff = new StringBuffer();
+
+        try {
+            while ((json = reader.readLine()) != null) {
+                buff.append(json + "\n");
+
+                try {
+                    parser = new JSONObject(buff.toString());
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        return parser;
+
     }
 
     public void question_done(int id)
@@ -273,30 +396,44 @@ public class Activity_JSON extends ActionBarActivity {
         }
     }
 
-    public boolean res(JSONObject parser,String rep,int id) {
+    public boolean res(JSONObject parser,String rep,int id,String fichier) {
         String resp = "";
-        try {
-            BufferedReader reader = new BufferedReader(new InputStreamReader(getAssets().open("test.JSON")));
-            String json;
-            StringBuffer buff = new StringBuffer();
 
+        if(fichier=="Lost Letters")
+        {
             try {
-                JSONArray enigme = parser.getJSONArray("enigme");
-                int i=id-1;
-                JSONObject ret = enigme.getJSONObject(i);
-                Log.d("JSON", "id : " + ret.getString("id"));
-                Log.d("JSON", "question : " + ret.getString("question"));
-                JSONArray reponses = ret.getJSONArray("reponse");
-                for (int j = 0; j < reponses.length(); j++) {
-                    Log.d("JSON", "reponse " + j + " : " + reponses.get(j));
-                    if(rep.compareTo((reponses.get(j).toString()))==0) return true;
-                }
-
-            } catch (JSONException e) {
-                Log.e("JSON", e.toString());
+                BufferedReader reader = new BufferedReader(new InputStreamReader(getAssets().open("LostLetters.JSON")));
+            } catch (IOException e) {
+                e.printStackTrace();
             }
-        } catch (IOException io) {
-            Log.e("JSON", io.toString());
+        }
+        else
+        {
+            try {
+                BufferedReader reader = new BufferedReader(new FileReader((Environment.getExternalStorageDirectory() + File.separator +"Lost_letters/"+fichier)));
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+
+
+        String json;
+        StringBuffer buff = new StringBuffer();
+
+        try {
+            JSONArray enigme = parser.getJSONArray("enigme");
+            int i=id-1;
+            JSONObject ret = enigme.getJSONObject(i);
+            Log.d("JSON", "id : " + ret.getString("id"));
+            Log.d("JSON", "question : " + ret.getString("question"));
+            JSONArray reponses = ret.getJSONArray("reponse");
+            for (int j = 0; j < reponses.length(); j++) {
+                Log.d("JSON", "reponse " + j + " : " + reponses.get(j));
+                if(rep.compareTo((reponses.get(j).toString()))==0) return true;
+            }
+
+        } catch (JSONException e) {
+            Log.e("JSON", e.toString());
         }
 
         return false;
@@ -304,26 +441,37 @@ public class Activity_JSON extends ActionBarActivity {
     }
 
 
-    public String get_question(int id)
+    public String get_question(int id,String fichier)
     {
         String quest="";
-        try {
-            BufferedReader reader = new BufferedReader(new InputStreamReader(getAssets().open("test.JSON")));
-            String json;
-            StringBuffer buff = new StringBuffer();
-
+        if(fichier=="Lost Letters")
+        {
             try {
-                JSONArray enigme = parser.getJSONArray("enigme");
-                int i=id-1;
-                JSONObject ret = enigme.getJSONObject(i);
-                quest=ret.getString("question");
-
-
-            } catch (JSONException e) {
-                Log.e("JSON", e.toString());
+                BufferedReader reader = new BufferedReader(new InputStreamReader(getAssets().open("LostLetters.JSON")));
+            } catch (IOException e) {
+                e.printStackTrace();
             }
-        } catch (IOException io) {
-            Log.e("JSON", io.toString());
+        }
+        else
+        {
+            try {
+                BufferedReader reader = new BufferedReader(new FileReader((Environment.getExternalStorageDirectory() + File.separator +"Lost_letters/"+fichier)));
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+        String json;
+        StringBuffer buff = new StringBuffer();
+
+        try {
+            JSONArray enigme = parser.getJSONArray("enigme");
+            int i=id-1;
+            JSONObject ret = enigme.getJSONObject(i);
+            quest=ret.getString("question");
+
+
+        } catch (JSONException e) {
+            Log.e("JSON", e.toString());
         }
         return quest;
     }
