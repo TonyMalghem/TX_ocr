@@ -96,8 +96,7 @@ Log.d("fichier : ",fichier);
                 if(res(parser,rep,Id_Question,fichier)) Toast.makeText(getApplicationContext(),"Bonne réponse!",Toast.LENGTH_LONG).show();
                 else Toast.makeText(getApplicationContext(),"Mauvaise réponse!",Toast.LENGTH_LONG).show();
                 editText.setText("");
-                question_done(Id_Question);
-                //saveXP();
+
                 changer_question();
 
                 if(Id_Question!=-1) {
@@ -195,6 +194,7 @@ Log.d("fichier : ",fichier);
                     writer.write(base.toString().getBytes());
                     Log.d("creer : ", base.toString());
 
+
                 } catch (IOException e) {
 
                     e.printStackTrace();
@@ -242,25 +242,21 @@ Log.d("fichier : ",fichier);
     // change de question pour une question pas encore répondue
     public void changer_question()
     {
-        int i=0;
-        String done="y";
-        JSONArray enigme = null;
+        save = getJSONObject_jeu(fichier_save);
+        JSONArray enigmes = null;
         try {
-            enigme = save.getJSONArray("enigme");
-            JSONObject ret=enigme.getJSONObject(i);
-            while(done.compareTo("y")==0 && i<enigme.length())
-            {
-                ret = enigme.getJSONObject(i);
-                done=ret.getString("Done");
-                i++;
-            }
-            // si on a pas trouvé alors il n'y a plus de question sinon on met l'id réel de la question
-            if(ret.getString("Done").compareTo("y")==0)i=-1;
+            enigmes = save.getJSONArray("enigme");
+            JSONObject enigme= new JSONObject();
+            enigme.put("id",Id_Question);
+
+
         } catch (JSONException e) {
             e.printStackTrace();
         }
 
-        Id_Question=i;
+        Id_Question++;
+
+        // passage à la suivante
     }
 
 /*
@@ -383,18 +379,7 @@ Log.d("fichier : ",fichier);
 
     }
 
-    public void question_done(int id)
-    {
-        try {
-            id=id-1;
-            JSONArray enigme = save.getJSONArray("enigme");
-            JSONObject ret = enigme.getJSONObject(id);
-            ret.put("Done","y");
 
-        } catch (JSONException e) {
-            e.printStackTrace();
-        }
-    }
 
     public boolean res(JSONObject parser,String rep,int id,String fichier) {
         String resp = "";

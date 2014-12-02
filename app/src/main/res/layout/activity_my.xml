@@ -51,6 +51,15 @@
                 android:background="@drawable/border"
                 android:id="@+id/scan"/>
 
+            <Button
+
+                android:text="Taper une phrase"
+
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:background="@drawable/border"
+                android:id="@+id/liremot"/>
+
 
             <Button
 

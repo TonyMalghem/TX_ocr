@@ -138,6 +138,7 @@ public class Ajout_question extends Activity {
             enigme.put("id",id);
             enigme.put("question",monedit.getText().toString());
 
+
             // tableau de réponses
             String reps[]=monedit2.getText().toString().split(";");
             for(int i=0;i<reps.length;i++)reponses.put(reps[i]);

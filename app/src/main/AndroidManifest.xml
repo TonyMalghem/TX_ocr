@@ -71,6 +71,10 @@
             android:name=".LostLetter.choix_histoire"
             android:label="@string/title_activity_choix_histoire" >
         </activity>
+        <activity
+            android:name=".ChangerLetter.choix_phrase"
+            android:label="@string/title_activity_choix_phrase" >
+        </activity>
     </application>
 
 </manifest>

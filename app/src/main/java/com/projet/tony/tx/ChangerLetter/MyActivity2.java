@@ -44,7 +44,7 @@ public class MyActivity2 extends Activity {
 
     private StringBuilder buff = new StringBuilder();
 
-    private String tester="la balle roule sur la ligne";
+    private String tester=globalvar_change.getInstance().phrase;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,9 +56,12 @@ public class MyActivity2 extends Activity {
         run(tester);
         Button raz = (Button)findViewById(R.id.reset);
         // fond
+        /*
         Activity me =this;
         LinearLayout rl = (LinearLayout)me.findViewById(R.id.counterLayout);
         Affichage aff=new Affichage(me,rl);
+        */
+
 
         raz.setOnClickListener(new View.OnClickListener() {
             @Override

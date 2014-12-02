@@ -4,24 +4,28 @@ import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Typeface;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.projet.tony.tx.R;
 import com.projet.tony.tx.background.Affichage;
+import android.app.ProgressDialog;
 
 
 public class MyActivity extends Activity {
-
+    protected ProgressDialog mProgressDialog;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_my);
+
 
 
         ///////////////////////
@@ -38,6 +42,7 @@ public class MyActivity extends Activity {
         Button bouton = (Button) findViewById(R.id.changement);
         Button bouton2 = (Button) findViewById(R.id.apropos);
         Button bouton3 = (Button) findViewById(R.id.scan);
+        Button bouton4 = (Button) findViewById(R.id.liremot);
 
 
 
@@ -45,12 +50,15 @@ public class MyActivity extends Activity {
         bouton.setTypeface(font2);
         bouton2.setTypeface(font2);
         bouton3.setTypeface(font2);
+        bouton4.setTypeface(font2);
+
+
 
         bouton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MyActivity.this, MyActivity2.class);
-                startActivity(intent);
+                compute();
+
 
             }
         });
@@ -58,6 +66,15 @@ public class MyActivity extends Activity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MyActivity.this, MyActivity3.class);
+                startActivity(intent);
+
+            }
+        });
+
+        bouton4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MyActivity.this, choix_phrase.class);
                 startActivity(intent);
 
             }
@@ -92,5 +109,22 @@ public class MyActivity extends Activity {
             return true;
         }
         return super.onOptionsItemSelected(item);
+    }
+
+
+    private void compute() {
+        mProgressDialog = ProgressDialog.show(this, "En attente",
+                "Cette opération est assez longue...", true);
+
+        new Thread((new Runnable() {
+            @Override
+            public void run() {
+                Intent intent = new Intent(MyActivity.this, MyActivity2.class);
+                startActivity(intent);
+
+                mProgressDialog.dismiss();
+            }
+        })).start();
+
     }
 }
