@@ -5,7 +5,9 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.res.AssetManager;
 import android.graphics.Color;
+import android.net.Uri;
 import android.os.Environment;
+import android.provider.MediaStore;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -24,6 +26,7 @@ import org.json.JSONObject;
 
 import java.io.BufferedOutputStream;
 import java.io.BufferedReader;
+import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -32,6 +35,9 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
+import java.nio.ByteBuffer;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -55,6 +61,7 @@ public class Activity_JSON extends ActionBarActivity {
     private String fichier= "LostLetters.JSON";
     public final static int REQUEST_CAM = 42;
     private String fichier_save;
+    private Uri imgUri;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -63,7 +70,7 @@ public class Activity_JSON extends ActionBarActivity {
 
         //fichier du jeu
         fichier= MyProperties.getInstance().jeu;
-Log.d("fichier : ",fichier);
+        Log.d("fichier : ",fichier);
         parser = getJSONObject_jeu(fichier);
 
         // création du fichier save en cas de premiere fois
@@ -462,8 +469,14 @@ Log.d("fichier : ",fichier);
     }
 
     public void openCamera(View view) {
-        Intent intent = new Intent(this, CameraActivity.class);
-        startActivityForResult(intent,REQUEST_CAM);
+        //Intent intent = new Intent(this, CameraActivity.class);
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyyMMdd-HHmmss");
+        Date date = new Date();
+        File image = new File(imagesDir,"image_" + simpleDateFormat.format(date) + ".jpg");
+        imgUri = Uri.fromFile(image);
+        Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+        intent.putExtra(android.provider.MediaStore.EXTRA_OUTPUT,imgUri);
+        startActivityForResult(intent, REQUEST_CAM);
     }
 
     @Override
@@ -471,7 +484,7 @@ Log.d("fichier : ",fichier);
         switch (requestCode) {
             case REQUEST_CAM:
                 if(resultCode == Activity.RESULT_OK) {
-                    ocr(data.getStringExtra("picFile"));
+                    ocr(imgUri.getPath());
                 }
                 break;
             default:
@@ -559,18 +572,6 @@ Log.d("fichier : ",fichier);
             for(int px = 0; px<mutableBitmap.getWidth();px++) {
                 for(int py = 0; py<mutableBitmap.getHeight();py++) {
                     int pColor = mutableBitmap.getPixel(px,py);
-                    /*if(py<101) {
-                        Log.d("bla", "pixel(" + px + "," + py + "): red: " + Color.red(pColor) + " blue: " + Color.blue(pColor) + " green: " + Color.green(pColor));
-                    }*/
-                    /*
-                    if((Color.red(pColor)>89 && Color.red(pColor)<105) && (Color.blue(pColor)>95 && Color.blue(pColor)<120) && (Color.green(pColor)>100 && Color.green(pColor)<110)) {
-                        mutableBitmap.setPixel(px,py,Color.argb(0,0,0,0));
-                    }
-                    else if(Color.red(pColor)>=105 && Color.blue(pColor)>=120 && Color.green(pColor)>=110) {
-                        mutableBitmap.setPixel(px,py,Color.argb(0,255,255,255));
-                    }*/
-
-
 
                     if((Color.red(pColor)<105) && (Color.blue(pColor)<120) && (Color.green(pColor)<110)) {
                         mutableBitmap.setPixel(px,py,Color.argb(255,0,0,0));
@@ -610,7 +611,7 @@ Log.d("fichier : ",fichier);
             }
 
         } catch (IOException e) {
-            Log.e(LOG_TAG, "Rotate or coversion failed: " + e.toString());
+            Log.e(LOG_TAG, "Rotate or conversion failed: " + e.toString());
         }
     }
 }
