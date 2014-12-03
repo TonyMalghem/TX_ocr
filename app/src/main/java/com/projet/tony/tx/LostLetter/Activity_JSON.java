@@ -83,10 +83,22 @@ public class Activity_JSON extends ActionBarActivity {
             fichier_save=Environment.getExternalStorageDirectory() + File.separator +"Lost_letters/"+"save_"+fichier;
         }
 
+        final RelativeLayout relativeLayout = (RelativeLayout) findViewById(R.id.rl);
 
+        check_save();
         creer_save();
 
-        final RelativeLayout relativeLayout = (RelativeLayout) findViewById(R.id.rl);
+        if(get_question(Id_Question,fichier)!="") {
+            question = (TextView) relativeLayout.findViewById(R.id.textView);
+            question.setText(get_question(Id_Question,fichier));
+        }
+        else
+        {
+            question = (TextView) relativeLayout.findViewById(R.id.textView);
+            question.setText("Plus de question !");
+        }
+
+
 
 
         question = (TextView) relativeLayout.findViewById(R.id.textView);
@@ -106,7 +118,7 @@ public class Activity_JSON extends ActionBarActivity {
 
                 changer_question();
 
-                if(Id_Question!=-1) {
+                if(get_question(Id_Question,fichier)!="") {
                     question = (TextView) relativeLayout.findViewById(R.id.textView);
                     question.setText(get_question(Id_Question,fichier));
                 }
@@ -173,6 +185,21 @@ public class Activity_JSON extends ActionBarActivity {
         }*/
     }
 
+    public void check_save()
+    {
+
+        File file_save = new File(fichier_save);
+        if (file_save.exists()) {
+            save = getJSONObject_save(fichier_save);
+            try {
+                Id_Question=save.getInt("id_max");
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
+        }
+
+    }
+
     public void creer_save()
     {
 
@@ -184,8 +211,10 @@ public class Activity_JSON extends ActionBarActivity {
 
                 JSONObject base = new JSONObject();
                 JSONArray enigmes = new JSONArray();
+
                 try {
                     base.put("enigme", enigmes);
+                    base.put("id_max",0);
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -249,11 +278,15 @@ public class Activity_JSON extends ActionBarActivity {
     // change de question pour une question pas encore répondue
     public void changer_question()
     {
-        save = getJSONObject_jeu(fichier_save);
+        save = getJSONObject_save(fichier_save);
         JSONArray enigmes = null;
+        JSONObject enigme=null;
+
         try {
             enigmes = save.getJSONArray("enigme");
-            JSONObject enigme= new JSONObject();
+            save.remove("id_max");
+            save.put("id_max",Id_Question+1);
+            enigme= new JSONObject();
             enigme.put("id",Id_Question);
 
 
@@ -261,44 +294,39 @@ public class Activity_JSON extends ActionBarActivity {
             e.printStackTrace();
         }
 
-        Id_Question++;
+        enigmes.put(enigme);
 
-        // passage à la suivante
-    }
 
-/*
-    public void saveXP()
-    {
-        File file = getFileStreamPath("save.txt");
+        // inscription dans le fichier
 
-        if (!file.exists()) {
-            try {
-                file.createNewFile();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-        }
+        File file = new File(fichier_save);
 
-        FileOutputStream writer = null;
+        BufferedOutputStream writer = null;
         try {
-            writer = openFileOutput(file.getName(), Context.MODE_PRIVATE);
+            writer = new BufferedOutputStream(new FileOutputStream(file));
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
-
-
         try {
             writer.write(save.toString().getBytes());
+
         } catch (IOException e) {
             e.printStackTrace();
         }
+
         try {
             writer.close();
         } catch (IOException e) {
             e.printStackTrace();
         }
+
+        Id_Question++;
+
+        // passage à la suivante
+
+
     }
-*/
+
 
 
     public JSONObject getJSONObject(String Fichier)
@@ -363,6 +391,43 @@ public class Activity_JSON extends ActionBarActivity {
                 e.printStackTrace();
             }
         }
+
+
+        String json;
+        StringBuffer buff = new StringBuffer();
+
+        try {
+            while ((json = reader.readLine()) != null) {
+                buff.append(json + "\n");
+
+                try {
+                    parser = new JSONObject(buff.toString());
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        return parser;
+
+    }
+
+
+    public JSONObject getJSONObject_save(String Fichier)
+    {
+
+        BufferedReader reader = null;
+        JSONObject parser=null;
+
+
+            try {
+                reader = new BufferedReader(new FileReader(Fichier));
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+
 
 
         String json;
