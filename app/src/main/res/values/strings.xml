@@ -20,5 +20,6 @@
     <string name="title_activity_main_page">Main_page</string>
     <string name="title_activity_choix_histoire">choix_histoire</string>
     <string name="title_activity_choix_phrase">choix_phrase</string>
+    <string name="title_activity_fin">fin</string>
 
 </resources>

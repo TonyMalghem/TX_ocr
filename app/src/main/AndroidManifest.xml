@@ -75,6 +75,10 @@
             android:name=".ChangerLetter.choix_phrase"
             android:label="@string/title_activity_choix_phrase" >
         </activity>
+        <activity
+            android:name=".LostLetter.fin"
+            android:label="@string/title_activity_fin" >
+        </activity>
     </application>
 
 </manifest>

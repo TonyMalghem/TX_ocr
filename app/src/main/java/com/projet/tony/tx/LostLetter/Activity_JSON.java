@@ -1,7 +1,6 @@
 package com.projet.tony.tx.LostLetter;
 
 import android.app.Activity;
-import android.content.Context;
 import android.content.Intent;
 import android.content.res.AssetManager;
 import android.graphics.Color;
@@ -15,7 +14,6 @@ import android.view.MenuItem;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -26,7 +24,6 @@ import org.json.JSONObject;
 
 import java.io.BufferedOutputStream;
 import java.io.BufferedReader;
-import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -35,7 +32,6 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
-import java.nio.ByteBuffer;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -70,7 +66,6 @@ public class Activity_JSON extends ActionBarActivity {
 
         //fichier du jeu
         fichier= MyProperties.getInstance().jeu;
-        Log.d("fichier : ",fichier);
         parser = getJSONObject_jeu(fichier);
 
         // création du fichier save en cas de premiere fois
@@ -87,21 +82,25 @@ public class Activity_JSON extends ActionBarActivity {
 
         check_save();
         creer_save();
+        Log.d("ID load : ",Integer.toString(Id_Question));
 
         if(get_question(Id_Question,fichier)!="") {
-            question = (TextView) relativeLayout.findViewById(R.id.textView);
+            question = (TextView) relativeLayout.findViewById(R.id.titre);
             question.setText(get_question(Id_Question,fichier));
         }
         else
         {
-            question = (TextView) relativeLayout.findViewById(R.id.textView);
+            question = (TextView) relativeLayout.findViewById(R.id.titre);
             question.setText("Plus de question !");
+
+            Intent intent = new Intent(Activity_JSON.this, fin.class);
+            startActivity(intent);
         }
 
 
 
 
-        question = (TextView) relativeLayout.findViewById(R.id.textView);
+        question = (TextView) relativeLayout.findViewById(R.id.titre);
         question.setText(get_question(Id_Question,fichier));
 
 
@@ -110,23 +109,32 @@ public class Activity_JSON extends ActionBarActivity {
             public void onClick(View v) {
                 // Perform action on click
 
-                EditText editText = (EditText) relativeLayout.findViewById(R.id.editText);
+                TextView editText = (TextView) relativeLayout.findViewById(R.id.field);
                 String rep=editText.getText().toString();
-                if(res(parser,rep,Id_Question,fichier)) Toast.makeText(getApplicationContext(),"Bonne réponse!",Toast.LENGTH_LONG).show();
-                else Toast.makeText(getApplicationContext(),"Mauvaise réponse!",Toast.LENGTH_LONG).show();
-                editText.setText("");
-
-                changer_question();
-
-                if(get_question(Id_Question,fichier)!="") {
-                    question = (TextView) relativeLayout.findViewById(R.id.textView);
-                    question.setText(get_question(Id_Question,fichier));
-                }
-                else
+                if(rep.compareTo("")!=0)
                 {
-                    question = (TextView) relativeLayout.findViewById(R.id.textView);
-                    question.setText("Plus de question !");
+                    if(res(parser,rep,Id_Question,fichier)) Toast.makeText(getApplicationContext(),"Bonne réponse!",Toast.LENGTH_LONG).show();
+                    else Toast.makeText(getApplicationContext(),"Mauvaise réponse!",Toast.LENGTH_LONG).show();
+                    editText.setText("");
+
+                    changer_question();
+
+                    if(get_question(Id_Question,fichier)!="") {
+                        question = (TextView) relativeLayout.findViewById(R.id.titre);
+                        question.setText(get_question(Id_Question,fichier));
+                    }
+                    else
+                    {
+                        question = (TextView) relativeLayout.findViewById(R.id.titre);
+                        question.setText("Plus de question !");
+
+                        Intent intent = new Intent(Activity_JSON.this, fin.class);
+                        startActivity(intent);
+                    }
                 }
+                else Toast.makeText(getApplicationContext(),"Pas de réponse !",Toast.LENGTH_LONG).show();
+
+
             }
 
         });
@@ -214,7 +222,7 @@ public class Activity_JSON extends ActionBarActivity {
 
                 try {
                     base.put("enigme", enigmes);
-                    base.put("id_max",0);
+                    base.put("id_max",1);
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -486,7 +494,16 @@ public class Activity_JSON extends ActionBarActivity {
             JSONArray reponses = ret.getJSONArray("reponse");
             for (int j = 0; j < reponses.length(); j++) {
                 Log.d("JSON", "reponse " + j + " : " + reponses.get(j));
-                if(rep.compareTo((reponses.get(j).toString()))==0) return true;
+                // comparaison avec la réponse
+                String rep_json=reponses.get(j).toString();
+                int taille_rep=rep_json.length();
+                // comparaison de tout les chars
+                for(int k=0;k<rep.length()-taille_rep;k++)
+                {
+                    String rep_acomp=rep.substring(k,k+taille_rep);
+                    if(rep_acomp.compareTo(rep_json)==0) return true;
+                }
+
             }
 
         } catch (JSONException e) {
