@@ -68,7 +68,10 @@ public class choix_histoire extends Activity {
         File rep = new File(Environment.getExternalStorageDirectory() + File.separator + "Lost_letters");
         if ( rep.isDirectory ( ) ) {
             File[] listrep = rep.listFiles();
-            for(int i=0;i<listrep.length;i++)list.add(listrep[i].getName());
+            for(int i=0;i<listrep.length;i++)
+            {
+                if(listrep[i].getName().split("_")[0].compareTo("save")!=0) list.add(listrep[i].getName());
+            }
         }
 
         ArrayAdapter<String> dataAdapter = new ArrayAdapter<String>(this,
