@@ -79,6 +79,10 @@
             android:name=".LostLetter.fin"
             android:label="@string/title_activity_fin" >
         </activity>
+        <activity
+            android:name=".ChangerLetter.change_tuto"
+            android:label="@string/title_activity_change_tuto" >
+        </activity>
     </application>
 
 </manifest>

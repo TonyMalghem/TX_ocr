@@ -70,6 +70,15 @@
                 android:id="@+id/changement"/>
 
             <Button
+                android:text="Tutoriel"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:background="@drawable/border"
+                android:id="@+id/tuto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
 
                 android:text="A Propos"
                 android:textColor="#ffffff"

@@ -43,6 +43,7 @@ public class MyActivity extends Activity {
         Button bouton2 = (Button) findViewById(R.id.apropos);
         Button bouton3 = (Button) findViewById(R.id.scan);
         Button bouton4 = (Button) findViewById(R.id.liremot);
+        Button bouton5 = (Button) findViewById(R.id.tuto);
 
 
 
@@ -51,6 +52,7 @@ public class MyActivity extends Activity {
         bouton2.setTypeface(font2);
         bouton3.setTypeface(font2);
         bouton4.setTypeface(font2);
+        bouton5.setTypeface(font2);
 
 
 
@@ -75,6 +77,16 @@ public class MyActivity extends Activity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MyActivity.this, choix_phrase.class);
+                startActivity(intent);
+
+            }
+        });
+
+
+        bouton5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MyActivity.this, change_tuto.class);
                 startActivity(intent);
 
             }
