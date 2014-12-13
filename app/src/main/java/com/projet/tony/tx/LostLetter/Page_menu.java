@@ -100,6 +100,21 @@ public class Page_menu extends Activity {
             }
         });
 
+
+        // tuto
+
+        final Button monbutt5 = (Button) findViewById(R.id.tuto);
+        monbutt5.setTypeface(font2);
+
+        monbutt5.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Page_menu.this, lost_tuto.class);
+                startActivity(intent);
+            }
+        });
+
         // a propos
 
         final Button monbutt3 = (Button) findViewById(R.id.button3);

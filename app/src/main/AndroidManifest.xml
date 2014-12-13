@@ -83,6 +83,10 @@
             android:name=".ChangerLetter.change_tuto"
             android:label="@string/title_activity_change_tuto" >
         </activity>
+        <activity
+            android:name=".LostLetter.lost_tuto"
+            android:label="@string/title_activity_lost_tuto" >
+        </activity>
     </application>
 
 </manifest>

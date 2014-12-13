@@ -2,6 +2,7 @@ package com.projet.tony.tx.ChangerLetter;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -10,15 +11,30 @@ import com.projet.tony.tx.R;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 public class change_tuto extends Activity {
 
     ImageView image;
     int etape=1;
+    String texte="";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_change_tuto);
+
+        ///////////////////////
+        // GESTION DU TITRE  //
+        ///////////////////////
+
+        TextView tv=(TextView) findViewById(R.id.titre);
+        Typeface font = Typeface.createFromAsset(getAssets(), "KQ.ttf");
+        tv.setTypeface(font);
+        tv.setTextSize(25);
+        tv.setText("Tutoriel");
+
+        change_txt();
 
         image = (ImageView) findViewById(R.id.imageView);
         image.setImageResource(R.drawable.change_menu);
@@ -41,12 +57,12 @@ public class change_tuto extends Activity {
         bouton2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(etape<5)
+                if(etape<=5)
                 {
                     etape++;
                     change_img();
                 }
-                if(etape==5)
+                if(etape>5)
                 {
                     Intent intent = new Intent(change_tuto.this, MyActivity.class);
                     startActivity(intent);
@@ -57,14 +73,35 @@ public class change_tuto extends Activity {
 
     }
 
+    public void change_txt() {
+        if(etape==1)texte="Ceci est le menu principal, voici la liste des actions possibles : " +
+                "\n - Scanner : si vous voulez utiliser votre appareil photo afin de scanner une phrase et l'utiliser plus tard" +
+                "\n - Taper une phrase : vous permettra de taper une nouvelle phrase ou de modifier celle scannée " +
+                "\n - Changer mot : Vous permet d'accèder à la partie principale de l'application (voir à la suite)";
+        if(etape==2)texte="Si vous voulez scanner un mot ou une phrase, celle-ci devra être assez courte (actuellement 5-6 mots pour cette version de l'application)." +
+                " Pour se faire, l'appareil photo de votre téléphone se lance automatiquement, il ne vous reste plus qu'a prendre votre photo";
+        if(etape==3)texte="Si vous souhaitez taper vous même votre propre phrase ou encore modifier celle prise par l'appareil photo vous pouvez utiliser cet outil en tapant votre phrase" +
+                " et en validant grâce au boutton prévu à cet effet.";
+        if(etape==4)texte="Dans la partie principale du jeu votre phrase s'affiche et il est possible de faire un clic sur n'importe quel mot (hormis les mots grisés qui ne sont pas pris en charge par l'application)";
+        if(etape==5)texte="Après avoir fait un clic sur un mot celui-ci est remplacé par un de ses synonymes, l'historique vous permet de garder un aperçut des dernières phrases que vous avez généré." +
+                "\n Le boutton Reset vous permet de tout recommencer depuis le début.";
+
+        TextView tv=(TextView) findViewById(R.id.textView);
+        tv.setText(texte);
+
+    }
+
+
+
     public void change_img()
     {
         if(etape==1)image.setImageResource(R.drawable.change_menu);
-        if(etape==2)image.setImageResource(R.drawable.changhe_phrase);
-        if(etape==3)image.setImageResource(R.drawable.change_jeu_1);
-        if(etape==4)image.setImageResource(R.drawable.change_jeu_2);
-        if(etape==5)image.setImageResource(R.drawable.appareil_photo);
+        if(etape==2)image.setImageResource(R.drawable.appareil_photo);
+        if(etape==3)image.setImageResource(R.drawable.changhe_phrase);
+        if(etape==4)image.setImageResource(R.drawable.change_jeu_1);
+        if(etape==5)image.setImageResource(R.drawable.change_jeu_2);
 
+        change_txt();
     }
 
 

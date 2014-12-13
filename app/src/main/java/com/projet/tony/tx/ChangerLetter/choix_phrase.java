@@ -32,6 +32,11 @@ public class choix_phrase extends Activity {
         tv.setTypeface(font);
         tv.setTextSize(40);
         tv.setText("Change Letters");
+
+        TextView tv2=(TextView) findViewById(R.id.editText);
+        tv2.setText(globalvar_change.getInstance().phrase);
+
+
         Button bouton = (Button) findViewById(R.id.button);
         bouton.setOnClickListener(new View.OnClickListener() {
             @Override

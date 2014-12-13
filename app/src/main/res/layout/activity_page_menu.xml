@@ -64,6 +64,12 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:text="Tutoriel"
+                android:id="@+id/tuto" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:text="A propos"
                 android:layout_centerInParent="true"
                 android:id="@+id/button3" />

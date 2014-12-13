@@ -22,5 +22,6 @@
     <string name="title_activity_choix_phrase">choix_phrase</string>
     <string name="title_activity_fin">fin</string>
     <string name="title_activity_change_tuto">change_tuto</string>
+    <string name="title_activity_lost_tuto">lost_tuto</string>
 
 </resources>
