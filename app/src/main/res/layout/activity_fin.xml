@@ -23,11 +23,19 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Retour"
+        android:text="Quitter et Sauvegarder"
         android:id="@+id/button"
         android:layout_below="@+id/linearLayoutFin"
         android:layout_alignParentStart="true"
         />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reinitialiser"
+        android:id="@+id/buttonReset"
+        android:layout_below="@+id/linearLayoutFin"
+        android:layout_alignParentEnd="true" />
 
     <TextView
         android:text="@string/hello_world"

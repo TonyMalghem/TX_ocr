@@ -554,7 +554,19 @@ public class Activity_JSON extends ActionBarActivity {
         //Intent intent = new Intent(this, CameraActivity.class);
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyyMMdd-HHmmss");
         Date date = new Date();
-        File image = new File(imagesDir,"image_" + simpleDateFormat.format(date) + ".jpg");
+        String game = MyProperties.getInstance().jeu;
+        File image;
+        File dir;
+        if(game.equals("Lost Letters")) {
+            dir = new File(imagesDir+"/lost_letters");
+            dir.mkdir();
+            image = new File(dir, "image_" + simpleDateFormat.format(date) + ".jpg");
+        }
+        else {
+            dir = new File(imagesDir+"/"+game);
+            dir.mkdir();
+            image = new File(dir,"image_" + simpleDateFormat.format(date) + ".jpg");
+        }
         imgUri = Uri.fromFile(image);
         Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
         intent.putExtra(android.provider.MediaStore.EXTRA_OUTPUT,imgUri);

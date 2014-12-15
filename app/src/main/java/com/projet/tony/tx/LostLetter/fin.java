@@ -2,6 +2,7 @@ package com.projet.tony.tx.LostLetter;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.BitmapFactory;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.os.Environment;
@@ -13,6 +14,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.ScrollView;
@@ -25,6 +27,8 @@ import org.json.JSONObject;
 import org.json.JSONTokener;
 
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FilenameFilter;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -40,9 +44,36 @@ public class fin extends Activity {
         setContentView(R.layout.activity_fin);
         ScrollView scrollView = (ScrollView) findViewById(R.id.scrollViewFin);
         LinearLayout globalLayout = (LinearLayout) findViewById(R.id.linearLayoutFin);
+        JSONObject jsonHistoire;
+        final File baseDir;
+        final File saveFile;
+
+        String game = MyProperties.getInstance().jeu;
+        if(game.equals("Lost Letters")) {
+            baseDir = new File(IMG_DIR.getPath()+"/lost_letters");
+            saveFile = new File(Environment.getExternalStorageDirectory() + "/Lost_letters/save_Lost Letters.txt");
+        }
+        else {
+            baseDir = new File(IMG_DIR.getPath()+"/"+game);
+            saveFile = new File(Environment.getExternalStorageDirectory() + "/Lost_letters/save_" + game);
+        }
+
+        final File[] imgs = baseDir.listFiles(new FilenameFilter() {
+            @Override
+            public boolean accept(File dir, String name) {
+                return name.toLowerCase().endsWith(".jpg");
+            }
+        });
+        int nbOfImages = imgs.length;
 
         try {
-            JSONObject jsonHistoire = parseHistoire(getAssets().open("LostLetters.JSON"));
+            if(game.equals("Lost Letters")) {
+                jsonHistoire = parseHistoire(getAssets().open("LostLetters.JSON"));
+            }
+            else {
+                jsonHistoire = parseHistoire(new FileInputStream(Environment.getExternalStorageDirectory().getPath()+"/Lost_letters/"+game));
+            }
+
             TextView tv=(TextView) findViewById(R.id.titre);
             Typeface font = Typeface.createFromAsset(getAssets(), "KQ.ttf");
             tv.setTypeface(font);
@@ -57,27 +88,43 @@ public class fin extends Activity {
             intro.setTextSize(14);
             intro.setText(jsonHistoire.get("histoire").toString());
 
-            int nbOfImages = IMG_DIR.listFiles().length;
             String questionTab = jsonHistoire.get("listQuestions").toString();
             questionTab = questionTab.replace("[","");
             questionTab = questionTab.replace("]","");
             String[] arrayQuestions = questionTab.split(",");
             for(int i=0;i<nbOfImages;i++) {
+                RelativeLayout.LayoutParams params = new RelativeLayout.LayoutParams(
+                        ViewGroup.LayoutParams.WRAP_CONTENT,
+                        ViewGroup.LayoutParams.WRAP_CONTENT
+                );
+                params.addRule(RelativeLayout.BELOW,R.id.introHist);
+                globalLayout.setLayoutParams(params);
                 TextView textView = new TextView(this);
+                textView.setPadding(0,0,0,0);
                 textView.setTypeface(font);
                 textView.setTextSize(14);
                 textView.setText(arrayQuestions[i]);
-                textView.setLayoutParams(new ViewGroup.LayoutParams(
-                    ViewGroup.LayoutParams.WRAP_CONTENT,
-                    ViewGroup.LayoutParams.WRAP_CONTENT
+                LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(
+                        ViewGroup.LayoutParams.WRAP_CONTENT,
+                        ViewGroup.LayoutParams.WRAP_CONTENT
+                );
+                layoutParams.setMargins(0,-10,0,0);
+                textView.setLayoutParams(layoutParams);
+                ImageView imageView = new ImageView(this);
+                imageView.setPadding(0,0,0,0);
+                imageView.setImageBitmap(BitmapFactory.decodeFile(baseDir + "/" + imgs[i].getName()));
+                imageView.setLayoutParams(new ViewGroup.LayoutParams(
+                        ViewGroup.LayoutParams.WRAP_CONTENT,
+                        ViewGroup.LayoutParams.WRAP_CONTENT
                 ));
-                globalLayout.addView(textView,i);
+                globalLayout.addView(textView);
+                globalLayout.addView(imageView);
             }
         }
         catch (Exception ioe) {
             ioe.printStackTrace();
+            Log.e("blbl","error");
         }
-
 
         final Button monbutt = (Button) findViewById(R.id.button);
         Typeface font2 = Typeface.createFromAsset(getAssets(), "PRC.ttf");
@@ -89,8 +136,25 @@ public class fin extends Activity {
             public void onClick(View v) {
                 Intent intent = new Intent(fin.this, Page_menu.class);
                 startActivity(intent);
+                finish();
             }
         });
+
+        final Button buttonReset = (Button) findViewById(R.id.buttonReset);
+        buttonReset.setTypeface(font2);
+        buttonReset.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                for(File f : imgs) {
+                    f.delete();
+                }
+                saveFile.delete();
+                Intent intent = new Intent(fin.this, Page_menu.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
         setContentView(scrollView);
     }
 
