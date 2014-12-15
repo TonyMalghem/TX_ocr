@@ -1,6 +1,12 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/scrollViewFin">
+
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:id="@+id/relativeLayoutFin"
     android:layout_height="match_parent"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
@@ -19,7 +25,33 @@
         android:layout_height="wrap_content"
         android:text="Retour"
         android:id="@+id/button"
+        android:layout_below="@+id/linearLayoutFin"
+        android:layout_alignParentStart="true"
+        />
+
+    <TextView
+        android:text="@string/hello_world"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/titleHist"
         android:layout_below="@+id/titre"
         android:layout_alignParentStart="true" />
 
+    <TextView
+        android:text="@string/hello_world"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/introHist"
+        android:layout_below="@+id/titleHist"
+        android:layout_alignParentStart="true" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayoutFin"
+        android:layout_below="@+id/introHist"
+        android:orientation="vertical">
+        </LinearLayout>
+
 </RelativeLayout>
+</ScrollView>
