@@ -71,10 +71,10 @@ public class lettre {
         if(anim==2){x-=2;y+=2;}
         if(anim==3){x-=2;y-=2;}
         if(anim==4){x+=2;y-=2;}
-        if(anim==5){x+=2;y+=(int)(sin(x/10)*20)+2;}
-        if(anim==6){x+=2;y-=(int)(sin(x/10)*20)+2;}
-        if(anim==7){x+=(int)(sin(y/10)*20)+2;y+=2;}
-        if(anim==8){x+=(int)(sin(y/10)*20)+2;y-=2;}
+        if(anim==5){x+=2;y+=(int)(sin(x/10)*5)+2;}
+        if(anim==6){x+=2;y-=(int)(sin(x/10)*5)+2;}
+        if(anim==7){x+=(int)(sin(y/10)*5)+2;y+=2;}
+        if(anim==8){x+=(int)(sin(y/10)*5)+2;y-=2;}
     }
 
     public boolean is_in(int pox,int poy)

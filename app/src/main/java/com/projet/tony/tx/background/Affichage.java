@@ -122,7 +122,7 @@ public class Affichage {
 
 
       /* and here comes the "trick" */
-            handler.postDelayed(this, 10);
+            handler.postDelayed(this, 100);
         }
     };
 
