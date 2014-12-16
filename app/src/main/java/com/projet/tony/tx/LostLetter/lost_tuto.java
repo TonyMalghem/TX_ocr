@@ -89,9 +89,12 @@ public class lost_tuto extends Activity {
                 "\n - Valider le résultat : Après avoir utilisé votre caméra pour lire un texte utilisez ce bouton pour valider votre réponse, si celle-ci est fausse, rien de grave, recommencez !";
         if(etape==5)texte="Le mode création vous permettra de créer vos propres histoires que vous pourrez partager en allant chercher votre fichier dans le dossier Lost_Letters de votre carte SD." +
                 "\n Vous devez donc préciser un titre et le contenu de votre histoire avant de valider le tout.";
-        if(etape==6)texte="Dans cette partie vous allez gèrer la création des questions pour votre histoire, pour celà tapez votre question ainsi que les résponses correspondantes séparées par des ';' " +
-                " une fois fait il ne vous reste plus qu'à valider votre question et à continuer tant que vous le souhaitez";
-
+        if(etape==6) {
+            texte = "Dans cette partie vous allez gèrer la création des questions pour votre histoire, pour celà tapez votre question ainsi que les résponses correspondantes séparées par des ';' " +
+                    " une fois fait il ne vous reste plus qu'à valider votre question et à continuer tant que vous le souhaitez";
+        Button bt=(Button) findViewById(R.id.next);
+            bt.setText("Retour menu");
+        }
         TextView tv=(TextView) findViewById(R.id.textView);
         tv.setText(texte);
 

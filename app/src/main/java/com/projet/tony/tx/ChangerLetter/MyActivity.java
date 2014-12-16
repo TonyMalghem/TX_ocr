@@ -26,7 +26,7 @@ public class MyActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_my);
 
-
+        Log.d("pb","ok");
 
         ///////////////////////
         // GESTION DU TITRE  //
@@ -44,7 +44,6 @@ public class MyActivity extends Activity {
         Button bouton3 = (Button) findViewById(R.id.scan);
         Button bouton4 = (Button) findViewById(R.id.liremot);
         Button bouton5 = (Button) findViewById(R.id.tuto);
-
 
 
         Typeface font2 = Typeface.createFromAsset(getAssets(), "PRC.ttf");
@@ -68,6 +67,14 @@ public class MyActivity extends Activity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MyActivity.this, MyActivity3.class);
+                startActivity(intent);
+
+            }
+        });
+        bouton3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MyActivity.this, photo_change.class);
                 startActivity(intent);
 
             }

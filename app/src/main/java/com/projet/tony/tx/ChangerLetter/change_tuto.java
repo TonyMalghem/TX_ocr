@@ -83,8 +83,12 @@ public class change_tuto extends Activity {
         if(etape==3)texte="Si vous souhaitez taper vous même votre propre phrase ou encore modifier celle prise par l'appareil photo vous pouvez utiliser cet outil en tapant votre phrase" +
                 " et en validant grâce au boutton prévu à cet effet.";
         if(etape==4)texte="Dans la partie principale du jeu votre phrase s'affiche et il est possible de faire un clic sur n'importe quel mot (hormis les mots grisés qui ne sont pas pris en charge par l'application)";
-        if(etape==5)texte="Après avoir fait un clic sur un mot celui-ci est remplacé par un de ses synonymes, l'historique vous permet de garder un aperçut des dernières phrases que vous avez généré." +
-                "\n Le boutton Reset vous permet de tout recommencer depuis le début.";
+        if(etape==5) {
+            texte = "Après avoir fait un clic sur un mot celui-ci est remplacé par un de ses synonymes, l'historique vous permet de garder un aperçut des dernières phrases que vous avez généré." +
+                    "\n Le boutton Reset vous permet de tout recommencer depuis le début.";
+            Button bt=(Button) findViewById(R.id.next);
+            bt.setText("Retour menu");
+        }
 
         TextView tv=(TextView) findViewById(R.id.textView);
         tv.setText(texte);

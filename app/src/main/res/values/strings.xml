@@ -23,5 +23,6 @@
     <string name="title_activity_fin">fin</string>
     <string name="title_activity_change_tuto">change_tuto</string>
     <string name="title_activity_lost_tuto">lost_tuto</string>
+    <string name="title_activity_my_activity4">MyActivity4</string>
 
 </resources>
