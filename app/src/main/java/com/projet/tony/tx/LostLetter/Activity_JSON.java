@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.content.res.AssetManager;
 import android.graphics.Color;
+import android.graphics.Typeface;
 import android.net.Uri;
 import android.os.Environment;
 import android.provider.MediaStore;
@@ -95,6 +96,7 @@ public class Activity_JSON extends ActionBarActivity {
 
             Intent intent = new Intent(Activity_JSON.this, fin.class);
             startActivity(intent);
+            finish();
         }
 
 
@@ -104,7 +106,12 @@ public class Activity_JSON extends ActionBarActivity {
         question.setText(get_question(Id_Question,fichier));
 
 
+        Typeface font2 = Typeface.createFromAsset(getAssets(), "PRC.ttf");
+
         final Button button = (Button) relativeLayout.findViewById(R.id.button);
+        final Button goCam = (Button) relativeLayout.findViewById(R.id.go_camera);
+        goCam.setTypeface(font2);
+        button.setTypeface(font2);
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
@@ -130,6 +137,7 @@ public class Activity_JSON extends ActionBarActivity {
 
                         Intent intent = new Intent(Activity_JSON.this, fin.class);
                         startActivity(intent);
+                        finish();
                     }
                 }
                 else Toast.makeText(getApplicationContext(),"Pas de réponse !",Toast.LENGTH_LONG).show();

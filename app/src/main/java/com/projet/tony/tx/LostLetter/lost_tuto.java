@@ -66,8 +66,9 @@ public class lost_tuto extends Activity {
                 }
                 if(etape>6)
                 {
-                    Intent intent = new Intent(lost_tuto.this, Page_menu.class);
-                    startActivity(intent);
+                    /*Intent intent = new Intent(lost_tuto.this, Page_menu.class);
+                    startActivity(intent);*/
+                    finish();
                 }
 
             }

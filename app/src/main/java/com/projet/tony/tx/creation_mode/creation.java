@@ -56,6 +56,7 @@ public class creation extends Activity {
                 Intent intent = new Intent(creation.this, Ajout_question.class);
                 intent.putExtra("fichier", fichier);
                 startActivity(intent);
+                finish();
             }
         });
     }

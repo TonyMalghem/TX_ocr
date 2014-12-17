@@ -43,9 +43,9 @@ public class choix_phrase extends Activity {
             public void onClick(View v) {
                 EditText tv= (EditText) findViewById(R.id.editText);
                 globalvar_change.getInstance().phrase=tv.getText().toString();
-                Intent intent = new Intent(choix_phrase.this, MyActivity.class);
-                startActivity(intent);
-
+                /*Intent intent = new Intent(choix_phrase.this, MyActivity.class);
+                startActivity(intent);*/
+                finish();
             }
         });
     }

@@ -89,8 +89,10 @@ public class Ajout_question extends Activity {
             @Override
             public void onClick(View v) {
                 Valider();
-                Intent intent = new Intent(Ajout_question.this, Page_menu.class);
-                startActivity(intent);
+                /*Intent intent = new Intent(Ajout_question.this, Page_menu.class);
+                startActivity(intent);*/
+                finish();
+
             }
         });
 
@@ -102,8 +104,9 @@ public class Ajout_question extends Activity {
 
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Ajout_question.this, Page_menu.class);
-                startActivity(intent);
+                /*Intent intent = new Intent(Ajout_question.this, Page_menu.class);
+                startActivity(intent);*/
+                finish();
             }
         });
 

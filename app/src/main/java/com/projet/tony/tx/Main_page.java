@@ -48,7 +48,7 @@ public class Main_page extends Activity {
         Typeface font = Typeface.createFromAsset(getAssets(), "KQ.ttf");
         tv.setTypeface(font);
         tv.setTextSize(40);
-        tv.setText("Letters Games");
+        tv.setText("Lost Letters");
 
 
 

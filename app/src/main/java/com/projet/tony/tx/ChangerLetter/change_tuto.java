@@ -64,8 +64,9 @@ public class change_tuto extends Activity {
                 }
                 if(etape>5)
                 {
-                    Intent intent = new Intent(change_tuto.this, MyActivity.class);
-                    startActivity(intent);
+                    /*Intent intent = new Intent(change_tuto.this, MyActivity.class);
+                    startActivity(intent);*/
+                    finish();
                 }
 
             }

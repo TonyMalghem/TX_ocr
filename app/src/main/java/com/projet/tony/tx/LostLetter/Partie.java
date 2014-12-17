@@ -46,6 +46,7 @@ public class Partie extends Activity {
                 //Intent intent = new Intent(Page_menu.this, Activity_JSON.class);
                 Intent intent = new Intent(Partie.this, Activity_JSON.class);
                 startActivity(intent);
+                finish();
             }
         });
 
