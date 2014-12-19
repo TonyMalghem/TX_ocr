@@ -12,8 +12,70 @@
 		},
 		{
 			"id":"2",
-			"question":"qu'est ce que c'est le truc de Troie?",
-			"reponse":["tomate (legume)","tomate (fruit)","cheval","aigle"]
-		}
+			"question":"Toujours le premier, jamais le dernier, \n
+			Rien sans lui n’est jamais fini, \n
+			Car rien ne peut commencer sans lui.\n
+			Qui est-il ?",
+			"reponse":["début","debut","deb"]
+		},
+		{
+		"id":"3",
+        			"question":"Anagramme de palme je permet de voir la nuit.",
+        			"reponse": ["lampe"]
+		},
+		{
+		"id":"4",
+        			"question":"Les pierres ont le leur.\n
+        			S’y asseoir demande beaucoup de souplesse.\n
+        			Il travaille pour vous messieurs sur mesure\n
+        			et habille aussi les dames.\n
+
+                                Qui est-il ?",
+        			"reponse": ["tailleur","taill"]
+		},
+	{
+    		"id":"5",
+            			"question":"Avant la découverte du mont Everest, quel était le sommet le plus haut de la Terre ?",
+            			"reponse": ["everest","evere"]
+    		},
+   {
+   		"id":"6",
+           			"question":"Je cesse d'exister lorsque je suis découvert.\n
+
+                                Qui suis-je ?",
+           			"reponse": ["secret","secr"]
+   		},
+   	{
+       		"id":"7",
+               			"question":"Elle est parfois bien chargée\n
+               			Tout en étant obstinée\n
+               			On peut l’enfiler au pied\n
+               			Et la porter en été\n
+
+                                    Qui est-ce ?",
+               			"reponse": ["mule","mul"]
+       		},
+   {
+            		"id":"8",
+                    			"question":"Plus il est chaud et plus il est frais.\n
+                    			Qui est-il ?",
+                    			"reponse": ["pain","pai"]
+            		},
+    {
+             		"id":"9",
+                     			"question":"Sa révolution est sans fin\n
+                     			qui peut symboliser la composition de fonctions\n
+                     			ou désigner de l'argent\n
+                     			Qui est-il ?",
+                     			"reponse": ["rond","ron"]
+             		},
+   {
+               		"id":"10",
+                       			"question":"En berceau ou surbaissée, \n
+                       			celle du ciel n'est pas celle du palais \n
+                       			Qui est-ce ?",
+                       			"reponse": ["voute","vout"]
+               		},
+
 	]
 }
