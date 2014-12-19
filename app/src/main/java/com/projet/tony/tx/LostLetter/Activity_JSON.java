@@ -509,7 +509,7 @@ public class Activity_JSON extends ActionBarActivity {
                 for(int k=0;k<rep.length()-taille_rep;k++)
                 {
                     String rep_acomp=rep.substring(k,k+taille_rep);
-                    if(rep_acomp.compareTo(rep_json)==0) return true;
+                    if(rep_acomp.toLowerCase().compareTo(rep_json.toLowerCase())==0) return true;
                 }
 
             }
