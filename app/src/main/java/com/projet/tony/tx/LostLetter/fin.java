@@ -37,6 +37,7 @@ import java.util.ArrayList;
 public class fin extends Activity {
 
     private final static File IMG_DIR = new File(Environment.getExternalStorageDirectory().getPath()+"/OCR/images");
+    private RelativeLayout relativeLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,8 +49,8 @@ public class fin extends Activity {
     protected void onResume() {
         super.onResume();
         setContentView(R.layout.activity_fin);
-        ScrollView scrollView = (ScrollView) findViewById(R.id.scrollViewFin);
-        LinearLayout globalLayout = (LinearLayout) findViewById(R.id.linearLayoutFin);
+        relativeLayout = (RelativeLayout) findViewById(R.id.relativeLayoutFin);
+        LinearLayout globalLayout = (LinearLayout) relativeLayout.findViewById(R.id.linearLayoutFin);
         JSONObject jsonHistoire;
         final File baseDir;
         final File saveFile;
@@ -80,16 +81,16 @@ public class fin extends Activity {
                 jsonHistoire = parseHistoire(new FileInputStream(Environment.getExternalStorageDirectory().getPath()+"/Lost_letters/"+game));
             }
 
-            TextView tv=(TextView) findViewById(R.id.titre);
+            TextView tv=(TextView) relativeLayout.findViewById(R.id.titre);
             Typeface font = Typeface.createFromAsset(getAssets(), "KQ.ttf");
             tv.setTypeface(font);
             tv.setTextSize(25);
             tv.setText("Fin ! Voici votre histoire...");
-            TextView title=(TextView) findViewById(R.id.titleHist);
+            TextView title=(TextView) relativeLayout.findViewById(R.id.titleHist);
             title.setTypeface(font);
             title.setTextSize(18);
             title.setText(jsonHistoire.get("titre").toString());
-            TextView intro=(TextView) findViewById(R.id.introHist);
+            TextView intro=(TextView) relativeLayout.findViewById(R.id.introHist);
             intro.setTypeface(font);
             intro.setTextSize(14);
             intro.setText(jsonHistoire.get("histoire").toString());
@@ -125,6 +126,7 @@ public class fin extends Activity {
                 ));
                 globalLayout.addView(textView);
                 globalLayout.addView(imageView);
+                relativeLayout.addView(globalLayout);
             }
         }
         catch (Exception ioe) {
@@ -132,7 +134,7 @@ public class fin extends Activity {
             Log.e("blbl","error");
         }
 
-        final Button monbutt = (Button) findViewById(R.id.button);
+        final Button monbutt = (Button) relativeLayout.findViewById(R.id.button);
         Typeface font2 = Typeface.createFromAsset(getAssets(), "PRC.ttf");
         monbutt.setTypeface(font2);
 
@@ -146,7 +148,7 @@ public class fin extends Activity {
             }
         });
 
-        final Button buttonReset = (Button) findViewById(R.id.buttonReset);
+        final Button buttonReset = (Button) relativeLayout.findViewById(R.id.buttonReset);
         buttonReset.setTypeface(font2);
         buttonReset.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -161,7 +163,7 @@ public class fin extends Activity {
             }
         });
 
-        setContentView(globalLayout);
+        setContentView(relativeLayout);
     }
 
     public JSONObject parseHistoire(InputStream inputStream) throws IOException, JSONException {
