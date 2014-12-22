@@ -47,7 +47,7 @@ public class fin extends Activity {
     @Override
     protected void onResume() {
         super.onResume();
-        relativeLayout = (RelativeLayout) findViewById(R.id.relativeLayoutFin);
+        relativeLayout = (RelativeLayout) RelativeLayout.inflate(this, R.layout.activity_fin, null);
         LinearLayout globalLayout = (LinearLayout) relativeLayout.findViewById(R.id.linearLayoutFin);
         JSONObject jsonHistoire;
         final File baseDir;
