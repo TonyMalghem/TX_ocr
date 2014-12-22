@@ -59,7 +59,8 @@ public class Activity_JSON extends ActionBarActivity {
     public final static int REQUEST_CAM = 42;
     private String fichier_save;
     private Uri imgUri;
-
+    private File image;
+    private File dir;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -563,8 +564,7 @@ public class Activity_JSON extends ActionBarActivity {
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyyMMdd-HHmmss");
         Date date = new Date();
         String game = MyProperties.getInstance().jeu;
-        File image;
-        File dir;
+
         if(game.equals("Lost Letters")) {
             dir = new File(imagesDir+"/lost_letters");
             dir.mkdir();
@@ -586,7 +586,7 @@ public class Activity_JSON extends ActionBarActivity {
         switch (requestCode) {
             case REQUEST_CAM:
                 if(resultCode == Activity.RESULT_OK) {
-                    ocr(imgUri.getPath());
+                    ocr(image.getPath());
                 }
                 break;
             default:
