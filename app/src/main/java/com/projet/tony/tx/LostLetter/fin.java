@@ -126,7 +126,6 @@ public class fin extends Activity {
                 ));
                 globalLayout.addView(textView);
                 globalLayout.addView(imageView);
-                relativeLayout.addView(globalLayout);
             }
         }
         catch (Exception ioe) {
