@@ -160,7 +160,7 @@ public class fin extends Activity {
             }
         });
 
-        setContentView(scrollView);
+        setContentView(globalLayout);
     }
 
     public JSONObject parseHistoire(InputStream inputStream) throws IOException, JSONException {
