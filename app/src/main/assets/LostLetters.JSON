@@ -1,7 +1,24 @@
 {
     "titre":"Find Words",
-	"histoire":"Le joueur sera amené à incarner un jeune étudiant de l’UTC venant d’arriver en TC01, et sur le point d’aller passer son premier médian, pour lequel il est très en retard. Son manque de repère dans Benjamin Franklin le conduit à se retrouver dans l’étage interdit (le 7ème étage, dont l’accès est interdit aux étudiants). Il découvre alors que cet étage est interdit car il est la porte vers un univers parallèle, et se retrouve pris au piège d’un labyrinthe maudit.
-     Le début du jeu sera scripté, et le joueur devra commencer à répondre à une énigme simple. Une fois la première énigme résolue, le joueur se verra expliqué le principe du jeu par un NPC. En début de partie, le joueur se verra confié 5 “jokers”. Chacun de ces jokers lui permettra de répondre mal à une question. S’il se trompe à la 5° question, c’est la fin de la partie, le joueur est bloqué dans ce monde parallèle et a perdu. A chaque fois que le joueur arrivera à répondre correctement il est autorisé à passer dans la pièce suivante. Le joueur ne sait évidemment pas combien de pièce il devra traverser avant de trouver la fin du labyrinthe. Le nombre de pièces sera tiré aléatoirement pour chaque nouvelle partie.
+	"histoire":"
+	-Où suis-je ?\n
+	-...\n
+	- Pourquoi le monde est-il tout blanc ? Pourquoi des lettres se déplacent dans le ciel ?\n
+	- L..\n
+	- Il y'a quelq'un ?\n
+	- L..e..\n
+	- Mais que se passe-t-il ?\n
+	- Les     l..e..ttres...\n
+	- Les lettres ? Mais c'est quoi cette histoire de lettres ?\n
+	- Retrouvez les lettres !\n
+	- Mais qui parle ?\n
+	- Peut importe mais il faut tout faire pour récupèrer les lettres et sauver les mots de notre monde !\n
+	- Bon, apparement on ne me laisse pas le choix, je dois faire quoi ? Tuer un grand méchant ou un dragon ?\n
+	- Non ! Vous devrez répondre à différentes énigmes.\n
+	- Un classique en fait !\n
+	- Peut-être mais personne n'y est encore parvenu !\n
+	- Personne n'avait encore essayé non plus...\n
+	- Pas faux ! Mais là n'est pas la question, nous comptons sur vous voyageur, à vous de sauver le monde des lettres !\n
 ",
 	"enigme":
 	[
