@@ -135,31 +135,35 @@ public class fin extends Activity {
         Typeface font2 = Typeface.createFromAsset(getAssets(), "PRC.ttf");
         monbutt.setTypeface(font2);
 
-        monbutt.setOnClickListener(new View.OnClickListener() {
+        try {
 
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(fin.this, Page_menu.class);
-                startActivity(intent);
-                finish();
-            }
-        });
 
-        final Button buttonReset = (Button) relativeLayout.findViewById(R.id.buttonReset);
-        buttonReset.setTypeface(font2);
-        buttonReset.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                for(File f : imgs) {
-                    f.delete();
+            monbutt.setOnClickListener(new View.OnClickListener() {
+
+                @Override
+                public void onClick(View v) {
+                    Intent intent = new Intent(fin.this, Page_menu.class);
+                    startActivity(intent);
+                    finish();
                 }
-                saveFile.delete();
-                Intent intent = new Intent(fin.this, Page_menu.class);
-                startActivity(intent);
-                finish();
-            }
-        });
+            });
 
+            final Button buttonReset = (Button) relativeLayout.findViewById(R.id.buttonReset);
+            buttonReset.setTypeface(font2);
+            buttonReset.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    for (File f : imgs) {
+                        f.delete();
+                    }
+                    saveFile.delete();
+                    Intent intent = new Intent(fin.this, Page_menu.class);
+                    startActivity(intent);
+                    finish();
+                }
+            });
+        }
+        catch (Exception e){Log.d("n","bug bug");}
         setContentView(relativeLayout);
     }
 
