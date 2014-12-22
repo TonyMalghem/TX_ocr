@@ -42,6 +42,10 @@ public class fin extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fin);
+    }
+    
+    @Override
+    protected void onResume() {
         ScrollView scrollView = (ScrollView) findViewById(R.id.scrollViewFin);
         LinearLayout globalLayout = (LinearLayout) findViewById(R.id.linearLayoutFin);
         JSONObject jsonHistoire;
