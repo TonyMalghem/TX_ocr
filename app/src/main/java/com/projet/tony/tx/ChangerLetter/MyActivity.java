@@ -35,8 +35,8 @@ public class MyActivity extends Activity {
         TextView tv=(TextView) findViewById(R.id.titre);
         Typeface font = Typeface.createFromAsset(getAssets(), "KQ.ttf");
         tv.setTypeface(font);
-        tv.setTextSize(40);
-        tv.setText("Change Letters");
+        tv.setTextSize(30);
+        tv.setText("Change Words");
 
 
         Button bouton = (Button) findViewById(R.id.changement);
