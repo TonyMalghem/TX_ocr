@@ -42,13 +42,11 @@ public class fin extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_fin);
     }
     
     @Override
     protected void onResume() {
         super.onResume();
-        setContentView(R.layout.activity_fin);
         relativeLayout = (RelativeLayout) findViewById(R.id.relativeLayoutFin);
         LinearLayout globalLayout = (LinearLayout) relativeLayout.findViewById(R.id.linearLayoutFin);
         JSONObject jsonHistoire;
