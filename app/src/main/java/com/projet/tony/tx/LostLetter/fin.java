@@ -43,17 +43,18 @@ public class fin extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
     }
-    
+    private static File baseDir;
+    private static File saveFile;
+    private static String game;
     @Override
     protected void onResume() {
         super.onResume();
         relativeLayout = (RelativeLayout) RelativeLayout.inflate(this, R.layout.activity_fin, null);
         LinearLayout globalLayout = (LinearLayout) relativeLayout.findViewById(R.id.linearLayoutFin);
         JSONObject jsonHistoire;
-        final File baseDir;
-        final File saveFile;
 
-        String game = MyProperties.getInstance().jeu;
+
+        game = MyProperties.getInstance().jeu;
         if(game.equals("Lost Letters")) {
             baseDir = new File(IMG_DIR.getPath()+"/lost_letters");
             saveFile = new File(Environment.getExternalStorageDirectory() + "/Lost_letters/save_Lost Letters.txt");
@@ -66,7 +67,7 @@ public class fin extends Activity {
         final File[] imgs = baseDir.listFiles(new FilenameFilter() {
             @Override
             public boolean accept(File dir, String name) {
-                return name.toLowerCase().endsWith(".jpg");
+                return name.endsWith(".jpg");
             }
         });
         int nbOfImages = imgs.length;
@@ -97,7 +98,7 @@ public class fin extends Activity {
             questionTab = questionTab.replace("[","");
             questionTab = questionTab.replace("]","");
             String[] arrayQuestions = questionTab.split(",");
-            for(int i=0;i<nbOfImages;i++) {
+            for(int i=0;i<arrayQuestions.length;i++) {
                 RelativeLayout.LayoutParams params = new RelativeLayout.LayoutParams(
                         ViewGroup.LayoutParams.WRAP_CONTENT,
                         ViewGroup.LayoutParams.WRAP_CONTENT

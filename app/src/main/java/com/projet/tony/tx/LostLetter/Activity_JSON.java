@@ -55,12 +55,12 @@ public class Activity_JSON extends ActionBarActivity {
     private File imagesDir = new File(OCRDir.getPath()+"/images/");
     private File engTrainedData = new File(tessDir.getPath()+"/eng.traineddata");
     private File fraTrainedData = new File(tessDir.getPath()+"/fra.traineddata");
-    private String fichier= "LostLetters.JSON";
+    private static String fichier= "LostLetters.JSON";
     public final static int REQUEST_CAM = 42;
     private String fichier_save;
     private Uri imgUri;
-    private File image;
-    private File dir;
+    private static File image;
+    private static File dir;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
