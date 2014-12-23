@@ -24,7 +24,6 @@
         android:layout_below="@+id/titre">
 
         <TextView
-            android:text="Developpe par Tony Malghem et Tristan Smalbeen dans le cadre d'un projet d'etude à l'UTC (Universite de Technologie de Compiegne)"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/content"

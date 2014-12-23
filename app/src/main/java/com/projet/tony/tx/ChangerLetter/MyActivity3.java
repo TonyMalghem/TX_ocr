@@ -17,7 +17,8 @@ public class MyActivity3 extends Activity {
     String txt = "Cette application permet de scanner des phrases de votre environnement puis de jouer avec les mots de celles-ci." +
             "\n\n Ce travail à été réalisé par :" +
             "\n Zins Pierre" +
-            "\n ";
+            "\n Tchandjou Adrien" +
+            "\n Smalbeen Tristan";
 
 
     @Override

@@ -27,6 +27,11 @@ public class Apropos extends Activity {
         TextView tv2=(TextView) findViewById(R.id.content);
         Typeface font2 = Typeface.createFromAsset(getAssets(), "PRC.ttf");
         tv2.setTypeface(font2);
+        String txt = "Cette application permet de scanner des mots de votre environnement puis de les utiliser afin de répondre à différentes énigmes." +
+                "\n\n Ce travail à été réalisé par :" +
+                "\n Malghem Tony" +
+                "\n Smalbeen Tristan";
+        tv2.setText(txt);
 
 
     }
