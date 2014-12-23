@@ -44,6 +44,7 @@ public class MyActivity extends Activity {
         Button bouton3 = (Button) findViewById(R.id.scan);
         Button bouton4 = (Button) findViewById(R.id.liremot);
         Button bouton5 = (Button) findViewById(R.id.tuto);
+        Button bouton6 = (Button) findViewById(R.id.save);
 
 
         Typeface font2 = Typeface.createFromAsset(getAssets(), "PRC.ttf");
@@ -52,6 +53,7 @@ public class MyActivity extends Activity {
         bouton3.setTypeface(font2);
         bouton4.setTypeface(font2);
         bouton5.setTypeface(font2);
+        bouton6.setTypeface(font2);
 
 
 
@@ -99,7 +101,14 @@ public class MyActivity extends Activity {
             }
         });
 
+        bouton6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MyActivity.this, MyActivity4.class);
+                startActivity(intent);
 
+            }
+        });
 
         // fond
         Activity me =this;
@@ -114,7 +123,7 @@ public class MyActivity extends Activity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-       // getMenuInflater().inflate(R.menu, menu);
+        // getMenuInflater().inflate(R.menu, menu);
         return true;
     }
 

@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.os.Bundle;
+import android.os.Environment;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.Menu;
@@ -23,8 +24,12 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
 import java.util.ArrayList;
 
 public class MyActivity2 extends Activity {
@@ -55,6 +60,8 @@ public class MyActivity2 extends Activity {
 
         run(tester);
         Button raz = (Button)findViewById(R.id.reset);
+        Button save = (Button) findViewById(R.id.save);
+
         // fond
         /*
         Activity me =this;
@@ -71,6 +78,12 @@ public class MyActivity2 extends Activity {
                 phrase = null;
                 buff.setLength(0);
                 run(tester);
+            }
+        });
+        save.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ecrireFicher("saves", saveWord);
             }
         });
     }
@@ -219,7 +232,23 @@ public class MyActivity2 extends Activity {
 
     }
 
+    private void ecrireFicher(String nomFichier,ArrayList<String> ph) {
+        String s = "";
+        for (int i = 0; i < ph.size(); ++i) s = s + " " + ph.get(i);
 
+        File textFolder = new File(Environment.getExternalStorageDirectory(),"OCR/images/");
+        if(!textFolder.exists())
+            textFolder.mkdir();
+        File text = new File(textFolder,nomFichier + ".txt");
+        try {
+            BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(text,true)));
+            writer.write(retirer_accents(s));
+            writer.newLine();
+            writer.close();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
     //transforme la phrase en minuscule
     public String[] get_mots(String chaine)
     {

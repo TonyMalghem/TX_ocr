@@ -87,6 +87,10 @@
             android:name=".LostLetter.lost_tuto"
             android:label="@string/app_tx_name" >
         </activity>
+        <activity
+            android:name=".ChangerLetter.MyActivity4"
+            android:label="@string/title_activity_my_activity4" >
+        </activity>
     </application>
 
 </manifest>

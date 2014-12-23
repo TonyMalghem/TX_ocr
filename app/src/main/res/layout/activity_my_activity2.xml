@@ -28,10 +28,9 @@
             android:layout_height="wrap_content"
             android:textColor="#00f100"
             android:id="@+id/titre"
+            android:layout_marginRight="163dp"
             android:layout_alignParentTop="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true"
-            android:layout_marginRight="163dp" />
+            android:layout_centerHorizontal="true" />
 
 
         <LinearLayout
@@ -61,11 +60,21 @@
             android:layout_height="wrap_content"
             android:text="Reset"
             android:textAlignment="center"
-            android:layout_centerHorizontal="true"
 
             android:gravity="center_horizontal"
+            android:id="@+id/reset"
             android:layout_below="@+id/linear"
-            android:id="@+id/reset"/>
+            android:layout_alignStart="@+id/titre" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:textAlignment="center"
+
+
+            android:id="@+id/save"
+            android:layout_below="@+id/linear"
+            android:layout_toStartOf="@+id/reset" />
 
 
     </RelativeLayout>

@@ -11,83 +11,91 @@
         android:orientation="vertical" >
 
     </LinearLayout>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-
-    tools:context=".MyActivity">
-
-    <TextView
-        android:text="@string/hello_world"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/titre"
-        android:layout_centerHorizontal="true" />
-
-    <LinearLayout
-        android:gravity="center"
-        android:orientation="horizontal"
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:layout_below="@+id/titre"
-        android:layout_alignParentEnd="true">
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
 
-        <TableLayout
+        tools:context=".MyActivity">
+
+        <TextView
+            android:text="@string/hello_world"
             android:layout_width="wrap_content"
-            android:layout_height="334dp"
-            android:layout_centerVertical="true">
+            android:layout_height="wrap_content"
+            android:id="@+id/titre"
+            android:layout_centerHorizontal="true" />
 
-            <Button
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/titre"
+            android:layout_alignParentEnd="true">
 
-                android:text="Scanner"
-
-                android:textColor="#ffffff"
-                android:textStyle="bold"
-                android:background="@drawable/border"
-                android:id="@+id/scan"/>
-
-            <Button
-
-                android:text="Taper une phrase"
-
-                android:textColor="#ffffff"
-                android:textStyle="bold"
-                android:background="@drawable/border"
-                android:id="@+id/liremot"/>
-
-
-            <Button
-
-                android:text="Changer mots"
-                android:textColor="#ffffff"
-                android:textStyle="bold"
-                android:background="@drawable/border"
-                android:id="@+id/changement"/>
-
-            <Button
-                android:text="Tutoriel"
-                android:textColor="#ffffff"
-                android:textStyle="bold"
-                android:background="@drawable/border"
-                android:id="@+id/tuto"
+            <TableLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="334dp"
+                android:layout_centerVertical="true">
 
-            <Button
+                <Button
 
-                android:text="A Propos"
-                android:textColor="#ffffff"
-                android:textStyle="bold"
-                android:background="@drawable/border"
-                android:id="@+id/apropos"/>
-   </TableLayout>
-    </LinearLayout>
+                    android:text="Scanner"
+
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:background="@drawable/border"
+                    android:id="@+id/scan"/>
+
+                <Button
+
+                    android:text="Taper une phrase"
+
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:background="@drawable/border"
+                    android:id="@+id/liremot"/>
 
 
-</RelativeLayout>
-    </FrameLayout>
+                <Button
+
+                    android:text="Changer mots"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:background="@drawable/border"
+                    android:id="@+id/changement"/>
+                <Button
+                    android:text="Phrases sauvegardees"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:background="@drawable/border"
+                    android:id="@+id/save"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:text="Tutoriel"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:background="@drawable/border"
+                    android:id="@+id/tuto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <Button
+
+                    android:text="A Propos"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:background="@drawable/border"
+                    android:id="@+id/apropos"/>
+            </TableLayout>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</FrameLayout>
