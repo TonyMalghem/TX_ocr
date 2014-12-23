@@ -14,10 +14,10 @@ import com.projet.tony.tx.background.Affichage;
 
 
 public class MyActivity3 extends Activity {
-    String txt = "Cette application permet de scanner des phrases du monde réel puis de changer les mots de celle-ci." +
-            "\n\nScanner dans un premier temps une phrase en allant sur 'Scanner'." +
-            "\n\nAllez ensuite sur 'Changer mots' afin de modifier les mots que vous voulez : " +
-            "seuls les mots en gris ne peuvent êtres remplacés.";
+    String txt = "Cette application permet de scanner des phrases de votre environnement puis de jouer avec les mots de celles-ci." +
+            "\n\n Ce travail à été réalisé par :" +
+            "\n Zins Pierre" +
+            "\n ";
 
 
     @Override

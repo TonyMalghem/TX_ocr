@@ -12,7 +12,7 @@
 	- Les lettres ? Mais c'est quoi cette histoire de lettres ?\n
 	- Retrouvez les lettres !\n
 	- Mais qui parle ?\n
-	- Peut importe mais il faut tout faire pour récupèrer les lettres et sauver les mots de notre monde !\n
+	- Peu importe mais il faut tout faire pour récupérer les lettres et sauver les mots de notre monde !\n
 	- Bon, apparement on ne me laisse pas le choix, je dois faire quoi ? Tuer un grand méchant ou un dragon ?\n
 	- Non ! Vous devrez répondre à différentes énigmes.\n
 	- Un classique en fait !\n
@@ -92,7 +92,7 @@
                        			celle du ciel n'est pas celle du palais \n
                        			Qui est-ce ?",
                        			"reponse": ["voute","vout"]
-               		},
+               		}
 
 	]
 }

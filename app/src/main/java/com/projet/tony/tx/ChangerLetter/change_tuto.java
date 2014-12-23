@@ -76,16 +76,17 @@ public class change_tuto extends Activity {
 
     public void change_txt() {
         if(etape==1)texte="Ceci est le menu principal, voici la liste des actions possibles : " +
-                "\n - Scanner : si vous voulez utiliser votre appareil photo afin de scanner une phrase et l'utiliser plus tard" +
-                "\n - Taper une phrase : vous permettra de taper une nouvelle phrase ou de modifier celle scannée " +
-                "\n - Changer mot : Vous permet d'accèder à la partie principale de l'application (voir à la suite)";
+                "\n - Scanner : vous permet d'utiliser la caméra du smartphone afin de scanner une phrase et l'utiliser plus tard" +
+                "\n - Taper une phrase : vous permet de taper une nouvelle phrase ou de modifier celle scannée " +
+                "\n - Changer mots : vous permet d'accéder à la partie principale de l'application (Suite)";
         if(etape==2)texte="Si vous voulez scanner un mot ou une phrase, celle-ci devra être assez courte (actuellement 5-6 mots pour cette version de l'application)." +
-                " Pour se faire, l'appareil photo de votre téléphone se lance automatiquement, il ne vous reste plus qu'a prendre votre photo";
-        if(etape==3)texte="Si vous souhaitez taper vous même votre propre phrase ou encore modifier celle prise par l'appareil photo vous pouvez utiliser cet outil en tapant votre phrase" +
+                " La caméra de votre téléphone se lance automatiquement, il ne vous reste plus qu'à prendre votre photo.";
+        if(etape==3)texte="Dans \"Taper une phrase\", vous pouvez taper vous-même votre propre phrase ou encore modifier celle prise par la caméra." +
                 " et en validant grâce au boutton prévu à cet effet.";
-        if(etape==4)texte="Dans la partie principale du jeu votre phrase s'affiche et il est possible de faire un clic sur n'importe quel mot (hormis les mots grisés qui ne sont pas pris en charge par l'application)";
+        if(etape==4)texte="Dans la partie \"Changer mots\", votre phrase s'affiche et il est possible de faire un clic sur n'importe quel mot (hormis les mots grisés qui ne sont pas pris en charge par l'application)." +
+                "Le mot est remplacé par un de ses synonymes.";
         if(etape==5) {
-            texte = "Après avoir fait un clic sur un mot celui-ci est remplacé par un de ses synonymes, l'historique vous permet de garder un aperçut des dernières phrases que vous avez généré." +
+            texte = "A tout momment vous avez un aperçu des dernières phrases que vous avez générées." +
                     "\n Le boutton Reset vous permet de tout recommencer depuis le début.";
             Button bt=(Button) findViewById(R.id.next);
             bt.setText("Retour menu");

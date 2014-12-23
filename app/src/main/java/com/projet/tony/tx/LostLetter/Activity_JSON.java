@@ -61,6 +61,24 @@ public class Activity_JSON extends ActionBarActivity {
     private Uri imgUri;
     private static File image;
     private static File dir;
+
+
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        if (image != null) {
+            outState.putString("imagePath", image.getPath());
+        }
+    }
+
+    @Override
+    protected void onRestoreInstanceState(Bundle savedInstanceState) {
+        super.onRestoreInstanceState(savedInstanceState);
+        if (savedInstanceState.containsKey("imagePath")) {
+            image = new File(savedInstanceState.getString("imagePath"));
+        }
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

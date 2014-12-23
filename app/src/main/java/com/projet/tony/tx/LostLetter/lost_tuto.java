@@ -78,21 +78,21 @@ public class lost_tuto extends Activity {
 
     public void change_txt() {
         if(etape==1)texte="Ceci est le menu principal, voici la liste des actions possibles : " +
-                "\n - Jouer : Vous donne accès au jeu (Lost letters par défaut)" +
-                "\n - Mode création : vous permettra de créer votre propre histoire avec vos propres questions " +
-                "\n - Choix histoire : Vous permet d'accèder aux différentes histoires disponibles sur votre téléphone";
-        if(etape==2)texte="Dans ce menu vous pouvez choisir l'histoire qui sera choisie pour être jouée en jeu. " +
-                "\n Pour ajouter de nouvelles histoire (seul Lost Letters est disponible par défaut), vous pouvez utiliser le mode création, ou encore rajouter des fichiers d'histoire dans le dossier Lost_Letters sur votre carte SD.";
-        if(etape==3)texte="Après avoir cliqué sur le boutton 'Jouer' vous arrivez sur cette page, s'affiche alors l'histoire que vous avez selectionné, après avoir lu celle-ci et l'avoir faite défilé un boutton vous permettant d'accèder à la suite est disponible en bas de page.";
+                "\n - Jouer : vous donne accès au jeu (Histoire \"Lost letters\" par défaut)" +
+                "\n - Mode création : vous permet de créer votre propre histoire avec vos propres questions " +
+                "\n - Choix histoire : vous permet d'accéder aux différentes histoires disponibles sur votre téléphone";
+        if(etape==2)texte="Dans ce menu vous pouvez choisir une histoire." +
+                "\n Pour ajouter de nouvelles histoires (seul \"Lost Letters\" est disponible par défaut), vous pouvez utiliser le mode création, ou encore ajouter des fichiers d'histoire dans le dossier Lost_Letters sur votre carte SD.";
+        if(etape==3)texte="Après avoir cliqué sur le bouton 'Jouer' vous arrivez sur cette page. S'affiche alors l'histoire que vous avez sélectionnée. Un boutton en bas de page vous permet d'accéder à la suite.";
         if(etape==4)texte="Vous êtes maintenant dans la partie principale de l'application : le jeu." +
-                "\n Deux bouttons s'offrent à vous : " +
-                "\n  - Ouvrir la caméra : ouvre votre application gèrant la caméra de votre appareil. Vous devrez alors prendre en photo un texte (non manuscrit et assez lisible) contenant au moins un mot répondant à la question posée." +
-                "\n - Valider le résultat : Après avoir utilisé votre caméra pour lire un texte utilisez ce bouton pour valider votre réponse, si celle-ci est fausse, rien de grave, recommencez !";
-        if(etape==5)texte="Le mode création vous permettra de créer vos propres histoires que vous pourrez partager en allant chercher votre fichier dans le dossier Lost_Letters de votre carte SD." +
+                "\n Deux boutons s'offrent à vous : " +
+                "\n  - Ouvrir la caméra : ouvre l'application gérant la caméra de votre appareil. Vous devrez alors prendre en photo un texte (non manuscrit et assez lisible) contenant au moins un mot répondant à la question posée." +
+                "\n - Valider le résultat : Après avoir utilisé votre caméra pour lire un texte, utilisez ce bouton pour valider votre réponse. Si celle-ci est fausse, rien de grave, recommencez !";
+        if(etape==5)texte="Le mode création vous permet de créer vos propres histoires. Vous pourrez partager en allant chercher votre fichier dans le dossier Lost_Letters de votre carte SD." +
                 "\n Vous devez donc préciser un titre et le contenu de votre histoire avant de valider le tout.";
         if(etape==6) {
-            texte = "Dans cette partie vous allez gèrer la création des questions pour votre histoire, pour celà tapez votre question ainsi que les résponses correspondantes séparées par des ';' " +
-                    " une fois fait il ne vous reste plus qu'à valider votre question et à continuer tant que vous le souhaitez";
+            texte = "Dans cette partie vous allez gérer la création des questions pour votre histoire. Pour cela tapez votre question ainsi que les résponses correspondantes séparées par des ';' " +
+                    " Une fois cela fait, il ne vous reste plus qu'à valider votre question et à continuer tant que vous le souhaitez.";
         Button bt=(Button) findViewById(R.id.next);
             bt.setText("Retour menu");
         }

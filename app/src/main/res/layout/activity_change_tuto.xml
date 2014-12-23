@@ -29,6 +29,12 @@
                 android:id="@+id/titre"
                 android:layout_centerHorizontal="true" />
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='"Change Words" vous permet de scanner des phrases de votre environnement (ou de les taper) et de jouer avec les synonymes des mots.'
+                android:id="@+id/textView2" />
+
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -50,7 +56,7 @@
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Precedent"
+                    android:text="Précédent"
                     android:id="@+id/prev" />
 
                 <Button

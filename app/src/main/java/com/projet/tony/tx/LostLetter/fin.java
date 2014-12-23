@@ -91,7 +91,7 @@ public class fin extends Activity {
             title.setText(jsonHistoire.get("titre").toString());
             TextView intro=(TextView) relativeLayout.findViewById(R.id.introHist);
             intro.setTypeface(font);
-            intro.setTextSize(14);
+            intro.setTextSize(10);
             intro.setText(jsonHistoire.get("histoire").toString());
 
             String questionTab = jsonHistoire.get("listQuestions").toString();
@@ -108,7 +108,7 @@ public class fin extends Activity {
                 TextView textView = new TextView(this);
                 textView.setPadding(0,0,0,0);
                 textView.setTypeface(font);
-                textView.setTextSize(14);
+                textView.setTextSize(10);
                 textView.setText(arrayQuestions[i]);
                 LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(
                         ViewGroup.LayoutParams.WRAP_CONTENT,
