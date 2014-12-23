@@ -88,7 +88,7 @@
         </activity>
         <activity
             android:name=".ChangerLetter.MyActivity4"
-            android:label="@string/title_activity_my_activity4" >
+            android:label="@string/app_si28_name" >
         </activity>
     </application>
 
