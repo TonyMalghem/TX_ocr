@@ -46,7 +46,7 @@ public class Page_menu extends Activity {
         Typeface font = Typeface.createFromAsset(getAssets(), "KQ.ttf");
          tv.setTypeface(font);
          tv.setTextSize(40);
-         tv.setText("Lost Letters");
+         tv.setText("Find Words");
 
 
 
