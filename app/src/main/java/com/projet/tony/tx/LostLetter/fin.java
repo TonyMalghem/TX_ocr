@@ -70,7 +70,7 @@ public class fin extends Activity {
                 return name.endsWith(".jpg");
             }
         });
-        int nbOfImages = imgs.length;
+        int nbOfImages = (imgs!=null) ? imgs.length : 0;
 
         try {
             if(game.equals("Lost Letters")) {
@@ -154,7 +154,7 @@ public class fin extends Activity {
             buttonReset.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    for (File f : imgs) {
+                    if(imgs!=null)for (File f : imgs) {
                         f.delete();
                     }
                     saveFile.delete();

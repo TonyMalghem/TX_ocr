@@ -603,13 +603,15 @@ public class Activity_JSON extends ActionBarActivity {
         startActivityForResult(intent, REQUEST_CAM);
     }
 
+
+    public ProgressDialog mProgressDialog;
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
-        ProgressDialog mProgressDialog = ProgressDialog.show(this, "En attente",
-                "Cette opération est assez longue...", true);
+
         switch (requestCode) {
             case REQUEST_CAM:
                 if(resultCode == Activity.RESULT_OK) {
+                    compute();
                     ocr(image.getPath());
 
                 }
@@ -617,7 +619,23 @@ public class Activity_JSON extends ActionBarActivity {
             default:
                 break;
         }
-        mProgressDialog.dismiss();
+
+    }
+
+public boolean ocr_done=false;
+    private void compute() {
+        mProgressDialog = ProgressDialog.show(this, "En attente",
+                "Cette opération est assez longue...", true);
+
+        new Thread((new Runnable() {
+            @Override
+            public void run() {
+                while(!ocr_done){}
+               mProgressDialog.dismiss();
+                ocr_done=true;
+            }
+        })).start();
+
     }
 
 
@@ -742,5 +760,6 @@ public class Activity_JSON extends ActionBarActivity {
         } catch (IOException e) {
             Log.e(LOG_TAG, "Rotate or conversion failed: " + e.toString());
         }
+        ocr_done=true;
     }
 }
