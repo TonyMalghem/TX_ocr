@@ -45,7 +45,7 @@ public class creation extends Activity {
         final Button monbutt = (Button) findViewById(R.id.button);
         Typeface font2 = Typeface.createFromAsset(getAssets(), "PRC.ttf");
         monbutt.setTypeface(font2);
-        final EditText monedit = (EditText) findViewById(R.id.editText);
+        final EditText monedit = (EditText) findViewById(R.id.field);
         final EditText monedit2 = (EditText) findViewById(R.id.editText2);
         monbutt.setOnClickListener(new View.OnClickListener() {
 

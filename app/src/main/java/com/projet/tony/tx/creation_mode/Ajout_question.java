@@ -13,7 +13,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.projet.tony.tx.LostLetter.Page_menu;
 import com.projet.tony.tx.R;
 
 import org.json.JSONArray;
@@ -133,7 +132,7 @@ public class Ajout_question extends Activity {
 
         JSONArray reponses=new JSONArray();
 
-        final EditText monedit =(EditText)findViewById(R.id.editText);
+        final EditText monedit =(EditText)findViewById(R.id.field);
         final EditText monedit2 =(EditText)findViewById(R.id.editText2);
 
         try {

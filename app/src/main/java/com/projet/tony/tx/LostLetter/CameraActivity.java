@@ -1,5 +1,6 @@
 package com.projet.tony.tx.LostLetter;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.hardware.Camera;
@@ -29,11 +30,13 @@ public class CameraActivity extends ActionBarActivity {
     private Camera mCamera;
     private CameraPreview mPreview;
     private LinearLayout layout;
+    private Activity act= this;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_camera);
+
     }
 
     public void onClick(View view) {
@@ -133,6 +136,7 @@ public class CameraActivity extends ActionBarActivity {
                 Intent intent = getIntent();
                 intent.putExtra("picFile",image.getAbsolutePath());
                 setResult(RESULT_OK,intent);
+
                 finish();
             }
             catch (FileNotFoundException e) {

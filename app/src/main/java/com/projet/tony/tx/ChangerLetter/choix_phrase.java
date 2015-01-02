@@ -1,10 +1,8 @@
 package com.projet.tony.tx.ChangerLetter;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.graphics.Typeface;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -33,7 +31,7 @@ public class choix_phrase extends Activity {
         tv.setTextSize(30);
         tv.setText("Change Words");
 
-        TextView tv2=(TextView) findViewById(R.id.editText);
+        TextView tv2=(TextView) findViewById(R.id.field);
         tv2.setText(globalvar_change.getInstance().phrase);
 
 
@@ -41,7 +39,7 @@ public class choix_phrase extends Activity {
         bouton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                EditText tv= (EditText) findViewById(R.id.editText);
+                EditText tv= (EditText) findViewById(R.id.field);
                 globalvar_change.getInstance().phrase=tv.getText().toString();
                 /*Intent intent = new Intent(choix_phrase.this, MyActivity.class);
                 startActivity(intent);*/

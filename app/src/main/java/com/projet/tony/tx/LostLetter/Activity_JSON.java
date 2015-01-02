@@ -1,6 +1,7 @@
 package com.projet.tony.tx.LostLetter;
 
 import android.app.Activity;
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.content.res.AssetManager;
 import android.graphics.Color;
@@ -43,6 +44,7 @@ import android.media.ExifInterface;
 import android.widget.ImageView;
 
 import com.googlecode.tesseract.android.TessBaseAPI;
+import com.projet.tony.tx.ChangerLetter.MyActivity2;
 import com.projet.tony.tx.R;
 
 public class Activity_JSON extends ActionBarActivity {
@@ -62,7 +64,7 @@ public class Activity_JSON extends ActionBarActivity {
     private static File image;
     private static File dir;
 
-
+/*
     @Override
     protected void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
@@ -78,6 +80,8 @@ public class Activity_JSON extends ActionBarActivity {
             image = new File(savedInstanceState.getString("imagePath"));
         }
     }
+
+    */
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -601,16 +605,21 @@ public class Activity_JSON extends ActionBarActivity {
 
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        ProgressDialog mProgressDialog = ProgressDialog.show(this, "En attente",
+                "Cette opération est assez longue...", true);
         switch (requestCode) {
             case REQUEST_CAM:
                 if(resultCode == Activity.RESULT_OK) {
                     ocr(image.getPath());
+
                 }
                 break;
             default:
                 break;
         }
+        mProgressDialog.dismiss();
     }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
