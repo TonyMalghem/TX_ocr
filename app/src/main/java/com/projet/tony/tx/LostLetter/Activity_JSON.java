@@ -222,6 +222,12 @@ public class Activity_JSON extends ActionBarActivity {
                 Log.d("OCR", e.toString());
             }
         }*/
+
+
+
+
+
+
     }
 
     public void check_save()
@@ -288,14 +294,48 @@ public class Activity_JSON extends ActionBarActivity {
         }
 
     }
-    /*    @Override
+        @Override
         public void onResume() {
             super.onResume();
-            if(OCRDir.exists() && tessDir.exists() && engTrainedData.exists()) {
-                ocr();
+
+
+
+            if(ocr_todo) {
+                compute();
             }
         }
-    */
+
+
+
+Activity activity=this;
+
+    private void compute() {
+        mProgressDialog = ProgressDialog.show(this, "En attente",
+                "Cette opération est assez longue...", true);
+
+        new Thread((new Runnable() {
+            @Override
+            public void run() {
+                ocr(image.getPath());
+
+                activity.runOnUiThread(new Runnable() {
+                    public void run() {
+                        TextView resOCR = (TextView) findViewById(R.id.field);
+                        resOCR.setText(text_ocr);
+
+                        ImageView iv = (ImageView) findViewById(R.id.image);
+                        iv.setImageBitmap(affichage_ocr);
+                        iv.setVisibility(View.VISIBLE);
+                    }
+                });
+
+
+                mProgressDialog.dismiss();
+            }
+        })).start();
+
+    }
+
     private void copyFromAsset(InputStream in, OutputStream out) {
         try {
             byte[] buffer = new byte[1024];
@@ -603,6 +643,8 @@ public class Activity_JSON extends ActionBarActivity {
         startActivityForResult(intent, REQUEST_CAM);
     }
 
+    public boolean ocr_todo=false;
+
 
     public ProgressDialog mProgressDialog;
     @Override
@@ -611,8 +653,9 @@ public class Activity_JSON extends ActionBarActivity {
         switch (requestCode) {
             case REQUEST_CAM:
                 if(resultCode == Activity.RESULT_OK) {
-                    compute();
-                    ocr(image.getPath());
+                    //ocr(image.getPath());
+
+                    ocr_todo=true;
 
                 }
                 break;
@@ -622,21 +665,7 @@ public class Activity_JSON extends ActionBarActivity {
 
     }
 
-public boolean ocr_done=false;
-    private void compute() {
-        mProgressDialog = ProgressDialog.show(this, "En attente",
-                "Cette opération est assez longue...", true);
 
-        new Thread((new Runnable() {
-            @Override
-            public void run() {
-                while(!ocr_done){}
-               mProgressDialog.dismiss();
-                ocr_done=true;
-            }
-        })).start();
-
-    }
 
 
     @Override
@@ -733,9 +762,11 @@ public boolean ocr_done=false;
             /*Pix pix = Convert.convertTo8(ReadFile.readBitmap(mutableBitmap));
             pix = Binarize.otsuAdaptiveThreshold(pix,Binarize.OTSU_SIZE_X,Binarize.OTSU_SIZE_Y,Binarize.OTSU_SMOOTH_X,Binarize.OTSU_SMOOTH_Y,0.05f);
             mutableBitmap = WriteFile.writeBitmap(pix);*/
-            ImageView iv = (ImageView) findViewById(R.id.image);
-            iv.setImageBitmap(mutableBitmap);
-            iv.setVisibility(View.VISIBLE);
+
+            affichage_ocr=mutableBitmap;
+            //ImageView iv = (ImageView) findViewById(R.id.image);
+           // iv.setImageBitmap(mutableBitmap);
+           // iv.setVisibility(View.VISIBLE);
 
             Log.v(LOG_TAG, "Before baseApi");
 
@@ -753,13 +784,17 @@ public boolean ocr_done=false;
                 recognizedText = recognizedText.replaceAll("[^a-zA-Z0-9]+", " ");
             }
             if (recognizedText.length() != 0) {
-                TextView resOCR = (TextView) findViewById(R.id.field);
-                resOCR.setText(recognizedText.trim());
+                //TextView resOCR = (TextView) findViewById(R.id.field);
+               // resOCR.setText(recognizedText.trim());
+                text_ocr=recognizedText.trim();
             }
 
         } catch (IOException e) {
             Log.e(LOG_TAG, "Rotate or conversion failed: " + e.toString());
         }
-        ocr_done=true;
+
     }
+    String text_ocr="";
+    Bitmap affichage_ocr;
+
 }

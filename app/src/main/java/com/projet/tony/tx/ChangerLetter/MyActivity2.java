@@ -62,12 +62,6 @@ public class MyActivity2 extends Activity {
         Button raz = (Button)findViewById(R.id.reset);
         Button save = (Button) findViewById(R.id.save);
 
-        // fond
-        /*
-        Activity me =this;
-        LinearLayout rl = (LinearLayout)me.findViewById(R.id.counterLayout);
-        Affichage aff=new Affichage(me,rl);
-        */
 
 
         raz.setOnClickListener(new View.OnClickListener() {
