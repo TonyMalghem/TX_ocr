@@ -83,8 +83,12 @@ public class change_tuto extends Activity {
                 " La caméra de votre téléphone se lance automatiquement, il ne vous reste plus qu'à prendre votre photo.";
         if(etape==3)texte="Dans \"Taper une phrase\", vous pouvez taper vous-même votre propre phrase ou encore modifier celle prise par la caméra." +
                 " et en validant grâce au boutton prévu à cet effet.";
-        if(etape==4)texte="Dans la partie \"Changer mots\", votre phrase s'affiche et il est possible de faire un clic sur n'importe quel mot (hormis les mots grisés qui ne sont pas pris en charge par l'application)." +
-                "Le mot est remplacé par un de ses synonymes.";
+        if(etape==4) {
+            texte = "Dans la partie \"Changer mots\", votre phrase s'affiche et il est possible de faire un clic sur n'importe quel mot (hormis les mots grisés qui ne sont pas pris en charge par l'application)." +
+                    "Le mot est remplacé par un de ses synonymes.";
+            Button bt=(Button) findViewById(R.id.next);
+            bt.setText("Suivant");
+        }
         if(etape==5) {
             texte = "A tout momment vous avez un aperçu des dernières phrases que vous avez générées." +
                     "\n Le boutton Reset vous permet de tout recommencer depuis le début.";

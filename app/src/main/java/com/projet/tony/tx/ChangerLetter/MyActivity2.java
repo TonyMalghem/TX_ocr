@@ -352,6 +352,7 @@ public class MyActivity2 extends Activity {
 
     public JSONObject getJSONObject(String Fichier)
     {
+        Log.d("getJson","ok");
         BufferedReader reader = null;
         JSONObject parser=null;
         try {
@@ -363,12 +364,14 @@ public class MyActivity2 extends Activity {
 
 
         try {
-
             while ((json = reader.readLine()) != null) {
                 buff.append(json + "\n");
+                Log.d("readJson","ok");
             }
+            Log.d("finreadJson","ok");
             try {
                 parser = new JSONObject(buff.toString());
+                Log.d("parsingfin","ok");
             } catch (JSONException e) {
                 e.printStackTrace();
             }

@@ -65,7 +65,20 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/linearLayoutFin"
                 android:layout_below="@+id/introHist"
-                android:orientation="vertical" />
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Suivante"
+                        android:id="@+id/next" />
+                </LinearLayout>
+            </LinearLayout>
         </RelativeLayout>
     </ScrollView>
 </RelativeLayout>

@@ -2,6 +2,7 @@ package com.projet.tony.tx.LostLetter;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Typeface;
 import android.os.Bundle;
@@ -39,6 +40,8 @@ public class fin extends Activity {
     private final static File IMG_DIR = new File(Environment.getExternalStorageDirectory().getPath()+"/OCR/images");
     private RelativeLayout relativeLayout;
 
+    private int pos=0;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -46,6 +49,8 @@ public class fin extends Activity {
     private static File baseDir;
     private static File saveFile;
     private static String game;
+
+    public void res(){onResume();}
     @Override
     protected void onResume() {
         super.onResume();
@@ -92,21 +97,38 @@ public class fin extends Activity {
             TextView intro=(TextView) relativeLayout.findViewById(R.id.introHist);
             intro.setTypeface(font);
             intro.setTextSize(10);
-            intro.setText(jsonHistoire.get("histoire").toString());
+           // intro.setText(jsonHistoire.get("histoire").toString());
+
+
+            final Button buttonReset = (Button) relativeLayout.findViewById(R.id.next);
+            //buttonReset.setTypeface(font2);
+            buttonReset.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                pos++;
+                res();
+                    }
+            });
+
+
 
             String questionTab = jsonHistoire.get("listQuestions").toString();
             questionTab = questionTab.replace("[","");
             questionTab = questionTab.replace("]","");
             String[] arrayQuestions = questionTab.split(",");
             for(int i=0;i<arrayQuestions.length;i++) {
-                RelativeLayout.LayoutParams params = new RelativeLayout.LayoutParams(
-                        ViewGroup.LayoutParams.WRAP_CONTENT,
-                        ViewGroup.LayoutParams.WRAP_CONTENT
-                );
-                params.addRule(RelativeLayout.BELOW,R.id.introHist);
+
+                if (pos == i && i < imgs.length)
+                {
+
+                    RelativeLayout.LayoutParams params = new RelativeLayout.LayoutParams(
+                            ViewGroup.LayoutParams.WRAP_CONTENT,
+                            ViewGroup.LayoutParams.WRAP_CONTENT
+                    );
+                params.addRule(RelativeLayout.BELOW, R.id.introHist);
                 globalLayout.setLayoutParams(params);
                 TextView textView = new TextView(this);
-                textView.setPadding(0,0,0,0);
+                textView.setPadding(0, 0, 0, 0);
                 textView.setTypeface(font);
                 textView.setTextSize(10);
                 textView.setText(arrayQuestions[i]);
@@ -114,17 +136,20 @@ public class fin extends Activity {
                         ViewGroup.LayoutParams.WRAP_CONTENT,
                         ViewGroup.LayoutParams.WRAP_CONTENT
                 );
-                layoutParams.setMargins(0,-10,0,0);
+                layoutParams.setMargins(0, -10, 0, 0);
                 textView.setLayoutParams(layoutParams);
                 ImageView imageView = new ImageView(this);
-                imageView.setPadding(0,0,0,0);
-                imageView.setImageBitmap(BitmapFactory.decodeFile(baseDir + "/" + imgs[i].getName()));
+                imageView.setPadding(0, 0, 0, 0);
+                Bitmap bmp = BitmapFactory.decodeFile(baseDir + "/" + imgs[i].getName());
+
+                if (i < imgs.length) imageView.setImageBitmap(bmp);
                 imageView.setLayoutParams(new ViewGroup.LayoutParams(
                         ViewGroup.LayoutParams.WRAP_CONTENT,
                         ViewGroup.LayoutParams.WRAP_CONTENT
                 ));
                 globalLayout.addView(textView);
                 globalLayout.addView(imageView);
+            }
             }
         }
         catch (Exception ioe) {

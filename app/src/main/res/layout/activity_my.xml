@@ -53,7 +53,7 @@
 
                 <Button
 
-                    android:text="Taper une phrase"
+                    android:text="Editer une phrase"
 
                     android:textColor="#ffffff"
                     android:textStyle="bold"
