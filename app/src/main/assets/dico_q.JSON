@@ -1,0 +1,145 @@
+{"liste":[{"mot":"qat", "type" : "?", "synonyme" : ["khat
+"]},{"mot":"quadra", "type" : "?", "synonyme" : ["quadragenaire
+"]},{"mot":"quadragenaire", "type" : "Adjectif Nom", "synonyme" : ["quadra
+"]},{"mot":"quadrangle", "type" : "Nom", "synonyme" : ["quadrilatere", "carre", "rectangle", "losange", "trapeze", "parallelogramme
+"]},{"mot":"quadrangulaire", "type" : "Adjectif", "synonyme" : ["carre", "rectangulaire", "trapezoïdal
+"]},{"mot":"quadratique", "type" : "?", "synonyme" : ["rectangle", "quadrilatere
+"]},{"mot":"quadri", "type" : "?", "synonyme" : ["quadrichromie", "quadriphonie
+"]},{"mot":"quadrichromie", "type" : "Nom", "synonyme" : ["quadri", "quadriphonie
+"]},{"mot":"quadrige", "type" : "Nom", "synonyme" : ["char", "chariot", "blinde", "tank
+"]},{"mot":"quadrilatere", "type" : "Nom", "synonyme" : ["carre", "rectangle", "losange", "trapeze", "quadrangle", "parallelogramme", "quadratique
+"]},{"mot":"quadrillage", "type" : "Nom", "synonyme" : ["contrôle", "carroyage
+"]},{"mot":"quadrille", "type" : "Nom Verbe", "synonyme" : ["contredanse", "contravention", "cuadrilla
+"]},{"mot":"quadriller", "type" : "Verbe", "synonyme" : ["contrôler", "carreler
+"]},{"mot":"quadrilobe", "type" : "Nom", "synonyme" : ["quatre-feuilles", "quartefeuille
+"]},{"mot":"quadriphonie", "type" : "Nom", "synonyme" : ["quadri", "quadrichromie
+"]},{"mot":"quadrisyllabe", "type" : "Nom", "synonyme" : ["tetrasyllabe
+"]},{"mot":"quadrivalent", "type" : "Adjectif", "synonyme" : ["tetravalent
+"]},{"mot":"quadrupler", "type" : "Verbe", "synonyme" : ["multiplier", "valoriser", "accroître", "developper
+"]},{"mot":"quai", "type" : "Nom", "synonyme" : ["appontement", "plate-forme", "embarcadere", "debarcadere", "trottoir
+"]},{"mot":"quaker", "type" : "Nom", "synonyme" : ["protestant", "calviniste", "lutherien", "huguenot", "anglican", "baptiste", "evangeliste", "methodiste", "pietiste", "presbyterien", "affirmant
+"]},{"mot":"qualifiable", "type" : "Adjectif", "synonyme" : ["nommable
+"]},{"mot":"qualificatif", "type" : "Adjectif", "synonyme" : ["adjectif", "determinant", "appositif", "apposition", "epithete", "attribut", "caracteristique", "qualite", "designation", "selectif
+"]},{"mot":"qualification", "type" : "Nom", "synonyme" : ["appellation", "nom", "denomination", "designation", "qualite", "appreciation", "epithete", "titre", "caractere", "savoir-faire", "adresse", "technique", "art
+"]},{"mot":"qualificative", "type" : "Adjectif", "synonyme" : ["adjective", "epithete", "appositive
+"]},{"mot":"qualifie", "type" : "Adjectif Verbe", "synonyme" : ["autorise", "competent", "capable", "officiel", "permis", "tolere", "experimente", "confirme", "diplôme", "designe", "homologue
+"]},{"mot":"qualifier", "type" : "Verbe", "synonyme" : ["intituler", "titrer", "designer", "confirmer
+"]},{"mot":"qualite", "type" : "Nom", "synonyme" : ["competence", "capacite", "autorite", "ressort", "aptitude", "merite", "vertu", "valeur", "honneur", "avantage", "predicat", "attribut", "fonction", "proposition", "qualificatif", "epithete", "adjectif", "caracteristique", "designation", "selectif
+"]},{"mot":"quand", "type" : "Adverbe Conjonction", "synonyme" : ["comme", "egalement", "puisque", "lorsque", "simultanement", "si", "suppose que", "sinon
+"]},{"mot":"quant", "type" : "?", "synonyme" : ["relativement
+"]},{"mot":"quant a", "type" : "?", "synonyme" : ["pour", "contre", "moyennant", "comme", "afin", "vers", "de", "parce que", "par", "aussi", "quelque", "pendant
+"]},{"mot":"quantieme", "type" : "Nom", "synonyme" : ["combientieme", "nombre", "chiffre", "numero", "quantite", "date", "jour
+"]},{"mot":"quantifiable", "type" : "Adjectif", "synonyme" : ["chiffrable", "calculable", "comptabilisable", "mesurable", "nombrable", "commensurable
+"]},{"mot":"quantification", "type" : "Nom", "synonyme" : ["decompte", "evaluation", "mesure
+"]},{"mot":"quantifier", "type" : "Verbe", "synonyme" : ["mesurer", "doser", "evaluer", "cadencer", "rythmer", "compter", "chiffrer
+"]},{"mot":"quantitatif", "type" : "Adjectif", "synonyme" : ["numerique", "digital
+"]},{"mot":"quantite", "type" : "Nom", "synonyme" : ["avalanche", "debordement", "deluge", "pluie", "averse", "multitude", "collection", "recueil", "assortiment", "rassemblement", "assemblage", "amas", "tas", "accumulation", "ensemble", "reunion", "foule", "groupement", "flopee", "immensite", "amplitude", "espace", "etendue", "grandeur", "infini", "infinitude", "abîme", "infinite", "mesure", "moderation", "evaluation", "rythme", "dose", "mensuration", "echelle", "precaution", "disposition", "moyen", "cadence", "mouvement", "compte", "multiplicite", "abondance", "diversite", "variete", "nombre", "chiffre", "numero", "quantieme", "capacite", "somme", "longueur", "contenance", "beaucoup", "total", "integral", "complet", "absolu", "plein", "global", "plenier", "subdivision", "type", "version", "forme", "sorte", "maniere", "melange
+"]},{"mot":"quarantaine", "type" : "Nom", "synonyme" : ["boycott", "ostracisme", "boycottage", "interdiction", "refus", "abstention", "isolement", "isolation", "solitude", "claustration", "delaissement", "exil", "abandon", "sequestration", "quarante
+"]},{"mot":"quarante", "type" : "Nom", "synonyme" : ["quarantaine", "isolation", "boycottage
+"]},{"mot":"quart", "type" : "Adjectif Nom", "synonyme" : ["brigade", "equipe", "escouade", "formation", "groupe", "peloton", "troupe", "gobelet", "timbale", "godet", "chope", "recipient", "veille", "eveil", "insomnie", "veillee
+"]},{"mot":"quartaut", "type" : "Nom", "synonyme" : ["baril", "barrique", "feuillette", "foudre", "fût", "futaille", "muid", "tonne", "tonneau", "tonnelet
+"]},{"mot":"quartefeuille", "type" : "?", "synonyme" : ["quatre-feuilles", "quadrilobe
+"]},{"mot":"quarteron", "type" : "Nom", "synonyme" : ["metis", "mulâtre", "eurasien", "sang-mêle", "croise", "hybride", "petit nombre", "poignee
+"]},{"mot":"quartette", "type" : "Nom", "synonyme" : ["quatuor", "ensemble", "formation", "orchestre
+"]},{"mot":"quartier", "type" : "Nom", "synonyme" : ["arrondissement", "district", "secteur", "faubourg", "bout", "morceau", "part", "section", "segment", "element", "division", "fraction", "fragment", "portion", "bouchee", "troncon", "parcelle", "cantonnement", "tranche", "rondelle", "darne", "tartine", "coupe", "côte", "partie", "decide", "voisinage", "entourage", "mitoyennete", "environs", "parage", "proximite
+"]},{"mot":"quarto", "type" : "Adverbe", "synonyme" : ["quatriemement
+"]},{"mot":"quartz", "type" : "Nom", "synonyme" : ["amethyste", "violet
+"]},{"mot":"quasi", "type" : "Adverbe Nom", "synonyme" : ["presque", "approximativement", "quasiment", "environ", "comme", "a peu pres", "pour ainsi dire
+"]},{"mot":"quasiment", "type" : "Adverbe", "synonyme" : ["pratiquement", "pour ainsi dire", "presque", "approximativement", "quasi", "environ", "comme", "a peu pres
+"]},{"mot":"quatrain", "type" : "Nom", "synonyme" : ["couplet", "stance", "strophe", "tercet", "poeme", "piece", "impromptu
+"]},{"mot":"quatre-feuilles", "type" : "Nom", "synonyme" : ["quadrilobe", "quartefeuille
+"]},{"mot":"quatre-heures", "type" : "?", "synonyme" : ["goûters", "collations", "goûter
+"]},{"mot":"quatre-quatre", "type" : "?", "synonyme" : ["jeep", "voiture", "tout-terrain
+"]},{"mot":"quatre-vingt", "type" : "Nombre", "synonyme" : ["huitante", "octante
+"]},{"mot":"quatre-vingt-dix", "type" : "Nombre", "synonyme" : ["nonante
+"]},{"mot":"quatriemement", "type" : "Adverbe", "synonyme" : ["quarto
+"]},{"mot":"quatuor", "type" : "Nom", "synonyme" : ["orchestre", "ensemble", "formation", "groupe", "trio", "quintette", "sextuor", "fanfare", "harmonie", "quartette
+"]},{"mot":"que", "type" : "Conjonction Pronom", "synonyme" : ["lequel", "laquelle", "lesquels", "lesquelles", "auquel", "a laquelle", "auxquels", "auxquelles", "duquel", "de laquelle", "desquels", "desquelles", "quoi
+"]},{"mot":"quel", "type" : "Determinant Pronom", "synonyme" : ["quoi", "laquelle", "lequel", "lesquelles", "lesquels", "quelle", "quels
+"]},{"mot":"quelconque", "type" : "Adjectif", "synonyme" : ["anodin", "insignifiant", "inoffensif", "negligeable", "benin", "innocent", "neutre", "efface", "falot", "modeste", "ignore", "discret", "humble", "terne", "mediocre", "moyen", "ordinaire", "commun", "modere", "passable", "maigre", "minime", "pietre", "minable", "petit", "mince", "banal
+"]},{"mot":"quelle", "type" : "Determinant Pronom", "synonyme" : ["quoi", "laquelle", "lequel", "lesquelles", "lesquels", "quel", "quels
+"]},{"mot":"quel nombre", "type" : "?", "synonyme" : ["combien", "a quel point
+"]},{"mot":"quelque", "type" : "Determinant", "synonyme" : ["chaque", "tout", "pour", "contre", "moyennant", "comme", "quant a", "afin", "vers", "de", "parce que", "par", "aussi", "pendant", "certain
+"]},{"mot":"quelquefois", "type" : "Adverbe", "synonyme" : ["parfois", "occasionnellement", "tantôt", "rarement", "de temps a autre", "de temps en temps", "peu", "guere", "exceptionnellement", "bientôt", "incessamment", "recemment", "apres-midi
+"]},{"mot":"quelques", "type" : "Determinant", "synonyme" : ["deux", "une paire de", "un couple de", "un duo de", "les", "ces", "des", "certains", "plusieurs", "divers", "differents", "maints", "nombreux
+"]},{"mot":"quelques-uns", "type" : "?", "synonyme" : ["on", "nous", "eux", "je", "certains", "les gens", "divers", "plusieurs
+"]},{"mot":"quels", "type" : "Determinant Pronom", "synonyme" : ["quoi", "laquelle", "lequel", "lesquelles", "lesquels", "quel", "quelle
+"]},{"mot":"quemandant", "type" : "Verbe", "synonyme" : ["suppliant", "implorant", "larmoyant", "pressant", "priant", "mendiant", "quemandeur
+"]},{"mot":"quemander", "type" : "Verbe", "synonyme" : ["mendier", "solliciter", "quêter", "postuler", "implorer", "reclamer
+"]},{"mot":"quemandeur", "type" : "Nom", "synonyme" : ["mendiant", "chemineau", "clochard", "indigent", "gueux", "pauvre", "postulant", "impetrant", "candidat", "aspirant", "pretendant", "outsider", "solliciteur", "courtisan", "sigisbee", "soupirant", "amoureux", "promis", "ambitionnant", "mendigot", "quêteur", "suppliant", "implorant", "larmoyant", "pressant", "priant", "quemandant", "tapeur
+"]},{"mot":"quemandeuse", "type" : "Nom", "synonyme" : ["gueuse", "clocharde", "indigente", "mendiante", "tapeuse
+"]},{"mot":"quenelle", "type" : "Nom", "synonyme" : ["godiveau", "hachis", "boulette", "croquette", "farce
+"]},{"mot":"quenelle de lyon", "type" : "?", "synonyme" : ["ratte
+"]},{"mot":"quenelles", "type" : "Nom", "synonyme" : ["godiveaux
+"]},{"mot":"quenotte", "type" : "Nom", "synonyme" : ["dent
+"]},{"mot":"querelle", "type" : "Nom Verbe", "synonyme" : ["algarade", "sortie", "scene", "insulte", "accrochage", "incartade", "attaque", "avanie", "altercation", "dispute", "differend", "discussion", "controverse", "contestation", "demêle", "chicane", "empoignade", "chamaillerie", "bagarre", "rixe", "bataille", "combat", "echauffouree", "grabuge", "bouderie", "brouille", "depit", "desaccord", "discorde", "fâcherie", "humeur", "malentendu", "moue", "trouble", "brouillerie", "mesentente", "desunion", "dissension", "zizanie", "criaillerie", "plainte", "protestation", "recrimination", "crosse", "noise", "division", "debat", "polemique", "conflit", "litige", "explication", "desordre", "gâchis", "bruit", "lutte", "pugilat", "rivalise", "mot", "terme", "lettre", "parole", "propos", "procedure", "action", "proces", "instruction", "poursuite
+"]},{"mot":"quereller", "type" : "Verbe", "synonyme" : ["disputer", "discuter", "chicaner", "discourir", "debattre", "sermonner", "houspiller", "brutaliser", "critiquer", "reprimander", "harceler", "chamailler", "batailler", "gourmander", "gronder", "tancer", "admonester", "chapitrer", "reprocher", "attraper", "rabrouer", "condamner
+"]},{"mot":"querelleur", "type" : "Adjectif", "synonyme" : ["agressif", "combatif", "offensif", "provocant", "provocateur", "batailleur", "violent", "menacant", "tapageur", "bagarreur", "belliqueux", "guerrier", "martial", "chamailleur", "ergoteur", "discutailleur", "accrocheur", "lutteur", "pugnace", "pinailleur", "chipoteur", "chicaneur", "procedurier", "chicanier", "hargneux", "tracassier
+"]},{"mot":"querelleuse", "type" : "Adjectif", "synonyme" : ["agressive", "combative", "offensive", "provocante", "provocatrice", "batailleuse", "violente", "menacante", "tapageuse", "bagarreuse", "accrocheuse", "active", "ardente", "fonceuse", "lutteuse", "belliqueuse", "guerriere", "martiale", "tracassiere
+"]},{"mot":"querir", "type" : "Verbe", "synonyme" : ["chercher", "tenter", "solliciter
+"]},{"mot":"querreleur", "type" : "?", "synonyme" : ["discutailleur", "chicaneur", "ergoteur
+"]},{"mot":"querulence", "type" : "Nom", "synonyme" : ["plainte", "revendication
+"]},{"mot":"questeur", "type" : "Nom", "synonyme" : ["intendant", "tresorier", "econome", "administrateur
+"]},{"mot":"question", "type" : "Nom", "synonyme" : ["chapitre", "partie", "section", "matiere", "sujet", "objet", "difficulte", "gêne", "embarras", "mal", "peine", "complication", "obstacle", "corvee", "tourment", "tracas", "crise", "probleme", "impasse", "empêchement", "gehenne", "enfer", "limbes", "martyre", "torture", "interrogation", "demande", "epreuve", "examen", "information", "interpellation", "questionnaire", "interrogatoire", "interview", "substance", "materiau", "ennui", "danger", "controverse", "enigme", "colle", "discussion", "revendication", "requête", "recrimination", "sommation", "petition", "imploration", "supplique", "appel", "doleance", "exigence", "enclin", "porte", "susceptible", "point", "fond", "propos", "theme", "supplice", "calvaire", "punition
+"]},{"mot":"questionnable", "type" : "?", "synonyme" : ["consultable", "interrogeable
+"]},{"mot":"questionnaire", "type" : "Nom", "synonyme" : ["formulaire", "interrogation", "demande", "epreuve", "examen", "information", "interpellation", "question", "probleme", "difficulte", "ennui", "danger", "controverse", "enigme", "colle", "enquête", "sondage", "test
+"]},{"mot":"questionne", "type" : "Adjectif Verbe", "synonyme" : ["torture", "supplicie", "tourmente
+"]},{"mot":"questionnement", "type" : "Nom", "synonyme" : ["problematique
+"]},{"mot":"questionner", "type" : "Verbe", "synonyme" : ["consulter", "interroger", "demander", "solliciter", "ecouter", "sonder", "compulser", "deliberer", "examiner", "interviewer", "enquêter", "entretenir", "persecuter", "martyriser", "tourmenter", "supplicier", "torturer", "scruter", "tester", "violer
+"]},{"mot":"questionneur", "type" : "Adjectif Nom", "synonyme" : ["intervieweur", "enquêteur", "reporter", "interrogateur
+"]},{"mot":"quête", "type" : "Nom Verbe", "synonyme" : ["collecte", "recolte", "ramassage", "collectage", "poursuite", "chasse", "course", "recherche", "proces", "accusation", "enquête", "mendie
+"]},{"mot":"quêter", "type" : "Verbe", "synonyme" : ["mendier", "quemander", "solliciter", "chasser", "postuler", "implorer", "reclamer
+"]},{"mot":"quêteur", "type" : "Adjectif Nom", "synonyme" : ["quemandeur", "mendiant", "mendigot", "solliciteur
+"]},{"mot":"quetsche", "type" : "Nom", "synonyme" : ["prune", "mirabelle", "pruneau", "prunelle", "reine-claude
+"]},{"mot":"queue", "type" : "Nom", "synonyme" : ["appendice", "arriere-garde", "serre-file", "fin", "file", "rangee", "suite", "procession", "defile", "colonne", "caravane", "ligne", "enfilade", "chapelet", "limite", "terme", "terminaison", "terminus", "mort", "aboutissement", "issue", "epilogue", "conclusion", "denouement", "delicat", "joli", "plaisant", "ravissant", "mince", "elance", "emince", "filiforme", "etroit", "svelte", "pedicule", "pied", "pedoncule", "petiole", "traîne", "bout", "rassemblement", "masse", "multitude", "reunion", "manifestation", "meeting", "forum", "assemblee", "ralliement", "concentration", "agglomeration", "attroupement", "affluence", "tarde", "uropode
+"]},{"mot":"queue-de-cheval", "type" : "Nom", "synonyme" : ["prele", "prêle", "queue-de-rat
+"]},{"mot":"queue de pie", "type" : "?", "synonyme" : ["frac", "habit
+"]},{"mot":"queue-de-rat", "type" : "Nom", "synonyme" : ["lime", "citron vert", "prele", "prêle", "queue-de-cheval
+"]},{"mot":"queue-de-renard", "type" : "Nom", "synonyme" : ["amarante", "passe-velours", "pourpre
+"]},{"mot":"queuter", "type" : "Verbe", "synonyme" : ["rater", "louper
+"]},{"mot":"qui", "type" : "Pronom", "synonyme" : ["laquelle", "dont", "lequel", "lesquels", "quiconque
+"]},{"mot":"qui applique", "type" : "?", "synonyme" : ["applicateur", "pratiquant
+"]},{"mot":"quiche", "type" : "Nom", "synonyme" : ["flan", "creme", "dariole", "far", "tourte", "flamiche
+"]},{"mot":"quiconque", "type" : "Pronom", "synonyme" : ["chacun", "chaque personne", "chaque homme", "chacune", "chaque femme", "qui", "lequel", "laquelle", "personne", "qui que ce soit
+"]},{"mot":"quidam", "type" : "Nom", "synonyme" : ["bougre", "drôle", "gaillard", "luron", "individu", "oiseau", "homme", "hominien", "humain", "hominide", "être", "creature", "personne", "humanite", "mortel", "prochain", "particulier", "semblable", "autrui
+"]},{"mot":"quiddite", "type" : "Nom", "synonyme" : ["essence
+"]},{"mot":"quiet", "type" : "Adjectif", "synonyme" : ["tranquille", "paisible", "calme", "beat", "serein
+"]},{"mot":"quietisme", "type" : "Nom", "synonyme" : ["passivite", "inertie", "apathie", "inaction", "torpeur", "indifference
+"]},{"mot":"quietude", "type" : "Nom", "synonyme" : ["accalmie", "apaisement", "pause", "tranquillite", "serenite", "embellie", "eclaircie", "remission", "beatitude", "extase", "bonheur", "euphorie", "contentement", "bien-être", "felicite", "satisfaction", "calme", "douceur", "paix", "repos", "securite", "sûrete", "assurance", "confiance", "abri", "ordre
+"]},{"mot":"quignon", "type" : "Nom", "synonyme" : ["croûton", "chapon", "bout
+"]},{"mot":"quille", "type" : "Nom Verbe", "synonyme" : ["gambette", "guibolle", "jambe", "etambot", "etrave
+"]},{"mot":"quilles", "type" : "Nom Verbe", "synonyme" : ["bowling
+"]},{"mot":"quinaud", "type" : "Adjectif", "synonyme" : ["bredouille", "confus
+"]},{"mot":"quincaillerie", "type" : "Nom", "synonyme" : ["ferblanterie", "monnaie
+"]},{"mot":"quincaillier", "type" : "Adjectif", "synonyme" : ["ferblantier
+"]},{"mot":"quinine", "type" : "Nom", "synonyme" : ["antipaludeen", "chloroquine", "antipaludique
+"]},{"mot":"quinquagenaire", "type" : "Adjectif", "synonyme" : ["cinquantenaire", "jubile
+"]},{"mot":"quinquet", "type" : "Nom", "synonyme" : ["lampe", "luminaire", "lustre", "tube", "applique", "suspension", "lampadaire", "lanterne", "flambeau", "reverbere", "candelabre", "lampion", "lumignon", "veilleuse
+"]},{"mot":"quintal", "type" : "Nom", "synonyme" : ["hectogramme
+"]},{"mot":"quinte", "type" : "Adjectif Nom", "synonyme" : ["crise", "acces", "attaque", "atteinte", "bouffee", "poussee", "caprice", "toux", "toussotement", "expectoration
+"]},{"mot":"quintessence", "type" : "Nom", "synonyme" : ["elixir", "essence", "philtre", "remede", "moelle", "substance", "meilleur", "substantialite", "suc", "jus", "seve
+"]},{"mot":"quintessencie", "type" : "Adjectif Verbe", "synonyme" : ["alambique", "raffine", "sophistique
+"]},{"mot":"quintette", "type" : "Nom", "synonyme" : ["orchestre", "ensemble", "formation", "groupe", "trio", "quatuor", "sextuor", "fanfare", "harmonie
+"]},{"mot":"quinteux", "type" : "Adjectif", "synonyme" : ["capricieux
+"]},{"mot":"quinto", "type" : "Adverbe", "synonyme" : ["cinquiemement
+"]},{"mot":"quiproquo", "type" : "Nom", "synonyme" : ["equivoque", "double", "indecis", "enigmatique", "douteux", "incertain", "flottant", "obscur", "louche", "inquietant", "ambiguïte", "imbroglio", "confusion", "embrouillamini", "complication", "echiquier", "enchevêtrement", "desordre", "malentendu", "meprise", "erreur", "desaccord", "dispute
+"]},{"mot":"qui que ce soit", "type" : "?", "synonyme" : ["quiconque", "personne
+"]},{"mot":"quittance", "type" : "Nom Verbe", "synonyme" : ["acquit", "recu", "quitus", "recepisse", "decharge", "reglement", "liberation", "emargement", "signature", "visa", "facture
+"]},{"mot":"quitte", "type" : "Adjectif Verbe", "synonyme" : ["exempt", "affranchi", "decharge", "immunise", "dispense", "exonere", "degage", "libere", "libre", "indemne", "debarrasse
+"]},{"mot":"quitter", "type" : "Verbe", "synonyme" : ["abandonner", "abdiquer", "cesser", "delaisser", "renoncer", "abjurer", "apostasier", "renier", "retracter", "desavouer", "absenter", "manquer", "disparaître", "eloigner", "partir", "fuir", "demenager", "decamper", "perir", "mourir", "montrer", "manifester", "expirer", "perdre", "finir", "filer", "supprimer", "effacer", "emigrer", "detaler", "sortir", "deguerpir", "appareiller", "demarrer", "emerger", "affleurer", "poindre", "saillir", "naître", "venir", "provenir", "emaner
+"]},{"mot":"quitus", "type" : "?", "synonyme" : ["acquit", "recu", "quittance", "recepisse", "decharge", "reglement", "liberation", "facture
+"]},{"mot":"quoi", "type" : "Interjection", "synonyme" : ["hein", "comment", "pardon", "1
+"]},{"mot":"que", "type" : "Pronom", "synonyme" : ["que", "lequel", "laquelle", "lesquels", "lesquelles", "auquel", "a laquelle", "auxquels", "auxquelles", "duquel", "de laquelle", "desquels", "desquelles", "quel", "quelle", "quels
+"]},{"mot":"quoique", "type" : "Adverbe Conjonction", "synonyme" : ["malgre", "cependant", "involontairement", "bien que", "encore que
+"]},{"mot":"quolibet", "type" : "Nom", "synonyme" : ["lazzi", "moquerie", "plaisanterie", "raillerie", "ironie", "derision", "pointe", "pique", "apostrophe", "huee
+"]},{"mot":"quorum", "type" : "Nom", "synonyme" : ["majorite", "nombre
+"]},{"mot":"quota", "type" : "Nom", "synonyme" : ["contingent", "pourcentage
+"]},{"mot":"quote-part", "type" : "Nom", "synonyme" : ["apport", "cotisation", "contribution", "participation", "ecot", "prorata", "pourcentage", "part", "quotite
+"]},{"mot":"quotidien", "type" : "Adjectif Nom", "synonyme" : ["familier", "intime", "domestique", "connu", "habituel", "coutumier", "ordinaire", "normal", "simple", "amical", "usuel", "facile", "aise", "machinal", "traditionnel", "rituel", "courant", "consacre", "commun", "accoutume", "journal", "publication", "periodique", "gazette", "revue", "bulletin", "hebdomadaire", "magazine", "illustre", "feuille", "journalier", "travailleur", "tabloïd
+"]},{"mot":"quotidienne", "type" : "Adjectif", "synonyme" : ["habituelle", "coutumiere", "ordinaire", "normale", "familiere", "machinale", "traditionnelle", "rituelle", "courante", "consacree", "usuelle", "commune", "accoutumee", "journaliere", "travailleuse
+"]},{"mot":"quotidiennement", "type" : "Adverbe", "synonyme" : ["journellement
+"]},{"mot":"quotidiennete", "type" : "Nom", "synonyme" : ["banalite", "platitude
+"]},{"mot":"quotidiens", "type" : "Adjectif Nom", "synonyme" : ["journaux", "publications", "periodiques", "gazettes", "revues", "bulletins", "hebdomadaires", "magazines", "illustres", "feuilles
+"]},{"mot":"quotient", "type" : "Nom", "synonyme" : ["division", "rapport", "ratio
+"]},{"mot":"quotite", "type" : "Nom", "synonyme" : ["part", "portion", "lot", "contingent", "morceau", "tranche", "fraction", "prorata", "quote-part", "cotisation", "contribution", "ecot
+"]}]}

@@ -60,7 +60,10 @@ public class MyActivity extends Activity {
         bouton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                compute();
+                //compute();
+
+                Intent intent = new Intent(MyActivity.this, MyActivity2.class);
+                startActivity(intent);
 
 
             }
@@ -139,7 +142,7 @@ public class MyActivity extends Activity {
         return super.onOptionsItemSelected(item);
     }
 
-
+/*
     private void compute() {
         mProgressDialog = ProgressDialog.show(this, "En attente",
                 "Cette opération est assez longue...", true);
@@ -155,4 +158,5 @@ public class MyActivity extends Activity {
         })).start();
 
     }
+    */
 }

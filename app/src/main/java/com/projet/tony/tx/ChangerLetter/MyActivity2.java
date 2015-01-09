@@ -33,7 +33,7 @@ import java.io.OutputStreamWriter;
 import java.util.ArrayList;
 
 public class MyActivity2 extends Activity {
-    private JSONObject test=null;
+
     private int sizeFont = 14;
 
     // counter pour compter le nombres de TextViews de l'historique
@@ -56,7 +56,7 @@ public class MyActivity2 extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_my_activity2);
         // phrase principale
-        test=getJSONObject("text.JSON");
+        //test=getJSONObject("text.JSON");
 
         run(tester);
         Button raz = (Button)findViewById(R.id.reset);
@@ -274,35 +274,19 @@ public class MyActivity2 extends Activity {
 
 
 
-    public void printSyno(String mot)
-    {
-        JSONArray enigme = null;
-        try {
-            enigme = test.getJSONArray("liste");
-            for (int i = 0; i  < enigme.length(); ++i)
-            {
-                JSONObject ret = enigme.getJSONObject(i);
-                if (ret.getString("mot").compareTo(mot) == 0)
-                {
-                    for (int j =0; j < ret.length(); ++j)
-                    {
-                        Log.d("syno  = ",ret.getJSONArray("synonyme").getString(j) );
-                    }
-                    break;
-                }
-            }
-        } catch (JSONException e) {
-            e.printStackTrace();
-        }
-    }
 
 
     public String get_syno(String mot) {
         mot = mot.trim();
+        JSONObject test=null;
+
+        test=getJSONObject("dico_"+mot.substring(0,1)+".JSON");
+
         JSONArray enigme = null;
         String find = "";
         try {
             enigme = test.getJSONArray("liste");
+            if(mot.compareTo("balle")==0)Log.d("ballefound",Integer.toString(enigme.length())+"   "+"dico_"+mot.substring(0,1)+".JSON");
 
             int i = 0;
             while (find.compareTo("") == 0 && i < enigme.length()) {
@@ -352,7 +336,8 @@ public class MyActivity2 extends Activity {
 
     public JSONObject getJSONObject(String Fichier)
     {
-        Log.d("getJson","ok");
+        buff.setLength(0);
+        Log.d("getjsonfile : ",Fichier);
         BufferedReader reader = null;
         JSONObject parser=null;
         try {
@@ -362,13 +347,17 @@ public class MyActivity2 extends Activity {
         }
         String json;
 
-
+int sizearr=0;
         try {
+
             while ((json = reader.readLine()) != null) {
+
                 buff.append(json + "\n");
-                Log.d("readJson","ok");
+                sizearr++;
             }
-            Log.d("finreadJson","ok");
+            Log.d("finreadJson","ok : "+Integer.toString(sizearr));
+
+            Log.d("contentfile : "+Fichier+" : ",buff.toString());
             try {
                 parser = new JSONObject(buff.toString());
                 Log.d("parsingfin","ok");
@@ -378,6 +367,8 @@ public class MyActivity2 extends Activity {
         } catch (IOException e) {
             e.printStackTrace();
         }
+
+        Log.d("parser : "+Fichier+" : ",parser.toString());
 
         return parser;
     }

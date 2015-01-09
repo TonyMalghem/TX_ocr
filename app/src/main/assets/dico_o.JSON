@@ -1,0 +1,788 @@
+{"liste":[{"mot":"oaristys", "type" : "Nom", "synonyme" : ["flirt", "amourette", "cour", "beguin", "idylle", "pastorale", "ebats
+"]},{"mot":"oasis", "type" : "Nom", "synonyme" : ["palmeraie
+"]},{"mot":"obedience", "type" : "Nom", "synonyme" : ["allegeance", "obeissance", "dependance", "soumission", "subordination", "observance", "sujetion", "servilite", "docilite", "discipline", "assujettissement", "servitude", "esclavage", "joug", "vassalite", "inferiorite
+"]},{"mot":"obeir", "type" : "Verbe", "synonyme" : ["ceder", "accepter", "admettre", "flechir", "acquiescer", "suivre", "obtemperer
+"]},{"mot":"obeissance", "type" : "Nom", "synonyme" : ["allegeance", "obedience", "malleabilite", "souplesse", "docilite", "dependance", "soumission", "subordination", "observance", "sujetion", "servilite", "discipline", "observation", "acceptation", "plasticite", "sagesse", "jugement", "discernement", "raison", "philosophie", "prudence", "maturite", "moderation", "circonspection", "mesure", "bassesse", "complaisance", "courbette", "humilite", "obsequiosite", "prosternation", "servitude", "vassalite", "infeodation", "resignation
+"]},{"mot":"obeissant", "type" : "Adjectif Verbe", "synonyme" : ["discipline", "organise", "soumis", "methodique", "malleable", "docile", "elastique", "mou", "plastique", "souple", "flexible", "ductile", "subordonne", "gouvernable", "maniable", "doux", "faible", "sage", "vaincu", "deferent", "conquis", "resigne", "agile", "decontracte", "degage
+"]},{"mot":"obelisque", "type" : "Nom", "synonyme" : ["colonne", "pilier", "pilastre", "poteau", "pylône", "fût", "cariatide", "stele", "aiguille", "cippe
+"]},{"mot":"obere", "type" : "Adjectif Verbe", "synonyme" : ["endette", "contracte
+"]},{"mot":"oberer", "type" : "Verbe", "synonyme" : ["endetter", "grever
+"]},{"mot":"obese", "type" : "Adjectif Nom", "synonyme" : ["gras", "epais", "gros", "dodu", "bouffi", "corpulent", "charnu", "etoffe", "fort", "plantureux", "replet", "rond", "ventru", "huileux", "visqueux", "poisseux", "gluant", "fertile", "fecond", "obscene", "licencieux", "graveleux", "graisse", "grasse", "epaisse", "grosse", "dodue", "bouffie", "corpulente", "charnue", "etoffee", "forte", "plantureuse", "replete", "ronde", "ventrue", "abondant", "abondante", "adipeux", "graisseux", "bedonnant", "difforme", "opulent", "luxurieux", "copieux
+"]},{"mot":"obesite", "type" : "Nom", "synonyme" : ["adipose", "adiposite", "corpulence", "embonpoint", "grosseur", "empâtement", "epaississement", "rondeur", "rotondite", "sphericite", "surpoids
+"]},{"mot":"obier", "type" : "Nom", "synonyme" : ["boule-de-neige
+"]},{"mot":"obituaire", "type" : "Adjectif Nom", "synonyme" : ["mortuaire
+"]},{"mot":"objecter", "type" : "Verbe", "synonyme" : ["chicaner", "ergoter", "discuter", "vetiller", "epiloguer", "contester", "argumenter", "retorquer", "repliquer", "opposer", "repondre", "pretexter", "alleguer", "comparer", "balancer", "soutenir", "pretendre", "arguer", "refuter", "combattre", "repousser", "detruire", "contredire", "dementir", "desavouer", "confondre
+"]},{"mot":"objecteur", "type" : "Nom", "synonyme" : ["contradicteur", "adversaire", "antagoniste", "interlocuteur", "opposant
+"]},{"mot":"objectif", "type" : "Adjectif Nom", "synonyme" : ["but", "fin", "visee", "cible", "dessein", "intention", "mission", "achevement", "resultat", "rêve", "equitable", "juste", "impartial", "integre", "droit", "loyal", "neutre", "scientifique", "critique", "methodique", "positif", "rationnel", "savant
+"]},{"mot":"objectifs", "type" : "Adjectif Nom", "synonyme" : ["impartiaux", "equitables", "justes
+"]},{"mot":"objection", "type" : "Nom", "synonyme" : ["contradiction", "refutation", "contestation", "dementi", "protestation", "reserves", "reclamation", "contredit", "desaccord", "chicane", "dispute", "critique", "antinomie", "contrepartie", "reponse", "compensation", "inconvenient", "incommodite", "importunite", "desagrement", "embarras", "ennui", "defaut", "desavantage", "empêchement", "obstacle", "risque", "danger", "ecueil", "replique", "opposition", "discussion", "reproche", "reprimande", "observation", "contraste", "revolte", "manifestation", "desapprobation", "reprobation", "clameur", "denegation", "prolepse", "negation", "remarque", "allusion", "remontrance", "reflexion", "pensee", "annotation", "note", "repartie", "riposte", "reaction", "explication", "justification
+"]},{"mot":"objective", "type" : "Adjectif Verbe", "synonyme" : ["impartiale", "neutre", "froide", "detachee", "scientifique
+"]},{"mot":"objectivement", "type" : "Adverbe", "synonyme" : ["impersonnellement", "banalement", "froidement", "scientifiquement
+"]},{"mot":"objectiver", "type" : "Verbe", "synonyme" : ["exterioriser", "manifester
+"]},{"mot":"objectivite", "type" : "Nom", "synonyme" : ["impersonnalite", "impartialite", "neutralite", "justice", "desinteressement
+"]},{"mot":"objet", "type" : "Nom", "synonyme" : ["accessoire", "outil", "instrument", "complement", "ustensile", "praticable", "chapitre", "partie", "section", "question", "matiere", "sujet", "corps", "chair", "communaute", "appareil", "organe", "chose", "substance", "element", "fond", "principe", "contenu", "essence", "engin
+"]},{"mot":"objurgation", "type" : "Nom", "synonyme" : ["admonestation", "reprimande", "remontrance", "semonce", "gronderie", "avertissement", "lecon", "critique", "blâme", "desapprobation", "reproche", "anatheme", "condamnation", "reprehension", "grief", "plainte", "tolle", "exhortation
+"]},{"mot":"oblatif", "type" : "Adjectif", "synonyme" : ["caritatif", "donneur
+"]},{"mot":"oblation", "type" : "Nom", "synonyme" : ["don
+"]},{"mot":"oblative", "type" : "?", "synonyme" : ["caritative
+"]},{"mot":"obligation", "type" : "Nom", "synonyme" : ["astreinte", "amendee", "moratoire", "contrainte", "corvee", "service", "travail", "besogne", "ennui", "creance", "credit", "dette", "dû", "engagement", "emprunt", "decouvert", "passif", "arriere", "debit", "devoir", "necessiter", "redevoir", "responsabilite", "charge", "vertu", "tâche", "rôle", "imperatif", "fonction", "gratitude", "gre", "reconnaissance", "necessite", "exigence", "besoin", "utilite", "promesse", "serment", "prescription", "commandement", "urgence
+"]},{"mot":"obligations", "type" : "Nom", "synonyme" : ["devoirs", "tâches", "prescriptions", "imperatifs", "principes", "charges", "offices", "fonctions", "travaux", "services", "rôles", "dettes", "epreuves
+"]},{"mot":"obligatoire", "type" : "Adjectif", "synonyme" : ["essentiel", "indispensable", "necessaire", "vital", "fondamental", "capital", "essentielle", "vitale", "fondamentale", "capitale", "utile", "primordial", "inevitable", "ineluctable", "fatal", "immanquable", "assure", "oblige", "force", "infaillible", "exige", "impose", "contraint", "important", "principal
+"]},{"mot":"obligatoirement", "type" : "Adverbe", "synonyme" : ["automatiquement", "mecaniquement", "involontairement", "ineluctablement", "imperativement", "imperieusement", "necessairement", "forcement", "inevitablement
+"]},{"mot":"obligatoires", "type" : "Adjectif", "synonyme" : ["primordiaux", "capitaux", "importants", "essentiels", "necessaires", "indispensables", "principaux
+"]},{"mot":"oblige", "type" : "Verbe", "synonyme" : ["force", "vigueur", "contrainte", "ouvre", "abuse
+"]},{"mot":"oblige", "type" : "Adjectif Nom Verbe", "synonyme" : ["fatidique", "fatal", "force", "ineluctable", "outre", "ouvert", "abuse", "inevitable", "obligatoire", "immanquable", "assure", "indispensable", "infaillible", "exige", "necessaire", "essentiel", "impose", "contraint", "reconnaissant", "tributaire", "assujetti", "dependant", "soumis", "imposable", "lie
+"]},{"mot":"obligeamment", "type" : "Adverbe", "synonyme" : ["bienveillamment", "aimablement", "cordialement", "complaisamment", "avec complaisance", "poliment", "gentiment
+"]},{"mot":"obligeance", "type" : "Nom", "synonyme" : ["amabilite", "affabilite", "gentillesse", "prevenance", "courtoisie", "civilite", "politesse", "amenite", "bienveillance", "delicatesse", "indulgence", "mansuetude", "humanite", "complaisance", "debonnairete", "cordialite", "faveurs", "grâce", "altruisme", "douceur", "amitie", "empressement", "aide", "facilite", "serviabilite", "faveur", "bonte", "generosite", "attention", "bienfaisance
+"]},{"mot":"obligeant", "type" : "Adjectif Verbe", "synonyme" : ["affable", "accueillant", "aimable", "amene", "avenant", "courtois", "civil", "sociable", "liant", "engageant", "attentionne", "attentif", "empresse", "prevenant", "complaisant", "serviable", "arrangeant", "commode", "facile", "poli", "indulgent", "bienveillant", "genereux", "desinteresse", "prodigue", "magnanime", "liberal", "bienfaisant", "magnifique", "charitable", "sensible", "humain", "fraternel", "altruiste", "injonctif", "imperatif", "contraignant", "secourable", "consolateur", "misericordieux", "deferent", "accommodant", "conciliant
+"]},{"mot":"obligeante", "type" : "Adjectif Verbe", "synonyme" : ["genereuse", "desinteressee", "prodigue", "magnanime", "liberale", "bienfaisante", "magnifique", "charitable", "sensible", "humaine", "bienveillante", "fraternelle", "altruiste", "gentille", "agreable", "plaisante", "gracieuse", "charmante", "mignonne", "jolie", "bonne", "complaisante", "attentionnee", "delicate", "douce
+"]},{"mot":"obligeants", "type" : "Adjectif", "synonyme" : ["bonhommes", "aimables", "altruistes", "bons", "bonasses", "braves", "debonnaires", "faciles", "gentils", "serviables", "simples
+"]},{"mot":"obliger", "type" : "Verbe", "synonyme" : ["commander", "ordonner", "enjoindre", "imposer", "exiger", "prescrire", "decreter", "sommer", "contraindre", "mener", "conduire", "diriger", "dominer", "condamner", "defendre", "reprouver", "forcer", "presser", "astreindre", "violenter", "opprimer", "assujettir", "demander", "vouloir", "reclamer", "requerir", "fideliser", "attacher", "lier", "ouvrir", "abuser", "necessiter", "meriter", "appeler", "occasionner", "aider", "promettre", "engager", "jurer", "assurer", "certifier", "affirmer", "dire", "vouer", "esperer", "compter", "presager", "predire", "violer
+"]},{"mot":"oblique", "type" : "Adjectif Nom Verbe", "synonyme" : ["biseau", "chanfrein", "ciseau", "diagonal", "diagonale", "biais", "indirect", "detourne", "courbe", "allusif", "evasif", "incline", "penche", "biaise", "gauche", "inflechi", "courbe", "renverse", "torve", "menacant", "transversal", "lateral", "horizontal", "longitudinal", "flechi
+"]},{"mot":"obliquement", "type" : "Adverbe", "synonyme" : ["diagonalement", "guingois", "de travers", "indirectement", "par la bande", "en pente", "de biais", "de guingois", "transversalement", "lateralement
+"]},{"mot":"obliquer", "type" : "Verbe", "synonyme" : ["biaiser", "fuir", "tergiverser", "louvoyer", "gauchir", "braquer", "diriger", "tourner", "virer", "pointer", "contourner", "eviter", "detourner", "devier", "pivoter
+"]},{"mot":"obliques", "type" : "Adjectif Nom Verbe", "synonyme" : ["biseaux", "chanfreins", "ciseaux", "diagonaux", "biais", "transversaux", "lateraux", "horizontaux", "longitudinaux", "flechis
+"]},{"mot":"obliquite", "type" : "Nom", "synonyme" : ["inclinaison", "declivite", "pente", "penchant", "descente", "bande", "gîte", "angle", "amplitude", "inflechissement", "devers", "montee", "raidillon", "rampe", "escarpement
+"]},{"mot":"obliterateur", "type" : "Adjectif Nom", "synonyme" : ["composteur", "affranchisseuse
+"]},{"mot":"obliteration", "type" : "Nom", "synonyme" : ["obstruction", "affranchissement", "tamponnage", "scellement", "choc
+"]},{"mot":"oblitere", "type" : "Verbe", "synonyme" : ["timbre", "tamponne", "affranchi
+"]},{"mot":"obliterer", "type" : "Verbe", "synonyme" : ["boucher", "tamponner", "affranchir
+"]},{"mot":"oblong", "type" : "Adjectif", "synonyme" : ["longuet", "grand", "elance", "longiligne", "longitudinal", "interminable", "allonge", "etendu", "eternel", "infini", "biscotte", "gressin", "long
+"]},{"mot":"oblongue", "type" : "Adjectif", "synonyme" : ["longue
+"]},{"mot":"obnubilant", "type" : "Verbe", "synonyme" : ["obsedant", "envoûtant", "lancinant", "obsessionnel", "monomaniaque
+"]},{"mot":"obnubilation", "type" : "Nom", "synonyme" : ["focalisation", "concentration", "obsession
+"]},{"mot":"obnubile", "type" : "Verbe", "synonyme" : ["embesogne", "accapare", "occupe", "obsede", "monomane", "tourmente", "envoûte", "harcele", "polar", "roman policier", "polarise
+"]},{"mot":"obnubilee", "type" : "Verbe", "synonyme" : ["obsessionnelle", "monomaniaque", "obsessive", "envoûtee", "obsedee
+"]},{"mot":"obnubiler", "type" : "Verbe", "synonyme" : ["obseder", "hanter", "envoûter", "poursuivre", "posseder", "travailler", "lanciner", "tracasser", "importuner", "accabler", "agiter
+"]},{"mot":"obole", "type" : "Nom", "synonyme" : ["aumône", "don", "offrande", "charite", "bienfait", "faveur", "liberalite", "assistance", "cadeau", "largesse", "secours", "bonte", "munificence", "present", "service", "bienfaisance", "philanthropie", "misericorde", "pitie", "indulgence", "altruisme", "generosite", "fraternite
+"]},{"mot":"obombrer", "type" : "Verbe", "synonyme" : ["obscurcir", "assombrir
+"]},{"mot":"obscene", "type" : "Adjectif", "synonyme" : ["gras", "epais", "gros", "dodu", "bouffi", "corpulent", "charnu", "etoffe", "fort", "obese", "plantureux", "replet", "rond", "ventru", "huileux", "visqueux", "poisseux", "gluant", "fertile", "fecond", "licencieux", "graveleux", "graisse", "graveleuse", "grivoise", "grossiere", "croustillante", "crue", "egrillarde", "grasse", "licencieuse", "lubrique", "orduriere", "osee", "scabreuse", "scatologique", "grivois", "grossier", "croustillant", "cru", "egrillard", "ordurier", "ose", "scabreux", "inconvenant", "choquant", "deplace", "impoli", "indecent", "indu", "malseant", "malsonnant", "deshonnête", "malhonnête", "impudique", "immodeste", "impur", "malpropre", "honteux", "abject", "injurieuse", "abjecte", "pervers", "vicieux", "corrompu", "dissolu", "immoral", "perverti", "inverti", "bestial", "mechant", "porno", "vulgaire", "X", "pornographie", "pornographique", "sadique", "satyre", "deprave", "cruel", "tortionnaire", "trivial", "commun
+"]},{"mot":"obscenes", "type" : "Adjectif", "synonyme" : ["triviaux", "communs
+"]},{"mot":"obscenite", "type" : "Nom", "synonyme" : ["grossierete", "vulgarite", "trivialite", "grivoiserie", "goujaterie", "insolence", "rusticite", "insulte", "injure", "salete", "ordure", "cochonnerie", "immoralite", "amoralite", "corruption", "cynisme", "debauche", "depravation", "vice", "stupre", "lubricite", "libertinage", "licence", "devergondage", "impudicite", "impudeur", "luxure", "lascivite", "indecence", "pornographie", "malproprete", "vilenie", "impurete", "saloperie", "laideur", "crasse", "mechancete", "vacherie", "prosaïsme", "bassesse", "muflerie", "canaillerie", "impolitesse
+"]},{"mot":"obscur", "type" : "Adjectif", "synonyme" : ["abscons", "inintelligible", "incomprehensible", "impenetrable", "indechiffrable", "inexplicable", "inextricable", "sibyllin", "confus", "complique", "abstrait", "conceptuel", "intellectuel", "profond", "cache", "abstrus", "indifferent", "ambigu", "equivoque", "double", "indecis", "enigmatique", "douteux", "incertain", "flottant", "louche", "inquietant", "entortille", "tordu", "embarrasse", "enveloppe", "ambiguïte", "quiproquo", "fonce", "sombre", "brun", "fuligineux", "charbonneux", "fumeux", "noirâtre", "brumeux", "nebuleux", "vague", "humble", "modeste", "efface", "reserve", "simple", "soumis", "pauvre", "inconcevable", "insondable", "tenebreux", "amphigourique", "mysterieux", "etrange", "singulier", "indefinissable", "inexprimable", "indescriptible", "secret", "occulte", "cabalistique", "esoterique", "noir", "ebene", "noirci", "basane", "bronze", "enfonce", "creux", "encaisse", "grand", "bas", "fort", "caverneux", "grave", "penetrant", "prophetique", "inspire", "hermetique", "triste", "maussade", "melancolique", "morne", "morose", "trouble", "boueux", "vaseux", "terne", "sale", "bizarre", "malsain", "emotion", "brouille", "embrouille", "perturbe", "derange", "bouleverse", "intimide", "indefini", "indetermine", "flou", "imprecis", "vaporeux", "lame", "onde", "houle", "vaguelette", "ressac", "rouleau
+"]},{"mot":"obscurantiste", "type" : "Adjectif Nom", "synonyme" : ["retrograde", "arriere", "passeiste", "conservateur", "reactionnaire", "immobiliste
+"]},{"mot":"obscurci", "type" : "Verbe", "synonyme" : ["embue", "embu", "imbibe", "impregne", "mouille
+"]},{"mot":"obscurcir", "type" : "Verbe", "synonyme" : ["assombrir", "cacher", "couvrir", "voiler", "ternir", "rembrunir", "embrumer", "brouiller", "aveugler", "boucher", "compliquer", "embrouiller", "alambiquer", "entortiller", "emmêler", "aggraver", "troubler", "embarrasser", "embroussailler", "eclipser", "intercepter", "embuer", "ennuager", "attrister", "chagriner", "entenebrer", "noircir", "brunir", "bronzer", "hâler", "teindre", "salir", "obombrer
+"]},{"mot":"obscurcissant", "type" : "Verbe", "synonyme" : ["aveuglant", "eclatant", "evident", "criant", "manifeste", "indeniable", "patent", "bouchant
+"]},{"mot":"obscurcissement", "type" : "Nom", "synonyme" : ["assombrissement", "noircissement", "brouillage", "confusion", "embrouillement", "brouillamini", "desordre", "imbroglio", "incertitude", "emmêlement", "ombre", "enchevêtrement", "meli-melo", "micmac", "enfumage
+"]},{"mot":"obscurcit", "type" : "Verbe", "synonyme" : ["eclipse", "disparition", "decheance", "decadence", "cache", "voile
+"]},{"mot":"obscure", "type" : "Adjectif", "synonyme" : ["ambiguë", "equivoque", "double", "enigmatique", "douteuse", "flottante", "inquietante", "nebuleuse", "voie lactee", "galaxie", "nuageuse", "brumeuse", "vaporeuse", "confuse", "fumeuse", "trouble", "inintelligible", "sombre", "vague
+"]},{"mot":"obscurement", "type" : "Adverbe", "synonyme" : ["abstraitement", "theoriquement", "irreellement", "ambigument", "enigmatiquement", "confusement", "en desordre", "indistinctement", "vaguement", "inconsciemment
+"]},{"mot":"obscurite", "type" : "Nom", "synonyme" : ["ambiguïte", "amphibologie", "equivoque", "ambivalence", "enigme", "janotisme", "imprecision", "incertitude", "black-out", "silence", "nebulosite", "noirceur", "mechancete", "nuit", "tenebres", "crepuscule", "noir", "assombrissement", "opacite", "occultation", "penombre", "ombre", "demi-jour
+"]},{"mot":"obsecration", "type" : "Nom", "synonyme" : ["deprecation", "supplication", "priere
+"]},{"mot":"obsedant", "type" : "Adjectif Verbe", "synonyme" : ["importun", "fâcheux", "gêneur", "intrus", "indiscret", "embarrassant", "encombrant", "fatigant", "envahissant", "agacant", "excedent", "embêtant", "inopportun", "envoûtant", "lancinant", "obnubilant", "pregnant", "fort", "marquant", "tenaillant
+"]},{"mot":"obsede", "type" : "Adjectif Nom Verbe", "synonyme" : ["detraque", "fou", "desequilibre", "malade", "derange", "erotomane", "nymphomane", "maniaque", "dement", "aliene", "bizarre", "monomane", "obnubile", "tourmente", "envoûte", "harcele", "obsessif", "polar", "roman policier", "polarise
+"]},{"mot":"obsedee", "type" : "Adjectif Nom Verbe", "synonyme" : ["obsessive", "envoûtee", "obnubilee
+"]},{"mot":"obseder", "type" : "Verbe", "synonyme" : ["assieger", "cerner", "obnubiler", "hanter", "envoûter", "poursuivre", "posseder", "travailler", "lanciner", "tracasser", "importuner", "accabler", "agiter", "preoccuper", "angoisser", "inquieter", "tourmenter", "ennuyer", "absorber", "chiffonner", "soucier
+"]},{"mot":"obseques", "type" : "Nom", "synonyme" : ["enterrement", "inhumation", "funerailles", "ensevelissement", "enterrements
+"]},{"mot":"obsequieuse", "type" : "Adjectif", "synonyme" : ["servile", "flatteuse", "cajoleuse", "courtisanesque
+"]},{"mot":"obsequieusement", "type" : "Adverbe", "synonyme" : ["servilement", "platement", "flatteusement
+"]},{"mot":"obsequieux", "type" : "Adjectif", "synonyme" : ["courtisanesque", "flatteur", "adulateur", "cajoleur", "caudataire", "courtisan", "encenseur", "flagorneur", "frotte-manche", "hypocrite", "servile", "plat", "complaisant", "bas", "rampant", "soumis", "vil", "souple
+"]},{"mot":"obsequiosite", "type" : "Nom", "synonyme" : ["servilite", "bassesse", "complaisance", "courbette", "humilite", "obeissance", "prosternation", "soumission
+"]},{"mot":"observable", "type" : "Adjectif", "synonyme" : ["contrôlable", "verifiable", "maîtrisable", "factuel", "atteste", "reel", "veritable", "identifiable", "visible
+"]},{"mot":"observance", "type" : "Nom", "synonyme" : ["obeissance", "soumission", "subordination", "obedience", "sujetion", "servilite", "docilite", "discipline", "observation", "acceptation
+"]},{"mot":"observateur", "type" : "Adjectif Nom", "synonyme" : ["attentif", "vigilant", "concentre", "absorbe", "applique", "preoccupe", "curieux", "assidu", "zele", "circonspect", "examinateur", "interrogateur", "correcteur", "temoin", "assistant", "spectateur", "voyeur
+"]},{"mot":"observation", "type" : "Nom", "synonyme" : ["annotation", "note", "commentaire", "renvoi", "remarque", "reflexion", "mention", "glose", "apostille", "explication", "constatation", "constat", "examen", "epreuve", "experience", "pratique", "apprentissage", "habitude", "experimentation", "essai", "etude", "demonstration", "recherche", "verification", "contrôle", "test", "application", "tentative", "introspection", "analyse", "autocritique", "bilan", "psychanalyse", "nota", "notule", "notice", "memorandum", "avis", "pensee", "facture", "addition", "objection", "replique", "refutation", "reponse", "contestation", "opposition", "discussion", "reproche", "critique", "reprimande", "observance", "obeissance", "acceptation", "attention", "consideration", "allusion", "remontrance
+"]},{"mot":"observations", "type" : "Nom", "synonyme" : ["commentaire", "explication", "remarques", "notes", "exegese", "glose", "paraphrase
+"]},{"mot":"observatoire", "type" : "Nom", "synonyme" : ["poste", "charge", "recepteur
+"]},{"mot":"observatrice", "type" : "Adjectif Nom", "synonyme" : ["examinatrice", "interrogatrice", "correctrice", "assistante", "spectatrice", "temoin", "voyeuse
+"]},{"mot":"observe", "type" : "Verbe", "synonyme" : ["regarde", "remarque", "suivi", "toise", "mesure", "evalue", "metre", "jauge", "considere", "apprecie", "examine", "scrute", "devisage
+"]},{"mot":"observer", "type" : "Verbe", "synonyme" : ["constater", "enregistrer", "remarquer", "etablir", "noter", "verifier", "voir", "consigner", "contrôler", "surveiller", "examiner", "inspecter", "devisager", "fixer", "contempler", "regarder", "detailler", "enquerir", "chercher", "enquêter", "instruire", "informer", "renseigner", "etudier", "apprendre", "analyser", "considerer", "travailler", "rechercher", "approfondir", "fouiller", "estimer", "evaluer", "juger", "dissequer", "eplucher", "scruter", "suivre", "percevoir", "distinguer", "decouvrir", "aviser", "relever", "trouver", "apercevoir", "avertir", "penetrer", "sonder", "explorer", "visiter", "toiser", "mesurer", "metrer", "jauger", "apprecier
+"]},{"mot":"obsessif", "type" : "?", "synonyme" : ["obsede
+"]},{"mot":"obsession", "type" : "Nom", "synonyme" : ["erotomanie", "nymphomanie", "satyriasis", "fantasme", "imagination", "vision", "divagation", "elucubration", "extravagance", "chimere", "hantise", "focalisation", "concentration", "obnubilation", "manie", "habitude", "marotte", "tic", "frenesie", "monomanie", "idee fixe", "tracas", "angoisse", "tentation", "crainte", "souci", "preoccupation", "inquietude", "tourment", "difficulte", "ennui", "sollicitude", "agitation", "psychose", "delire", "alienation", "folie", "hallucination
+"]},{"mot":"obsessionnel", "type" : "Adjectif", "synonyme" : ["monomaniaque", "obnubilant
+"]},{"mot":"obsessionnelle", "type" : "Adjectif", "synonyme" : ["monomaniaque", "obnubilee
+"]},{"mot":"obsessive", "type" : "?", "synonyme" : ["envoûtee", "obnubilee", "obsedee
+"]},{"mot":"obsidienne", "type" : "Nom", "synonyme" : ["trachyte
+"]},{"mot":"obsolescence", "type" : "Nom", "synonyme" : ["depreciation", "desuetude", "peremption
+"]},{"mot":"obsolete", "type" : "Adjectif", "synonyme" : ["desuet", "perime", "suranne", "vieillot
+"]},{"mot":"obstacle", "type" : "Nom", "synonyme" : ["achoppement", "difficulte", "embarras", "probleme", "alea", "adversite", "malheur", "accident", "fatalite", "infortune", "epreuve", "malchance", "misere", "detresse", "contrariete", "barrage", "fermeture", "barriere", "obstruction", "digue", "ecran", "empêchement", "barricade", "clôture", "retenue", "separation", "palissade", "haie", "borne", "mur", "fosse", "grille", "parapet", "balustrade", "contretemps", "complication", "gêne", "mal", "peine", "corvee", "tourment", "tracas", "crise", "question", "impasse", "encombre", "encombrement", "entrave", "accroc", "anicroche", "embrouillement", "embûche", "frein", "mors", "inconvenient", "incommodite", "importunite", "desagrement", "ennui", "defaut", "desavantage", "objection", "risque", "danger", "ecueil", "tiraillement", "tirage", "resistance", "incident", "traverse", "barre", "passage", "franchit
+"]},{"mot":"obstetricien", "type" : "Nom", "synonyme" : ["accoucheur", "gynecologue", "maïeuticien", "sage-homme
+"]},{"mot":"obstetricienne", "type" : "Nom", "synonyme" : ["accoucheuse", "sage-femme", "maïeuticienne", "matrone
+"]},{"mot":"obstetrique", "type" : "Adjectif Nom", "synonyme" : ["gynecologie
+"]},{"mot":"obstination", "type" : "Nom", "synonyme" : ["acharnement", "entêtement", "tenacite", "perseverance", "insistance", "zele", "ardeur", "fureur", "rage", "cruaute", "aveuglement", "cecite", "egarement", "inconscience", "affolement", "folie", "passion", "partialite", "illusion", "constance", "resolution", "assiduite", "energie", "volonte", "regularite", "opiniâtrete", "fidelite", "permanence", "stabilite", "durabilite", "fiabilite", "determination", "accentuation", "patience", "persistance", "fermete", "courage
+"]},{"mot":"obstine", "type" : "Adjectif Nom Verbe", "synonyme" : ["acharne", "anime", "coriace", "opiniâtre", "têtu", "bute", "consciencieux", "scrupuleux", "attentif", "tatillon", "assidu", "meticuleux", "travailleur", "responsable", "honnête", "exact", "invetere", "endurci", "impenitent", "ancien", "incorrigible", "vieux", "chronique", "ancre", "fortifie", "determine", "lutteur", "antagoniste", "pugiliste", "jouteur", "athlete", "judoka", "combatif", "attaquant", "accrocheur", "courageux", "battant", "entête", "tenace", "perseverant
+"]},{"mot":"obstinement", "type" : "Adverbe", "synonyme" : ["assidûment", "regulierement", "habituellement", "aveuglement", "bouse", "instamment", "fortement", "mordicus", "opiniâtrement
+"]},{"mot":"obstiner", "type" : "Verbe", "synonyme" : ["entêter", "perseverer", "persister", "acharner", "resister", "opiniâtrer
+"]},{"mot":"obstructif", "type" : "Adjectif", "synonyme" : ["engorgeant", "occlusif", "fermant
+"]},{"mot":"obstruction", "type" : "Nom", "synonyme" : ["barrage", "fermeture", "barriere", "obstacle", "digue", "ecran", "empêchement", "barricade", "clôture", "retenue", "separation", "constipation", "occlusion", "embarras", "encombre", "encombrement", "entrave", "complication", "difficulte", "accroc", "anicroche", "embrouillement", "embûche", "affluence", "surabondance", "surproduction", "amas", "desordre", "entassement", "embâcle", "engorgement", "accumulation", "congestion", "repletion", "saturation", "obliteration", "affranchissement", "ileus", "obturation", "bouchage", "plombage
+"]},{"mot":"obstructive", "type" : "Adjectif", "synonyme" : ["occlusive", "fermante
+"]},{"mot":"obstrue", "type" : "Adjectif Verbe", "synonyme" : ["embarrassant", "difficile", "encombrant", "gênant", "incommodant", "intimidant", "malaise", "penible", "embouteillant", "derangeant", "embouteille", "bouche", "encombre", "sature", "comble", "engorge", "ferme
+"]},{"mot":"obstruer", "type" : "Verbe", "synonyme" : ["barricader", "arrêter", "bloquer", "boucher", "clore", "clôturer", "colmater", "fermer", "retenir", "obturer", "calfeutrer", "barrer", "murer", "chevillard", "detaillant", "ecluser", "enclaver", "embouteiller", "encombrer", "saturer", "gêner", "embarrasser", "entraver", "empêcher", "restreindre", "contraindre", "importuner", "deranger", "troubler", "intimider", "incommoder", "reboucher", "combler
+"]},{"mot":"obtemperer", "type" : "Verbe", "synonyme" : ["obeir
+"]},{"mot":"obtenant", "type" : "Verbe", "synonyme" : ["ayant", "possedant", "disposant", "detenant", "tenant", "gardant", "renfermant
+"]},{"mot":"obtenir", "type" : "Verbe", "synonyme" : ["eues", "posseder", "disposer", "tenir", "garder", "eus", "conserver", "impetrer", "beneficier", "acquerir", "reussir", "decrocher", "enlever", "conquerir", "arracher", "extorquer", "acheter", "remporter", "meriter", "recevoir", "gagner", "emporter", "prendre", "soutirer
+"]},{"mot":"obtention", "type" : "Nom", "synonyme" : ["acquisition", "achat", "emplette", "conquête", "prise", "resultat", "impetration", "benefice
+"]},{"mot":"obtenu", "type" : "Verbe", "synonyme" : ["eu", "possede", "dispose", "tenu", "garde", "conserve", "acquis", "reussi", "conquis", "achete", "merite", "recu
+"]},{"mot":"obtenue", "type" : "Verbe", "synonyme" : ["acquise", "propre", "reconnue", "partisane", "eue", "posseder", "disposee", "tenir", "gardee
+"]},{"mot":"obturateur", "type" : "Adjectif Nom", "synonyme" : ["clapet", "valve", "soupape", "bouchon", "robinet", "melangeur", "mitigeur", "vanne
+"]},{"mot":"obturation", "type" : "Nom", "synonyme" : ["bouchage", "fermeture", "occultation", "obstruction", "ileus", "plombage
+"]},{"mot":"obturer", "type" : "Verbe", "synonyme" : ["boucher", "obstruer", "clore", "colmater", "calfeutrer", "barrer", "murer", "chevillard", "detaillant", "gêner", "embarrasser", "encombrer", "entraver", "empêcher", "restreindre", "contraindre", "importuner", "deranger", "troubler", "intimider", "incommoder
+"]},{"mot":"obtus", "type" : "Adjectif", "synonyme" : ["balourd", "lourdaud", "fruste", "gauche", "grossier", "maladroit", "malappris", "rustaud", "stupide", "rustre", "butor", "sot", "bête", "borne", "limite", "etroit", "incomprehensif", "nigaud", "abruti", "inepte", "absurde", "ridicule", "imbecile
+"]},{"mot":"obtusangle", "type" : "Adjectif", "synonyme" : ["angulaire", "paralyse", "en angle", "saillant", "acutangle
+"]},{"mot":"obtuse", "type" : "Adjectif", "synonyme" : ["balourde", "fruste", "gauche", "grossiere", "maladroite", "stupide", "rustre", "sotte", "bête", "incomprehensive", "bornee", "etroite", "nigaude", "abrutie", "inepte", "absurde", "ridicule", "imbecile
+"]},{"mot":"obus", "type" : "Nom", "synonyme" : ["munition", "balle", "cartouche", "fusee", "projectile", "boulet", "bombe", "torpille", "mitraille", "roquette
+"]},{"mot":"obusier", "type" : "Nom", "synonyme" : ["mortier", "recipient", "ciment", "canon", "crapouillot
+"]},{"mot":"obvenir", "type" : "Verbe", "synonyme" : ["echoir", "advenir", "incomber", "survenir", "tomber
+"]},{"mot":"obvie", "type" : "Adjectif Verbe", "synonyme" : ["evident", "patent", "clair", "manifeste", "flagrant", "patente", "evidente", "claire", "flagrante", "autorisation", "contribution", "impôt
+"]},{"mot":"obvier", "type" : "Verbe", "synonyme" : ["eviter", "esquiver", "echapper", "fuir", "empêcher", "conjurer", "prevenir", "eluder", "couper", "pallier", "parer", "remedier", "guerir", "soulager", "corriger", "suppleer", "pourvoir", "reparer", "arranger", "raccommoder
+"]},{"mot":"oc", "type" : "Nom", "synonyme" : ["occitan
+"]},{"mot":"occase", "type" : "Adjectif Nom", "synonyme" : ["occasion
+"]},{"mot":"occasion", "type" : "Nom", "synonyme" : ["antiquite", "vieillerie", "brocante", "fripe", "vetuste", "aubaine", "chance", "veine", "fortune", "hasard", "avantage", "circonstance", "cas", "conditions", "donnees", "opportunite", "modalites", "particularite", "conjoncture", "situation", "moment", "eventualite", "occurrence", "coïncidence", "alea", "risque", "danger", "dessein", "sort", "fatalite", "instant", "epoque", "date", "temps", "occase", "evenement", "possibilite", "bonheur", "a-propos", "potentialite", "alternative", "virtualite", "vraisemblance", "capacite", "faculte", "permission", "droit", "moyen", "terrain", "sol", "lieu
+"]},{"mot":"occasionne", "type" : "Verbe", "synonyme" : ["produit", "resultat", "multiplication", "carre", "production", "recette", "profit", "rapport", "revenu", "cree", "presente", "provoque", "incite", "excite", "encourage", "brave", "attaque", "declenche
+"]},{"mot":"occasionnel", "type" : "Adjectif", "synonyme" : ["conjoncturel", "circonstanciel", "momentane", "contingent", "accidentel", "fortuit", "eventuel", "incertain", "conditionnel", "casuel", "imprevu", "brusque", "inattendu", "inopine", "exceptionnel", "surprenant", "inhabituel
+"]},{"mot":"occasionnelle", "type" : "Adjectif", "synonyme" : ["fortuite", "contingente", "inhabituelle", "exceptionnelle
+"]},{"mot":"occasionnellement", "type" : "Adverbe", "synonyme" : ["fortuitement", "accidentellement", "eventuellement", "incidemment", "accessoirement", "parfois", "temporairement", "episodiquement", "quelquefois", "tantôt", "rarement", "bientôt", "incessamment", "recemment", "apres-midi
+"]},{"mot":"occasionner", "type" : "Verbe", "synonyme" : ["apporter", "porter", "determiner", "amener", "definir", "fixer", "decider", "resoudre", "necessiter", "reclamer", "requerir", "meriter", "appeler", "obliger", "provoquer", "susciter", "causer", "engendrer", "creer", "attirer", "procurer", "pourvoir", "produire", "presenter", "inciter", "exciter", "encourager", "braver", "attaquer", "declencher", "eveiller", "fomenter", "soulever
+"]},{"mot":"occasions", "type" : "Nom", "synonyme" : ["brocante", "antiquites", "friperie", "ferraille", "chine", "fripes", "vieilleries
+"]},{"mot":"occident", "type" : "Nom", "synonyme" : ["couchant", "ouest", "ponant
+"]},{"mot":"occidental", "type" : "Adjectif Nom", "synonyme" : ["europeen", "communautaire
+"]},{"mot":"occidentale", "type" : "Adjectif Nom", "synonyme" : ["europeenne", "communautaire
+"]},{"mot":"occidentaliser", "type" : "Verbe", "synonyme" : ["europeaniser", "americaniser", "moderniser
+"]},{"mot":"occidentaux", "type" : "Adjectif Nom", "synonyme" : ["europeens
+"]},{"mot":"occire", "type" : "Verbe", "synonyme" : ["tuer", "suicider", "assassiner", "abattre", "descendre", "supprimer", "aneantir", "massacrer", "decimer", "detruire", "exterminer", "poignarder", "empoisonner", "executer", "fusiller
+"]},{"mot":"occitan", "type" : "Adjectif", "synonyme" : ["oc", "provencal", "toulousain
+"]},{"mot":"occlure", "type" : "Verbe", "synonyme" : ["fermer
+"]},{"mot":"occlusif", "type" : "Adjectif", "synonyme" : ["obstructif", "engorgeant", "fermant
+"]},{"mot":"occlusion", "type" : "Nom", "synonyme" : ["constipation", "obstruction", "imperforation
+"]},{"mot":"occlusion intestinale", "type" : "?", "synonyme" : ["ileus
+"]},{"mot":"occlusive", "type" : "Adjectif Nom", "synonyme" : ["obstructive", "fermante
+"]},{"mot":"occultation", "type" : "Nom", "synonyme" : ["bouchage", "fermeture", "obturation", "obscurite", "noirceur", "noir", "nebulosite", "assombrissement", "opacite", "dissimulation", "tromperie", "mensonge
+"]},{"mot":"occulte", "type" : "Adjectif Verbe", "synonyme" : ["cabalistique", "mysterieux", "magique", "esoterique", "cryptique", "cache", "code", "secret", "initiatique", "hermetique", "sibyllin", "enigmatique", "abscons", "impenetrable", "inconnu", "ignore", "inexplore", "voile", "incognito", "anonyme", "etranger", "nouveau", "meconnu", "feerique", "surnaturel", "merveilleux", "fabuleux", "enchante", "miraculeux", "etonnant", "extraordinaire", "prodigieux", "inexplicable", "incomprehensible", "obscur
+"]},{"mot":"occulter", "type" : "Verbe", "synonyme" : ["cacher
+"]},{"mot":"occultisme", "type" : "Nom", "synonyme" : ["alchimie", "gnose", "hermetisme", "magie", "esoterisme", "sorcellerie", "divination", "geomancie", "fantasmagorie", "spiritisme", "thaumaturgie", "theurgie", "charme", "enchantement", "ensorcellement", "envoûtement", "diablerie", "incantation
+"]},{"mot":"occultiste", "type" : "Adjectif Nom", "synonyme" : ["alchimiste", "magicien", "hermetiste
+"]},{"mot":"occupant", "type" : "Adjectif Nom Verbe", "synonyme" : ["envahisseur", "habitant", "locataire", "proprietaire", "hôte", "residant", "squatter
+"]},{"mot":"occupante", "type" : "Adjectif Nom", "synonyme" : ["habitante
+"]},{"mot":"occupation", "type" : "Nom", "synonyme" : ["activite", "allant", "entrain", "ardeur", "empressement", "animation", "emploi", "exercice", "fonction", "place", "affaire", "entreprise", "proces", "combat", "envahissement", "invasion", "incursion", "raid", "empietement", "charge", "ministere", "rôle", "mission", "office", "tâche", "service", "travail", "devoir", "etat", "ingression", "agression", "razzia", "irruption", "possession", "squat
+"]},{"mot":"occupe", "type" : "Adjectif Verbe", "synonyme" : ["absorbe", "absent", "bu", "pensif", "songeur", "affaire", "agite", "actif", "embesogne", "accapare", "obnubile", "indisponible", "malade", "meuble", "garni", "ornemente", "rempli", "enrichi", "rêveur", "soucieux", "preoccupe", "meditatif", "contemplatif", "plein", "farci", "charge", "complet", "debordant", "bonde", "sature", "peuple", "repu", "rassasie", "pris", "tenu", "saisi
+"]},{"mot":"occupee", "type" : "Adjectif Verbe", "synonyme" : ["active", "affairee", "entreprenante", "remuante", "laborieuse", "travailleuse", "vive", "empressee", "pleine", "remplie", "garnie", "farcie", "chargee", "complete", "debordante", "bondee", "saturee", "peuplee", "repue", "rassasiee
+"]},{"mot":"occuper", "type" : "Verbe", "synonyme" : ["habiter", "resider", "loger", "demeurer", "nicher", "percher", "vivre", "sejourner", "gîter", "camper", "coucher", "peupler", "employer", "consacrer", "attacher", "veiller", "songer", "preoccuper", "soucier", "inquieter", "interesser
+"]},{"mot":"occurrence", "type" : "Nom", "synonyme" : ["circonstance", "cas", "conditions", "donnees", "opportunite", "modalites", "particularite", "conjoncture", "hasard", "situation", "moment", "occasion", "eventualite", "fortune", "coïncidence", "alea", "risque", "chance", "danger", "veine", "aubaine", "dessein", "sort", "fatalite
+"]},{"mot":"occurrent", "type" : "Adjectif", "synonyme" : ["concomitant", "simultane", "voisin", "parallele", "coïncident
+"]},{"mot":"ocean", "type" : "Nom", "synonyme" : ["mer", "large", "flots", "eaux", "onde", "eau
+"]},{"mot":"oceanaute", "type" : "Nom", "synonyme" : ["aquanaute
+"]},{"mot":"oceanide", "type" : "Nom", "synonyme" : ["nymphe", "naïade", "dryade", "nereide", "oreade", "hyade", "hamadryade", "deesse", "chrysalide
+"]},{"mot":"Oceanie", "type" : "?", "synonyme" : ["continent", "terre
+"]},{"mot":"oceanique", "type" : "Adjectif", "synonyme" : ["maritime
+"]},{"mot":"oceanographie", "type" : "Nom", "synonyme" : ["hydrographie", "hydrologie
+"]},{"mot":"oceanographique", "type" : "Adjectif", "synonyme" : ["hydrographique
+"]},{"mot":"ocelle", "type" : "Nom Verbe", "synonyme" : ["stemmate
+"]},{"mot":"ocelle", "type" : "Adjectif", "synonyme" : ["truite", "tâche", "marquete", "tachete", "tavele", "mouchete
+"]},{"mot":"ocelot", "type" : "Nom", "synonyme" : ["chat-tigre
+"]},{"mot":"ocre", "type" : "Adjectif Verbe", "synonyme" : ["ocreux", "rubigineux
+"]},{"mot":"ocree", "type" : "?", "synonyme" : ["ocreuse", "rubigineuse
+"]},{"mot":"ocreuse", "type" : "Adjectif", "synonyme" : ["ocree", "rubigineuse
+"]},{"mot":"ocreux", "type" : "Adjectif", "synonyme" : ["ocre", "rubigineux
+"]},{"mot":"octante", "type" : "Determinant", "synonyme" : ["huitante", "quatre-vingt
+"]},{"mot":"octet", "type" : "Nom", "synonyme" : ["byte
+"]},{"mot":"octocoralliaires", "type" : "Nom", "synonyme" : ["alcyonnaires
+"]},{"mot":"octroi", "type" : "Nom", "synonyme" : ["concession", "don", "autorisation", "impôt", "charge", "taxe", "tribut", "imposition", "contribution", "fisc", "dîme", "prestation", "cens", "taille", "gabelle", "redevance", "attribution", "allocation", "cadeau
+"]},{"mot":"octroye", "type" : "Verbe", "synonyme" : ["accorde", "entendu", "convenu", "accepte", "conclu", "approuve", "admis", "donne", "cede", "concede", "attribue", "affecte", "alloue", "assigne", "confere", "decerne", "distribue", "partage", "reparti", "prête", "avance", "fourni", "consenti", "impute
+"]},{"mot":"octroyer", "type" : "Verbe", "synonyme" : ["attribuer", "donner", "fournir", "allouer", "accorder", "adjuger", "assigner", "affecter", "distribuer", "decerner", "conceder", "ceder", "impartir", "nantir", "pourvoir", "munir", "doter", "pensionner", "retraiter", "renter", "subventionner", "entretenir
+"]},{"mot":"oculaire", "type" : "Adjectif Nom", "synonyme" : ["oculomoteur", "visuel", "ophtalmique
+"]},{"mot":"oculiste", "type" : "Adjectif Nom", "synonyme" : ["ophtalmologue", "ophtalmologiste
+"]},{"mot":"oculomoteur", "type" : "Adjectif", "synonyme" : ["oculaire", "visuel
+"]},{"mot":"oculus", "type" : "Nom", "synonyme" : ["lucarne", "œil-de-bœuf", "tabatiere
+"]},{"mot":"ode", "type" : "Nom", "synonyme" : ["lai", "piece", "chanson", "strophe", "laïque", "poeme", "pean", "hymne", "chant", "tercet", "cantique", "elegie", "ballade", "sonnet", "epigramme", "stance", "epître", "psaume
+"]},{"mot":"odeur", "type" : "Nom", "synonyme" : ["fumet", "arôme", "effluve", "parfum", "senteur", "emanation", "exhalaison", "fragrance", "relent", "remugle", "puanteur", "pet", "vent", "flatulence", "flatuosite", "gaz", "aromate", "bouquet", "suavite
+"]},{"mot":"odieuse", "type" : "Adjectif", "synonyme" : ["inhumaine", "barbare", "abominable", "affreuse", "atroce", "bestiale", "diabolique", "feroce", "immonde", "infernale", "mauvaise", "mechante", "monstrueuse", "abjecte", "ignoble", "antipathique", "execrable", "detestable", "indigne
+"]},{"mot":"odieusement", "type" : "Adverbe", "synonyme" : ["insupportablement", "intolerablement", "mechamment", "durement", "cruellement", "hargneusement", "agressivement", "salement", "violemment", "beaucoup", "tres", "ignoblement", "atrocement", "injustement
+"]},{"mot":"odieux", "type" : "Adjectif", "synonyme" : ["antipathique", "deplaisant", "inquietant", "desagreable", "repugnant", "repoussant", "atroce", "cruel", "douloureux", "monstrueux", "ignoble", "horrible", "abominable", "insupportable", "intolerable", "detestable", "haïssable", "meprisable", "execrable", "degoûtant", "ecœurant", "affreux", "maudit", "irreconciliable", "indigne", "coupable", "mechant", "vil", "avilissant", "bas", "revoltant", "scandaleux", "inqualifiable", "deshonorant", "abject", "inhumain", "barbare", "bestial", "diabolique", "feroce", "immonde", "infernal", "mauvais", "honteux", "inavouable", "inconcevable", "inconvenant", "innommable", "impossible", "insoutenable", "ennuyeux", "dur", "malfaisant", "malin", "demoniaque", "malveillant", "brutal", "viperin", "hargneux", "scelerat", "satanique
+"]},{"mot":"odometre", "type" : "Nom", "synonyme" : ["compte-pas", "podometre
+"]},{"mot":"odontalgie", "type" : "Nom", "synonyme" : ["rage de dents
+"]},{"mot":"odontologie", "type" : "Nom", "synonyme" : ["orthodontie", "stomatologie
+"]},{"mot":"odorant", "type" : "Adjectif Verbe", "synonyme" : ["aromatique", "odoriferant", "parfume", "fragrant", "embaumant", "embaume", "capiteux
+"]},{"mot":"odorat", "type" : "Nom", "synonyme" : ["flair", "olfaction
+"]},{"mot":"odoriferant", "type" : "Adjectif", "synonyme" : ["aromatique", "odorant", "parfume", "embaume", "capiteux
+"]},{"mot":"odyssee", "type" : "Nom", "synonyme" : ["periple", "voyage", "expedition", "recit", "legende", "conte", "fable", "mythe", "relation", "narration", "histoire", "roman", "chronique", "rapport", "nouvelle", "anecdote
+"]},{"mot":"œcumenicite", "type" : "Nom", "synonyme" : ["universalite", "mondialisme", "universalisme
+"]},{"mot":"œcumenique", "type" : "Adjectif", "synonyme" : ["irenique", "universel", "international", "planetaire
+"]},{"mot":"œcumenisme", "type" : "Nom", "synonyme" : ["irenisme
+"]},{"mot":"œdeme", "type" : "Nom", "synonyme" : ["boursouflure", "ballonnement", "bouffissure", "boursouflement", "bubon", "bulle", "cloque", "enflure", "gonflement", "grosseur", "tumeur", "turgescence", "dilatation", "tumefaction", "bosse", "inflammation", "phlebite
+"]},{"mot":"œdicneme", "type" : "Nom", "synonyme" : ["courlis de terre
+"]},{"mot":"œil", "type" : "Nom", "synonyme" : ["bourgeon", "bouton", "chaton", "bulbe", "pousse", "rejet", "turion", "stolon", "ecusson", "bouture", "globe", "vision", "vue", "regard
+"]},{"mot":"œil-de-bœuf", "type" : "Nom", "synonyme" : ["lucarne", "imposte", "tabatiere", "faîtiere", "ouverture", "fenêtre", "vasistas", "oculus
+"]},{"mot":"œil-de-paon", "type" : "?", "synonyme" : ["tigridie
+"]},{"mot":"œil-de-perdrix", "type" : "Nom", "synonyme" : ["cor
+"]},{"mot":"œillade", "type" : "Nom Verbe", "synonyme" : ["clignement", "coquetterie", "touche
+"]},{"mot":"œillere", "type" : "Nom", "synonyme" : ["bossette", "cabochon", "prejuge", "preconception", "parti pris
+"]},{"mot":"œillet", "type" : "Nom", "synonyme" : ["boutonniere", "bride", "incision", "grenadin
+"]},{"mot":"œilleton", "type" : "Nom", "synonyme" : ["viseur", "judas", "rejeton", "rejet", "bourgeon", "pousse", "bouture", "drageon", "coulant", "scion", "tendron
+"]},{"mot":"œillette", "type" : "Nom", "synonyme" : ["pavot", "coquelicot
+"]},{"mot":"œkoumene", "type" : "Nom", "synonyme" : ["ecoumene", "terre
+"]},{"mot":"œnolisme", "type" : "Nom", "synonyme" : ["alcoolisme", "dipsomanie", "ethylisme", "ivrognerie
+"]},{"mot":"œnologue", "type" : "Nom", "synonyme" : ["sommelier", "caviste", "echanson", "tâte-vin", "degustateur", "gastronome", "viticulteur", "vigneron", "vendangeur
+"]},{"mot":"œnothere", "type" : "Nom", "synonyme" : ["onagre
+"]},{"mot":"œsophage", "type" : "Nom", "synonyme" : ["gosier", "bouche", "estomac", "gorge", "larynx", "luette", "pharynx
+"]},{"mot":"œstral", "type" : "Adjectif", "synonyme" : ["menstruel
+"]},{"mot":"œstraux", "type" : "Adjectif", "synonyme" : ["menstruels
+"]},{"mot":"œstrone", "type" : "Nom", "synonyme" : ["folliculine
+"]},{"mot":"œuf", "type" : "Nom", "synonyme" : ["embryon", "fœtus", "germe", "graine", "ovocyte", "ovule", "oosphere", "lente
+"]},{"mot":"œuve", "type" : "Adjectif", "synonyme" : ["rogue
+"]},{"mot":"œuvre", "type" : "Nom Verbe", "synonyme" : ["genese", "formation", "elaboration", "naissance", "origine", "livre", "ecrit", "ouvrage", "brochure", "fascicule", "imprime", "livret", "opuscule", "plaquette", "publication", "edition", "volume", "album", "travail", "entreprise", "tableau", "sculpture", "composition", "production", "produit", "resultat", "marchandise", "creation", "fabrication", "apparition", "proclamation", "avis", "annonce", "lancement", "sortie", "reproduction", "realisation", "accomplissement", "execution", "acte", "achevement
+"]},{"mot":"œuvrer", "type" : "Verbe", "synonyme" : ["faconner", "faire", "fabriquer", "confectionner", "modeler", "bâtir", "former", "elaborer", "preparer", "travailler
+"]},{"mot":"œuvres", "type" : "Nom Verbe", "synonyme" : ["travaux", "labeurs", "tâches", "besognes", "actions", "ouvrages", "corvees", "etudes", "exercices", "pratiques", "operations
+"]},{"mot":"off", "type" : "Adjectif Nom", "synonyme" : ["hors champ", "en marge
+"]},{"mot":"offensant", "type" : "Adjectif Verbe", "synonyme" : ["blessant", "desobligeant", "injurieux", "mortifiant", "deplaisant", "froissant", "arrogant", "acerbe", "vexant", "mechant", "cinglant", "irritant", "sec", "meprisant", "cruel", "battant", "voguant", "manquant", "absent", "ratant", "outrageux", "insultant
+"]},{"mot":"offensante", "type" : "Adjectif", "synonyme" : ["outrageuse", "injurieuse", "insultante", "blessante
+"]},{"mot":"offense", "type" : "Nom Verbe", "synonyme" : ["affront", "humiliation", "vexation", "camouflet", "avanie", "raillerie", "indignite", "outrage", "soufflet", "gifle", "brimade", "bizutage", "mechancete", "injustice", "injure", "insulte", "invective", "attaque", "impolitesse", "insolence", "sarcasme", "vilenie", "infamie", "impertinence", "irrespect", "effronterie", "morgue", "mepris", "grossierete", "arrogance", "dedain", "suffisance", "manque", "carence", "deficit", "rate
+"]},{"mot":"offense", "type" : "Adjectif Nom Verbe", "synonyme" : ["manque", "rate", "avorte", "perdu", "failli", "vexe", "froisse", "humilie", "mortifie", "pique
+"]},{"mot":"offenser", "type" : "Verbe", "synonyme" : ["braver", "affronter", "defier", "provoquer", "narguer", "mepriser", "oser", "violer", "choquer", "heurter", "offusquer", "froisser", "blesser", "scandaliser", "vexer", "deplaire", "effaroucher", "rebuter", "indigner", "contrarier", "engueuler", "outrager", "insulter", "invectiver", "vilipender", "agonir", "salir", "maudire", "injurier", "leser", "nuire", "manquer", "rater", "absenter", "mortifier", "humilier", "ulcerer", "pecher", "faillir", "chuter", "tomber
+"]},{"mot":"offenseur", "type" : "Nom", "synonyme" : ["agresseur", "attaquant", "assaillant", "provocateur", "insulteur
+"]},{"mot":"offensif", "type" : "Adjectif", "synonyme" : ["agressif", "combatif", "provocant", "provocateur", "querelleur", "batailleur", "violent", "menacant", "tapageur
+"]},{"mot":"offensive", "type" : "Adjectif Nom", "synonyme" : ["agressive", "combative", "provocante", "provocatrice", "querelleuse", "batailleuse", "violente", "menacante", "tapageuse", "assaut", "attaque", "clash", "agression", "choc", "abordage", "charge
+"]},{"mot":"offert", "type" : "Verbe", "synonyme" : ["propose", "recommande", "presente", "soumis", "voue", "consacre", "promis", "dedie", "condamne
+"]},{"mot":"office", "type" : "Nom", "synonyme" : ["agence", "cabinet", "succursale", "affaire", "commerce", "arriere-cuisine", "souillarde", "reserve", "breviaire", "bref", "psautier", "rubrique", "cuisine", "gastronomie", "art culinaire", "kitchenette", "coin cuisine", "cuisinette", "cuistance", "chere", "menu", "mets", "repas", "table", "culte", "confession", "religion", "rite", "adoration", "amour", "attachement", "veneration", "adulation", "respect", "fonction", "activite", "occupation", "charge", "ministere", "rôle", "mission", "tâche", "service", "travail", "devoir", "etat", "emploi", "intervention", "concours", "intrusion", "ingerence", "entremise", "immixtion", "mediation", "messe", "organisme", "organisation", "bureau", "corps", "administration
+"]},{"mot":"offices", "type" : "Nom", "synonyme" : ["devoirs", "obligations", "tâches", "prescriptions", "imperatifs", "principes", "charges", "fonctions", "travaux", "services", "rôles", "dettes", "epreuves
+"]},{"mot":"officialisation", "type" : "Nom", "synonyme" : ["homologation", "acceptation", "approbation", "authentification", "autorisation", "confirmation", "decision", "enregistrement", "enterinement", "ratification", "sanction", "validation", "legalisation", "institutionnalisation", "titularisation", "installation", "nomination", "affectation
+"]},{"mot":"officialise", "type" : "Verbe", "synonyme" : ["titularise", "homologue", "valide", "installe", "nomme", "affecte
+"]},{"mot":"officialiser", "type" : "Verbe", "synonyme" : ["legaliser", "institutionnaliser", "titulariser", "homologuer", "valider", "installer", "nommer", "affecter
+"]},{"mot":"officiant", "type" : "Adjectif Nom Verbe", "synonyme" : ["cure", "prêtre", "vicaire", "abbe", "recteur", "desservant", "doyen", "pasteur", "celebrant
+"]},{"mot":"officiel", "type" : "Adjectif Nom", "synonyme" : ["accredite", "autorise", "credibilise", "repandu", "administratif", "reglementaire", "bureaucratique", "tatillon", "formaliste", "competent", "qualifie", "capable", "permis", "tolere", "connu", "commun", "evident", "decouvert", "notoire", "proverbial", "public", "revele", "su", "eprouve", "conventionnel", "convenu", "banal", "academique", "conformiste", "attendu", "rituel", "etabli", "vrai", "avere", "sûr", "assure", "reel", "confirme", "incontestable", "exact", "indeniable", "indiscutable", "indubitable", "inevitable", "fonde", "flagrant", "manifeste", "decisif", "apodictique", "reconnu", "prouve", "garanti", "formel", "inattaquable", "irrecusable", "certifie", "place", "installe", "authentifie", "ouvert", "auditoire", "audience", "assistance", "foule", "spectateurs
+"]},{"mot":"officielle", "type" : "Adjectif Nom", "synonyme" : ["certifiee", "authentifiee", "confirmee", "publique", "autorisee", "notoire", "manifeste", "evidente", "ouverte", "banale", "commune
+"]},{"mot":"officiellement", "type" : "Adverbe", "synonyme" : ["administrativement", "reglementairement", "publiquement", "notoirement", "solennellement", "majestueusement
+"]},{"mot":"officier", "type" : "Nom Verbe", "synonyme" : ["huissier", "appariteur", "portier", "introducteur", "lieutenant", "second", "major", "premier", "militaire", "presider", "grade", "prevôt", "magistrat", "surveillant
+"]},{"mot":"officier ministeriel", "type" : "?", "synonyme" : ["avoue", "defenseur
+"]},{"mot":"officieuse", "type" : "Adjectif", "synonyme" : ["possible", "privee
+"]},{"mot":"officieux", "type" : "Adjectif", "synonyme" : ["vraisemblable", "possible", "prive
+"]},{"mot":"officine", "type" : "Nom", "synonyme" : ["boutique", "magasin", "commerce", "echoppe", "bazar", "boîte", "laboratoire", "atelier", "cabinet", "pharmacie", "drugstore
+"]},{"mot":"offrande", "type" : "Nom", "synonyme" : ["aumône", "don", "obole", "charite", "bienfait", "faveur", "liberalite", "assistance", "bienfaisance", "philanthropie", "misericorde", "pitie", "indulgence", "altruisme", "generosite", "bonte", "fraternite", "offre", "proposition", "enchere", "sacrifice", "devouement", "abnegation", "abandon", "holocauste", "privation", "renoncement", "immolation", "propitiation
+"]},{"mot":"offre", "type" : "Nom Verbe", "synonyme" : ["avance", "acompte", "marche", "affirme", "proposition", "enchere", "don", "offrande", "ouverture", "ultimatum", "conseil", "suggestion
+"]},{"mot":"offrir", "type" : "Verbe", "synonyme" : ["devouer", "dedier", "consacrer", "sacrifier", "vouer", "donner", "abandonner", "livrer", "proposer", "presenter", "procurer", "allouer", "fournir", "tendre", "montrer", "produire", "exhiber", "exposer", "amener", "soumettre", "introduire", "avancer", "aligner", "diriger", "regaler", "immoler", "laisser", "abdiquer", "resigner", "delaisser", "promettre", "condamner", "predestiner
+"]},{"mot":"offset", "type" : "Adjectif Nom", "synonyme" : ["imprimerie", "typographie", "xylographie", "lithographie", "phototypie", "impression", "clichage", "linotypie", "tirage
+"]},{"mot":"offshore", "type" : "Adjectif Nom", "synonyme" : ["extraterritorial
+"]},{"mot":"offusquant", "type" : "Verbe", "synonyme" : ["froissant", "blessant", "choquant", "vexant
+"]},{"mot":"offusquer", "type" : "Verbe", "synonyme" : ["choquer", "heurter", "froisser", "blesser", "scandaliser", "offenser", "vexer", "deplaire", "effaroucher", "rebuter", "indigner", "contrarier
+"]},{"mot":"oflag", "type" : "Nom", "synonyme" : ["stalag", "camp", "goulag
+"]},{"mot":"oghamique", "type" : "Adjectif", "synonyme" : ["gaelique
+"]},{"mot":"ogival", "type" : "Adjectif", "synonyme" : ["gothique
+"]},{"mot":"ogivaux", "type" : "Adjectif", "synonyme" : ["gothiques
+"]},{"mot":"ogive", "type" : "Nom", "synonyme" : ["cintre", "fusee", "tête", "crâne", "chef", "intelligence", "debut
+"]},{"mot":"ogre", "type" : "Nom", "synonyme" : ["anthropophage", "cannibale", "bâfreur", "glouton", "goinfre", "goulu", "bouffeur", "ripailleur", "croquemitaine", "croque-mitaine", "pere fouettard", "epouvantail", "terreur", "devoreur", "spectre", "fantôme", "fouettard", "gargantua", "vampire", "goule", "loup-garou
+"]},{"mot":"ogresse", "type" : "Nom", "synonyme" : ["geante", "goinfre
+"]},{"mot":"oh", "type" : "Interjection", "synonyme" : ["ho", "he", "hola
+"]},{"mot":"ohe", "type" : "Interjection", "synonyme" : ["hello", "salut", "he", "hep
+"]},{"mot":"oie", "type" : "Nom Verbe", "synonyme" : ["bernache
+"]},{"mot":"oignon", "type" : "Nom", "synonyme" : ["bulbe", "coupole", "cor
+"]},{"mot":"oindre", "type" : "Verbe", "synonyme" : ["baptiser", "nommer", "immerger", "purifier", "regenerer", "benir", "sacrer", "glorifier", "consacrer", "remercier", "exalter", "recompenser", "enduire", "recouvrir", "badigeonner", "barbouiller", "etendre", "plaquer", "appliquer", "couvrir", "etaler", "mastiquer", "frotter", "revêtir", "graisser", "lubrifier", "huiler", "salir", "encrasser", "assaisonner", "brillantiner", "cosmetiquer", "frictionner
+"]},{"mot":"oint", "type" : "Adjectif Nom Verbe", "synonyme" : ["benit", "consacre", "sacre", "graisse", "lubrifie", "huile", "enduit", "sali", "encrasse", "assaisonne", "brillantine
+"]},{"mot":"oiseau", "type" : "Nom", "synonyme" : ["bougre", "drôle", "gaillard", "luron", "individu", "quidam", "marabout", "sorcier", "sage", "volatile", "volaille", "palmipede", "anatide", "poule", "chapon", "coq", "poulet", "evaporable", "ephemere", "fragile
+"]},{"mot":"oiseau-lyre", "type" : "Nom", "synonyme" : ["menure
+"]},{"mot":"oiseau-mouche", "type" : "Nom", "synonyme" : ["colibri", "trochile
+"]},{"mot":"oiseaux", "type" : "Nom", "synonyme" : ["volatiles
+"]},{"mot":"oiseaux-lyres", "type" : "Nom", "synonyme" : ["menures
+"]},{"mot":"oiseaux-mouches", "type" : "Nom", "synonyme" : ["colibris
+"]},{"mot":"oiselet", "type" : "Nom", "synonyme" : ["oisillon
+"]},{"mot":"oisellerie", "type" : "Nom", "synonyme" : ["voliere", "gloriette", "cage", "basse-cour
+"]},{"mot":"oiseuse", "type" : "Adjectif", "synonyme" : ["inutile", "oisive
+"]},{"mot":"oiseux", "type" : "Adjectif", "synonyme" : ["byzantin", "raffine", "subtil", "complique", "entortille", "farfelu", "futile", "pedant", "tarabiscote", "inutile", "superflu", "vain", "vide", "creux", "infructueux", "sterile", "oisif", "superfetatoire", "surabondant
+"]},{"mot":"oisif", "type" : "Adjectif Nom", "synonyme" : ["badaud", "flâneur", "spectateur", "gobe-mouche", "curieux", "faineant", "paresseux", "vaurien", "indolent", "nonchalant", "inactif", "feignant", "mou", "negligent", "traînard", "simulant", "flemmard", "desœuvre", "inerte", "inoccupe", "immobile", "vegetatif", "lethargique", "stagnant", "chômant", "retraite", "croupissant", "vide", "vacant", "libre", "inhabite", "vague", "oiseux", "inutile", "traîne-savate", "traîne-semelles
+"]},{"mot":"oisillon", "type" : "Nom", "synonyme" : ["oiselet", "oison
+"]},{"mot":"oisive", "type" : "Adjectif Nom", "synonyme" : ["inactive", "desœuvree", "inerte", "inoccupee", "immobile", "vegetative", "lethargique", "stagnante", "faineante", "paresseuse", "retraitee", "croupissante", "oiseuse", "inutile", "indolente
+"]},{"mot":"oisivete", "type" : "Nom", "synonyme" : ["farniente", "flemme", "faineantise", "torpeur", "paresse", "desœuvrement", "inaction", "loisir
+"]},{"mot":"oison", "type" : "Nom", "synonyme" : ["oisillon
+"]},{"mot":"O.K.", "type" : "?", "synonyme" : ["amen", "soit", "paradoxe", "oui", "assurement", "certainement", "entendu", "bien", "parfaitement", "positif", "affirmatif
+"]},{"mot":"oleagineuse", "type" : "Adjectif", "synonyme" : ["huileuse", "oleifiante", "oleifere
+"]},{"mot":"oleagineux", "type" : "Adjectif Nom", "synonyme" : ["huile", "graisse", "huileux", "oleifiant", "oleifere", "oleiforme
+"]},{"mot":"olefine", "type" : "Nom", "synonyme" : ["alcene
+"]},{"mot":"oleifere", "type" : "Adjectif", "synonyme" : ["oleagineuse", "huileuse", "oleifiante", "oleagineux", "huileux", "oleifiant
+"]},{"mot":"oleifiant", "type" : "Adjectif", "synonyme" : ["oleagineux", "huileux", "oleifere
+"]},{"mot":"oleifiante", "type" : "?", "synonyme" : ["oleagineuse", "huileuse", "oleifere
+"]},{"mot":"oleiforme", "type" : "Adjectif", "synonyme" : ["oleagineux
+"]},{"mot":"oleoduc", "type" : "Nom", "synonyme" : ["conduit", "canal", "canalisation", "tube", "tuyau", "boyau", "conduite", "gouttiere", "ecoulement", "cheneau", "buse", "egout", "passage", "tranchee", "collecteur", "pipe-line", "aqueduc", "pipeline
+"]},{"mot":"oleometre", "type" : "Nom", "synonyme" : ["areometre", "alcoometre", "densimetre", "glucometre", "lactometre", "urometre
+"]},{"mot":"oleopneumatique", "type" : "?", "synonyme" : ["hydropneumatique
+"]},{"mot":"olfaction", "type" : "Nom", "synonyme" : ["odorat", "flair
+"]},{"mot":"olibrius", "type" : "Nom", "synonyme" : ["original", "phenomene", "zigoto", "hâbleur
+"]},{"mot":"olifant", "type" : "Nom", "synonyme" : ["corne", "trompe", "cor
+"]},{"mot":"oligarchie", "type" : "Nom", "synonyme" : ["aristocratie", "noblesse", "synarchie", "ploutocratie
+"]},{"mot":"oligophrenie", "type" : "Nom", "synonyme" : ["arrieration", "debilite", "imbecillite
+"]},{"mot":"oligopole", "type" : "Nom", "synonyme" : ["duopole", "monopole
+"]},{"mot":"olivaie", "type" : "Nom", "synonyme" : ["oliveraie
+"]},{"mot":"olivâtre", "type" : "Adjectif", "synonyme" : ["terreux", "verdâtre", "pers", "vert
+"]},{"mot":"olive", "type" : "Adjectif Nom Verbe", "synonyme" : ["vert", "verdâtre", "glauque", "emeraude", "verdoyant", "jade", "sinople", "tilleul
+"]},{"mot":"oliveraie", "type" : "Nom", "synonyme" : ["olivaie
+"]},{"mot":"olivine", "type" : "Nom", "synonyme" : ["peridot
+"]},{"mot":"olympien", "type" : "Adjectif", "synonyme" : ["majestueux", "imposant", "noble", "auguste", "solennel", "grandiose", "monumental", "tranquille", "calme", "serein", "pacifique", "confiant
+"]},{"mot":"olympienne", "type" : "Adjectif", "synonyme" : ["tranquille", "calme", "majestueuse", "sereine", "pacifique", "confiante
+"]},{"mot":"ombilic", "type" : "Nom", "synonyme" : ["nombril
+"]},{"mot":"ombrage", "type" : "Nom Verbe", "synonyme" : ["couvert", "abrite", "defendu", "garanti", "preserve", "sauvegarde", "vêtu", "abri", "protection", "recouvert", "bâche", "protege", "caparaconne", "revêtu", "enveloppe", "cache", "feuillage", "ombre", "soupcon", "suspicion", "doute", "defiance", "mefiance
+"]},{"mot":"ombrage", "type" : "Adjectif", "synonyme" : ["feuillu", "feuille", "touffu", "ombreux", "ombre", "noirci
+"]},{"mot":"ombragee", "type" : "Adjectif", "synonyme" : ["feuillee", "touffue", "feuillue
+"]},{"mot":"ombrager", "type" : "Verbe", "synonyme" : ["couvrir", "abriter", "proteger", "ombrer
+"]},{"mot":"ombrageuse", "type" : "Adjectif", "synonyme" : ["mefiante", "susceptible
+"]},{"mot":"ombrageux", "type" : "Adjectif", "synonyme" : ["chatouilleux", "delicat", "douillet", "sensible", "susceptible", "farouche", "sauvage", "indompte", "fier", "timide", "asocial", "misanthrope", "dur", "torve", "tenace", "ferme", "irascible", "colereux", "emporte", "irritable", "violent", "brutal", "bilieux", "atrabilaire", "mefiant", "soupconneux", "defiant", "suspicieux", "cauteleux", "craintif", "jaloux", "sourcilleux", "pointilleux
+"]},{"mot":"ombre", "type" : "Nom Verbe", "synonyme" : ["embrouillement", "brouillamini", "confusion", "desordre", "imbroglio", "obscurcissement", "incertitude", "emmêlement", "enchevêtrement", "meli-melo", "micmac", "fantôme", "apparition", "spectre", "esprit", "revenant", "vision", "vampire", "farfadet", "elfe", "chimere", "simulacre", "phantasme", "apparence", "ombrage", "couvert", "abri", "feuillage", "protection", "silhouette", "penombre", "demi-jour", "obscurite", "illusion", "mensonge", "semblant", "frime", "simulation", "imitation", "soupcon", "suspicion", "doute", "defiance", "mefiance
+"]},{"mot":"ombre", "type" : "Verbe", "synonyme" : ["ombrage", "noirci
+"]},{"mot":"ombrelle", "type" : "Nom", "synonyme" : ["en-tout-cas", "en-cas", "parapluie", "parasol
+"]},{"mot":"ombrer", "type" : "Verbe", "synonyme" : ["ombrager
+"]},{"mot":"ombreuse", "type" : "Adjectif", "synonyme" : ["abritee", "couverte", "protegee", "tenebreuse
+"]},{"mot":"ombreux", "type" : "Adjectif", "synonyme" : ["ombrage", "abrite", "couvert", "protege", "tenebreux
+"]},{"mot":"ombudsman", "type" : "Nom", "synonyme" : ["mediateur
+"]},{"mot":"omerta", "type" : "?", "synonyme" : ["loi du silence
+"]},{"mot":"omettre", "type" : "Verbe", "synonyme" : ["laisser", "abandonner", "negliger", "consentir", "confier", "remettre", "donner", "leguer", "transmettre", "maintenir", "lâcher", "perdre", "manquer", "oublier", "delaisser", "dedaigner", "mepriser", "taire", "effacer", "desapprendre", "eponger", "amnistier", "pardonner
+"]},{"mot":"omis", "type" : "Nom Verbe", "synonyme" : ["oublie", "neglige
+"]},{"mot":"omission", "type" : "Nom", "synonyme" : ["inattention", "distraction", "etourderie", "inadvertance", "megarde", "negligence", "imprudence", "legerete", "irreflexion", "insouciance", "inconsequence", "irresponsabilite", "dissipation", "oubli", "lacune
+"]},{"mot":"omnibus", "type" : "Adjectif Nom", "synonyme" : ["tramway", "tram", "voiture
+"]},{"mot":"omnipotence", "type" : "Nom", "synonyme" : ["absolutisme", "puissance", "autorite", "empire", "domination", "toute-puissance
+"]},{"mot":"omnipotent", "type" : "Adjectif", "synonyme" : ["tout-puissant", "puissant", "souverain", "suprême", "absolu", "superieur", "divin
+"]},{"mot":"omnipotente", "type" : "Adjectif", "synonyme" : ["toute-puissante", "puissante
+"]},{"mot":"omnipraticien", "type" : "Adjectif Nom", "synonyme" : ["generaliste", "medecin", "therapeute", "praticien", "clinicien", "specialiste", "accoucheur", "allopathe", "anesthesiste", "cancerologue", "cardiologue", "chirurgien", "dentiste", "docteur
+"]},{"mot":"omnipresence", "type" : "Nom", "synonyme" : ["ubiquite", "simultaneite", "dedoublement
+"]},{"mot":"omnipresent", "type" : "Adjectif", "synonyme" : ["ubiquiste", "ubiquitaire
+"]},{"mot":"omniscience", "type" : "Nom", "synonyme" : ["erudition", "savoir", "sagesse
+"]},{"mot":"omniscient", "type" : "Adjectif", "synonyme" : ["erudit", "savant", "lettre", "universel", "mondial", "global", "total", "general", "commun", "complet", "cosmique", "astral", "celeste
+"]},{"mot":"omnium", "type" : "Nom", "synonyme" : ["holding", "handicap", "trust", "cartel", "association", "monopole", "consortium", "pool", "societe
+"]},{"mot":"on", "type" : "Pronom", "synonyme" : ["nous", "eux", "je", "certains", "les gens", "quelques-uns", "excretion", "certain", "un", "un être", "une personne
+"]},{"mot":"onagre", "type" : "Nom", "synonyme" : ["ânesse", "hemione", "bourrique", "arbalete", "baliste", "catapulte", "œnothere", "zebre
+"]},{"mot":"once", "type" : "Nom", "synonyme" : ["leopard des neiges", "grain", "panthere", "leopard", "jaguar
+"]},{"mot":"onchocercose", "type" : "Nom", "synonyme" : ["filariose", "elephantiasis
+"]},{"mot":"oncle", "type" : "Nom", "synonyme" : ["tonton
+"]},{"mot":"oncogene", "type" : "Adjectif", "synonyme" : ["cancerigene
+"]},{"mot":"oncologie", "type" : "Nom", "synonyme" : ["cancerologie", "carcinologie
+"]},{"mot":"oncologue", "type" : "?", "synonyme" : ["cancerologue
+"]},{"mot":"oncques", "type" : "Adverbe", "synonyme" : ["jamais
+"]},{"mot":"onction", "type" : "Nom", "synonyme" : ["benignite", "affabilite", "bienveillance", "bonte", "charite", "douceur", "indulgence", "longanimite", "mansuetude", "huilage", "graissage", "lubrification
+"]},{"mot":"onctueuse", "type" : "Adjectif", "synonyme" : ["huileuse", "grasse", "graisseuse", "visqueuse", "poisseuse", "veloutee", "moelleuse
+"]},{"mot":"onctueusement", "type" : "Adverbe", "synonyme" : ["doucement", "mielleusement", "moelleusement
+"]},{"mot":"onctueux", "type" : "Adjectif", "synonyme" : ["huileux", "gras", "graisseux", "visqueux", "poisseux", "veloute", "moelleux", "doux
+"]},{"mot":"onctuosite", "type" : "Nom", "synonyme" : ["douceur", "veloute
+"]},{"mot":"ondatra", "type" : "Nom", "synonyme" : ["loutre
+"]},{"mot":"onde", "type" : "Nom Verbe", "synonyme" : ["eau", "flot", "liquide", "pluie", "nappe", "source", "vague", "lame", "flux", "reflux", "afflux", "courant", "fluide", "limpide", "liquoreux", "flottant", "fluctuant", "insaisissable", "influx", "radiation", "emanation", "mer", "large", "flots", "eaux", "ocean", "ride", "sillon", "ridule", "patte", "creux", "strie", "indefini", "indetermine", "flou", "confus", "imprecis", "incertain", "nebuleux", "obscur", "abstrait", "vaporeux", "houle", "vaguelette", "ressac", "rouleau
+"]},{"mot":"ondee", "type" : "Adjectif Nom Verbe", "synonyme" : ["giboulee", "averse", "pluie", "grain", "bruine", "deluge", "crachin", "orage
+"]},{"mot":"ondes", "type" : "Nom Verbe", "synonyme" : ["eaux", "flots", "pluies", "sources", "radio", "radiographie
+"]},{"mot":"ondinisme", "type" : "?", "synonyme" : ["urolagnie
+"]},{"mot":"on-dit", "type" : "Nom", "synonyme" : ["rumeur", "ouï-dire", "bruit
+"]},{"mot":"ondoiement", "type" : "Nom", "synonyme" : ["friselis", "fremissement", "frisson", "froufrou", "ondulation", "agitation", "remous", "mouvement", "trouble", "variation", "evolution", "tourbillon", "tournoiement", "tourbillonnement", "bouillonnement", "va-et-vient", "roulis", "tangage
+"]},{"mot":"ondoyant", "type" : "Adjectif Verbe", "synonyme" : ["flexueux", "courbe", "sinueux", "indecis", "hesitant", "flottant", "perplexe", "desoriente", "embarrasse", "vacillant", "timore", "irresolu", "aboulique", "faible", "fuyant", "flou", "onduleux", "mouvant", "ondulant", "frisant", "serpentin", "tortueux", "spirale", "cotillon", "courbe", "gauche", "tordu
+"]},{"mot":"ondoyante", "type" : "Adjectif", "synonyme" : ["tortueuse", "sinueuse", "courbe", "gauche", "ondulante", "tordue", "zigzagante
+"]},{"mot":"ondoyer", "type" : "Verbe", "synonyme" : ["flotter", "emerger", "surnager", "nager", "sinuer", "onduler", "varier", "changer", "friser", "serpenter
+"]},{"mot":"ondulant", "type" : "Adjectif", "synonyme" : ["gondolant", "cocasse", "comique", "amusant", "plaisant", "facetieux", "gai", "travaillant", "jouant", "mouvant", "instable", "changeant", "fluctuant", "ondoyant", "frisant", "tortueux", "sinueux", "courbe", "gauche", "tordu
+"]},{"mot":"ondulante", "type" : "Adjectif", "synonyme" : ["tortueuse", "sinueuse", "courbe", "gauche", "ondoyante", "tordue", "zigzagante
+"]},{"mot":"ondulation", "type" : "Nom", "synonyme" : ["ondoiement", "agitation", "sinuosite", "anfractuosite", "contour", "coude", "detour", "meandre", "recoin", "pli", "repli", "tangage", "balancement", "oscillation", "secouement", "houle", "vallonnement", "colline
+"]},{"mot":"ondule", "type" : "Adjectif", "synonyme" : ["crepu", "frise", "boucle", "crêpele", "crêpe", "frisotte", "gondole", "travaille", "gonfle", "bombe", "deforme", "courbe", "vivre
+"]},{"mot":"onduler", "type" : "Verbe", "synonyme" : ["gesticuler", "remuer", "trepider", "sauter", "gondoler", "travailler", "jouer", "ondoyer", "sinuer", "varier", "changer", "friser", "serpenter", "glisser", "zigzaguer
+"]},{"mot":"onduleux", "type" : "Adjectif", "synonyme" : ["ondoyant", "sinueux", "mouvant
+"]},{"mot":"onereuse", "type" : "Adjectif", "synonyme" : ["coûteuse", "chere", "dispendieuse
+"]},{"mot":"onereusement", "type" : "Adverbe", "synonyme" : ["coûteusement", "cherement", "dispendieusement
+"]},{"mot":"onereux", "type" : "Adjectif", "synonyme" : ["coûteux", "cher", "dispendieux", "ruineux", "payant", "avantageux
+"]},{"mot":"ongle", "type" : "Nom", "synonyme" : ["ergot", "griffe", "serre", "eperon", "sabot", "corne", "jardin
+"]},{"mot":"ongle", "type" : "?", "synonyme" : ["ongule
+"]},{"mot":"onglee", "type" : "Adjectif Nom", "synonyme" : ["onguligrade", "ongulee", "engourdissement", "gelure
+"]},{"mot":"onglette", "type" : "Nom", "synonyme" : ["burin", "charniere", "ciseau", "drille", "echoppe", "pointe
+"]},{"mot":"onglier", "type" : "Nom", "synonyme" : ["necessaire a ongles
+"]},{"mot":"onguent", "type" : "Nom", "synonyme" : ["baume", "essence", "extrait", "gemme", "huile", "embrocation", "liniment", "creme", "pommade", "emplâtre", "pâte", "vaseline", "brillantine", "gomina", "graisse", "paraffine
+"]},{"mot":"ongule", "type" : "Adjectif", "synonyme" : ["ongle", "onguligrade
+"]},{"mot":"ongulee", "type" : "Adjectif", "synonyme" : ["onglee", "onguligrade", "engourdissement", "gelure
+"]},{"mot":"onguligrade", "type" : "Adjectif", "synonyme" : ["onglee", "ongulee", "engourdissement", "gelure", "ongule
+"]},{"mot":"onirique", "type" : "Adjectif", "synonyme" : ["rêve", "imaginaire", "irreel", "chimerique", "fantasmagorique
+"]},{"mot":"onomastique", "type" : "Adjectif Nom", "synonyme" : ["linguistique", "phonetique", "stylistique", "syntaxe", "dialectologie", "etymologie", "grammaire", "lexicographie", "lexicologie", "philologie", "phonologie", "semantique", "semiotique", "anthroponymie", "toponymie
+"]},{"mot":"ont", "type" : "Verbe", "synonyme" : ["detiennent", "tiennent", "disposent", "gardent", "renferment
+"]},{"mot":"ontogenese", "type" : "Nom", "synonyme" : ["developpement
+"]},{"mot":"ontologie", "type" : "Nom", "synonyme" : ["metaphysique", "philosophie
+"]},{"mot":"ontologique", "type" : "Adjectif", "synonyme" : ["existentiel", "existentielle
+"]},{"mot":"oocyte", "type" : "Nom", "synonyme" : ["ovule", "gamete", "embryon
+"]},{"mot":"oolithique", "type" : "Adjectif", "synonyme" : ["jurassique
+"]},{"mot":"oosphere", "type" : "Nom", "synonyme" : ["œuf", "ovocyte", "ovule", "germe", "lente
+"]},{"mot":"opacification", "type" : "Nom", "synonyme" : ["assombrissement
+"]},{"mot":"opacifier", "type" : "Verbe", "synonyme" : ["embrumer", "assombrir", "eclipser", "entenebrer", "troubler
+"]},{"mot":"opacite", "type" : "Nom", "synonyme" : ["obscurite", "noirceur", "noir", "nebulosite", "assombrissement", "occultation
+"]},{"mot":"opalescent", "type" : "Adjectif", "synonyme" : ["blanchâtre", "blafard", "blême", "laiteux", "lactescent", "lacte", "opalin", "diaphane", "translucide", "transparent", "clair", "limpide", "maigre
+"]},{"mot":"opalin", "type" : "Adjectif", "synonyme" : ["blanchâtre", "blafard", "blême", "laiteux", "lactescent", "lacte", "opalescent", "irise", "iridescent", "moire", "nacre", "ivoirin", "eburneen", "blanc
+"]},{"mot":"opaline", "type" : "Adjectif Nom", "synonyme" : ["laiteuse", "lactee", "lactescente", "blanche", "blanchâtre
+"]},{"mot":"opaque", "type" : "Adjectif", "synonyme" : ["sombre
+"]},{"mot":"opera", "type" : "Nom Verbe", "synonyme" : ["operette", "oratorio", "drame
+"]},{"mot":"operant", "type" : "Adjectif Verbe", "synonyme" : ["agissant", "actif", "energique", "efficace", "fort", "influent", "zele", "efficient", "operationnel
+"]},{"mot":"operante", "type" : "Adjectif", "synonyme" : ["operationnelle", "agissante", "efficace", "efficiente
+"]},{"mot":"operateur", "type" : "Nom", "synonyme" : ["broker", "courtier", "trader", "cineaste", "realisateur", "producteur", "manipulateur", "preparateur", "illusionniste", "cameraman", "conducteur", "mecanicien
+"]},{"mot":"operation", "type" : "Nom", "synonyme" : ["ablation", "amputation", "excision", "exerese", "resection", "mutilation", "sectionnement", "arithmetique", "calcul", "autotomie", "enlevement", "clitoridectomie", "expedition", "campagne", "raid", "razzia", "guerre", "belligerance", "hostilite", "conflagration", "conflit", "combat", "guerilla", "lutte", "bataille", "engagement", "incursion", "acte", "chirurgie", "affaire", "rafle", "coup de filet", "descente", "souriciere", "arrestation", "speculation", "agiotage", "projet", "raisonnement", "theorie
+"]},{"mot":"operationnel", "type" : "Adjectif", "synonyme" : ["operant
+"]},{"mot":"operationnelle", "type" : "Adjectif", "synonyme" : ["agissante", "efficace", "efficiente", "operante
+"]},{"mot":"operations", "type" : "Nom", "synonyme" : ["travaux", "labeurs", "tâches", "besognes", "œuvres", "actions", "ouvrages", "corvees", "etudes", "exercices", "pratiques
+"]},{"mot":"operatoire", "type" : "Adjectif", "synonyme" : ["algebrique", "mathematique
+"]},{"mot":"operatrice", "type" : "Nom", "synonyme" : ["manipulatrice", "conductrice", "mecanicienne
+"]},{"mot":"opercule", "type" : "Nom Verbe", "synonyme" : ["membrane", "peau", "muqueuse", "pellicule", "enveloppe", "tunique", "couvercle
+"]},{"mot":"opercule", "type" : "?", "synonyme" : ["couvert", "ferme
+"]},{"mot":"opercules", "type" : "Nom Verbe", "synonyme" : ["branchies", "ouïes
+"]},{"mot":"operer", "type" : "Verbe", "synonyme" : ["accomplir", "realiser", "executer", "terminer", "effectuer", "achever", "proceder", "charcuter", "sectionner", "decouper", "morceler", "tronconner", "dissequer", "manipuler", "manier", "manœuvrer", "preparer", "faire", "agir", "pratiquer
+"]},{"mot":"operette", "type" : "Nom", "synonyme" : ["opera", "oratorio", "drame
+"]},{"mot":"ophidien", "type" : "Adjectif", "synonyme" : ["couleuvre", "reptile", "coronelle", "nasique", "serpent
+"]},{"mot":"ophioglosse", "type" : "Nom", "synonyme" : ["herbe sans couture", "langue de serpent
+"]},{"mot":"ophtalmique", "type" : "Adjectif", "synonyme" : ["oculaire
+"]},{"mot":"ophtalmologiste", "type" : "Nom", "synonyme" : ["oculiste", "ophtalmologue
+"]},{"mot":"ophtalmologue", "type" : "Nom", "synonyme" : ["oculiste", "ophtalmologiste
+"]},{"mot":"opimes", "type" : "Adjectif", "synonyme" : ["butins", "profits
+"]},{"mot":"opinel", "type" : "?", "synonyme" : ["canif", "couteau
+"]},{"mot":"opiner", "type" : "Verbe", "synonyme" : ["accepter", "admettre", "permettre", "agreer", "consentir", "acquiescer", "acceder", "souscrire", "conceder", "ratifier", "adopter", "opter", "choisir", "apprendre", "enteriner", "elire
+"]},{"mot":"opiniâtre", "type" : "Adjectif Verbe", "synonyme" : ["acharne", "anime", "coriace", "obstine", "têtu", "entête", "tenace", "perseverant
+"]},{"mot":"opiniâtrement", "type" : "Adverbe", "synonyme" : ["obstinement", "resolument
+"]},{"mot":"opiniâtrer", "type" : "Verbe", "synonyme" : ["obstiner", "entêter
+"]},{"mot":"opiniâtrete", "type" : "Nom", "synonyme" : ["constance", "perseverance", "resolution", "assiduite", "obstination", "energie", "volonte", "regularite", "fidelite", "permanence", "stabilite", "durabilite", "fiabilite", "entêtement", "tenacite", "determination", "acharnement", "patience", "persistance", "insistance", "fermete", "courage", "dessein", "hardiesse", "decision", "volition", "intention", "desir", "souhait", "exigence", "caractere
+"]},{"mot":"opinion", "type" : "Nom", "synonyme" : ["avis", "avertissement", "appreciation", "impression", "jugement", "position", "sentiment", "croyance", "foi", "conviction", "certitude", "esperance", "credo", "credulite", "idee", "concept", "image", "allegorie", "projet", "ideologie", "effet", "emotion", "trouble", "etonnement", "saisissement", "empreinte", "marque", "trace", "influence", "sensation", "perception", "pensee", "vote", "suffrage", "voix", "scrutin", "election", "consultation", "referendum", "plebiscite", "depouillement
+"]},{"mot":"opiomane", "type" : "Adjectif Nom", "synonyme" : ["toxicomane", "drogue", "intoxique", "heroïnomane", "morphinomane", "cocaïnomane", "etheromane", "alcoolique
+"]},{"mot":"opium de laitue", "type" : "?", "synonyme" : ["lactucarium
+"]},{"mot":"oponce", "type" : "?", "synonyme" : ["opuntia
+"]},{"mot":"oppidum", "type" : "Nom", "synonyme" : ["citadelle", "forteresse
+"]},{"mot":"opportun", "type" : "Adjectif", "synonyme" : ["bienvenu", "bien recu", "juste", "favorable", "propice", "heureux", "convenable", "bon", "avantageux", "amical", "indulgent", "bienveillant", "clement", "benefique", "indique", "utile", "expedient", "providentiel", "seyant", "approprie", "adapte", "decent", "idoine", "pertinent", "seant
+"]},{"mot":"opportune", "type" : "Adjectif", "synonyme" : ["expediente", "commode
+"]},{"mot":"opportunement", "type" : "Adverbe", "synonyme" : ["a propos", "a pic
+"]},{"mot":"opportunisme", "type" : "Nom", "synonyme" : ["attentisme", "immobilisme", "artifice", "finasserie", "expectative", "attente
+"]},{"mot":"opportuniste", "type" : "Adjectif", "synonyme" : ["attentiste", "immobiliste", "expectant", "habile", "malin
+"]},{"mot":"opportunite", "type" : "Nom", "synonyme" : ["circonstance", "cas", "conditions", "donnees", "modalites", "particularite", "conjoncture", "hasard", "situation", "moment", "occasion", "eventualite", "occurrence", "evenement", "possibilite", "chance", "aubaine", "bonheur", "a-propos", "pertinence", "esprit", "adequation", "concordance", "convenance
+"]},{"mot":"opposable", "type" : "Adjectif", "synonyme" : ["inopposable
+"]},{"mot":"opposant", "type" : "Adjectif Nom Verbe", "synonyme" : ["adversaire", "antagoniste", "rival", "contradicteur", "concurrent", "challenger", "contraire", "ennemi", "contestataire", "frondeur", "protestataire", "interlocuteur", "objecteur", "rebelle", "revolte", "refractaire
+"]},{"mot":"opposante", "type" : "Adjectif Nom", "synonyme" : ["ennemie", "adversaire", "concurrente", "rivale
+"]},{"mot":"oppose", "type" : "Adjectif Nom Verbe", "synonyme" : ["adverse", "antagonique", "defavorable", "hostile", "antipode", "inverse", "antithese", "contraire", "contraste", "antithetique", "antinomique", "antonyme", "contradictoire", "contre-pied", "contrepartie", "dissemblable", "different", "distinct", "disparate", "dissident", "insoumis", "scissionnaire", "separatiste", "resistant", "revolte", "encontre", "inamical", "malveillant", "menacant", "haineux", "rancunier", "incompatible", "inconciliable", "irreconciliable", "brouille", "divise", "ennemi", "opposite", "tête-bêche", "inverse
+"]},{"mot":"oppose a", "type" : "?", "synonyme" : ["versus", "a contrario", "par opposition a
+"]},{"mot":"opposer", "type" : "Verbe", "synonyme" : ["affronter", "attaquer", "braver", "risquer", "exposer", "defier", "combattre", "empoigner", "lutter", "contrecarrer", "contrarier", "objecter", "contester", "retorquer", "repliquer", "repondre", "pretexter", "alleguer", "comparer", "balancer", "soutenir", "pretendre", "argumenter", "arguer", "concorder", "assurer
+"]},{"mot":"opposite", "type" : "Adjectif Nom", "synonyme" : ["oppose
+"]},{"mot":"opposition", "type" : "Nom", "synonyme" : ["antagonisme", "rivalite", "concurrence", "combat", "antinomie", "contradiction", "contre-pied", "antipathie", "aversion", "repulsion", "degoût", "inimitie", "froideur", "haine", "desaccord", "conflit", "lutte", "dispute", "discorde", "guerre", "contraste", "antithese", "difference", "disproportion", "comparaison", "contraire", "disconvenance", "discordance", "disparite", "divergence", "incompatibilite", "discussion", "litige", "chamaille", "mesentente", "demêle", "dissension", "division", "desordre", "escarmouche", "incident", "dissemblance", "nuance", "dissentiment", "mesintelligence", "objection", "replique", "refutation", "reponse", "contestation", "reproche", "critique", "reprimande", "observation", "protestation", "revolte", "manifestation", "desapprobation", "reprobation", "clameur", "denegation", "resistance", "endurance", "veto", "refus
+"]},{"mot":"oppressant", "type" : "Adjectif Verbe", "synonyme" : ["pesant", "accablant", "ecrasant", "epuisant", "etouffant", "suffocant", "essoufflant", "oppressif", "dictatorial
+"]},{"mot":"oppressante", "type" : "Adjectif", "synonyme" : ["oppressive", "dictatoriale
+"]},{"mot":"oppresse", "type" : "Adjectif Verbe", "synonyme" : ["gêne", "domine", "etouffe
+"]},{"mot":"oppresser", "type" : "Verbe", "synonyme" : ["etouffer", "asphyxier", "etrangler", "garrotter", "noyer", "suffoquer", "resserrer", "essouffler", "asservir", "estomaquer", "etonner", "irriter", "indigner
+"]},{"mot":"oppresseur", "type" : "Adjectif Nom", "synonyme" : ["autoritaire", "dominateur", "despotique", "tyran", "pressureur", "exploiteur", "profiteur", "saigneur", "autocrate", "despote", "dictateur
+"]},{"mot":"oppresseurs", "type" : "Adjectif Nom", "synonyme" : ["tyranneaux", "autocrates", "despotes", "dictateurs", "dominateurs
+"]},{"mot":"oppressif", "type" : "Adjectif", "synonyme" : ["oppressant", "dictatorial
+"]},{"mot":"oppression", "type" : "Nom", "synonyme" : ["accablement", "abattement", "affliction", "consternation", "decouragement", "asphyxie", "etouffement", "etranglement", "suffocation", "destruction", "asservissement", "servitude", "domination", "sujetion", "esclavage", "contrainte", "pressurage", "exploitation", "epuisement", "ecrasement", "asthme
+"]},{"mot":"oppressive", "type" : "Adjectif", "synonyme" : ["oppressante", "dictatoriale
+"]},{"mot":"oppressnt", "type" : "?", "synonyme" : ["accablant", "affligeant", "alourdissant", "pesant", "ennuyeux
+"]},{"mot":"opprimant", "type" : "Adjectif", "synonyme" : ["alienant
+"]},{"mot":"opprime", "type" : "Adjectif Nom Verbe", "synonyme" : ["accable", "afflige", "abattu", "exploite", "decourage
+"]},{"mot":"opprimer", "type" : "Verbe", "synonyme" : ["asservir", "assujettir", "dominer", "soumettre", "subjuguer", "enchaîner", "tyranniser", "dompter", "conquerir", "exploiter", "contraindre", "forcer", "obliger", "presser", "imposer", "astreindre", "violenter", "pressurer", "epuiser", "ecraser", "saigner
+"]},{"mot":"opprobre", "type" : "Nom", "synonyme" : ["honte", "deshonneur", "fletrissure", "ignominie", "indignite", "bassesse", "abjection", "degradation", "humiliation", "affront", "remords", "repentir", "regret
+"]},{"mot":"optatif", "type" : "Adjectif", "synonyme" : ["desirant", "souhaitable
+"]},{"mot":"optative", "type" : "Adjectif", "synonyme" : ["desirante", "souhaitable
+"]},{"mot":"opter", "type" : "Verbe", "synonyme" : ["adopter", "choisir", "accepter", "agreer", "acquiescer", "admettre", "apprendre", "opiner", "enteriner", "elire
+"]},{"mot":"opticien", "type" : "Nom", "synonyme" : ["lunetier
+"]},{"mot":"opticienne", "type" : "Nom", "synonyme" : ["lunetiere
+"]},{"mot":"optimal", "type" : "Adjectif", "synonyme" : ["maximal", "maximum", "profond", "ideal", "parfait
+"]},{"mot":"optimaux", "type" : "Adjectif", "synonyme" : ["ideaux", "parfaits
+"]},{"mot":"optimisation", "type" : "Nom", "synonyme" : ["amelioration", "maximalisation", "rationalisation", "taylorisation", "organisation", "productivisme
+"]},{"mot":"optimiser", "type" : "Verbe", "synonyme" : ["ameliorer", "maximaliser", "perfectionner", "reduire", "tayloriser", "rentabiliser", "organiser
+"]},{"mot":"optimisme", "type" : "Nom", "synonyme" : ["euphorie", "gaiete", "aise", "beatitude", "bonheur", "detente", "soulagement", "oubli", "joie", "hedonisme", "epicurisme", "eudemonisme", "insouciance", "detachement
+"]},{"mot":"optimiste", "type" : "Adjectif Nom", "synonyme" : ["hedoniste", "epicurien", "insouciant", "heureux
+"]},{"mot":"optimum", "type" : "Adjectif Nom", "synonyme" : ["maximum", "summum
+"]},{"mot":"option", "type" : "Nom", "synonyme" : ["choix", "assortiment", "alternative", "possibilite", "eventualite", "preference", "faveur", "favoritisme", "predilection", "privilege", "attirance", "election", "partialite", "acceptation", "premium", "prime
+"]},{"mot":"optionnel", "type" : "Adjectif", "synonyme" : ["facultatif", "eventuel
+"]},{"mot":"optionnelle", "type" : "Adjectif", "synonyme" : ["facultative", "eventuelle
+"]},{"mot":"optionnellement", "type" : "?", "synonyme" : ["facultativement
+"]},{"mot":"optique", "type" : "Adjectif Nom", "synonyme" : ["lunetterie", "vue", "perspective", "aspect", "ouverture", "panorama", "paysage", "visuel", "visible", "graphique
+"]},{"mot":"optometrie", "type" : "Nom", "synonyme" : ["ametropie", "emmetropie
+"]},{"mot":"opulence", "type" : "Nom", "synonyme" : ["abondance", "profusion", "richesse", "foisonnement", "plethore", "deluge", "affluence", "exuberance", "surabondance", "debordement", "luxuriance", "plenitude", "epanouissement", "fecondite", "faconde", "volubilite", "exageration", "prolixite", "luxe", "apparat", "faste", "magnificence", "splendeur", "somptuosite", "eclat", "fortune", "ressources", "moyens", "prosperite", "biens", "exces
+"]},{"mot":"opulent", "type" : "Adjectif", "synonyme" : ["luxueux", "fastueux", "magnifique", "splendide", "princier", "royal", "somptueux", "eclatant", "riche", "abondant", "confortable", "plantureux", "gras", "dodu", "obese", "luxurieux", "fertile", "copieux", "aise", "prospere", "nanti", "fortune", "florissant", "beau", "majestueux", "superbe
+"]},{"mot":"opulente", "type" : "Adjectif", "synonyme" : ["luxueuse", "fastueuse", "magnifique", "splendide", "princiere", "royale", "somptueuse", "eclatante", "riche", "abondante", "confortable
+"]},{"mot":"opuntia", "type" : "Nom", "synonyme" : ["oponce
+"]},{"mot":"opuscule", "type" : "Nom", "synonyme" : ["brochure", "prospectus", "tract", "pamphlet", "libelle", "livret", "bulletin", "fascicule", "cahier", "livraison", "livre", "plaquette", "publication", "ecrit", "ouvrage", "œuvre", "imprime", "edition", "volume", "album
+"]},{"mot":"or", "type" : "Conjonction Nom", "synonyme" : ["pepite", "paillette", "louis", "pactole", "tresor", "magot", "fortune", "richesse", "argent", "ressources", "abondance
+"]},{"mot":"oracle", "type" : "Nom", "synonyme" : ["devin", "prophete", "augure", "aruspice", "mage", "magicien", "sibylle", "sorcier", "voyant", "visionnaire", "chiromancien", "necromancien", "cartomancien", "devineresse", "magicienne", "pythie", "pythonisse", "sorciere", "voyante", "chiromancienne", "prophetie", "divination", "prevision", "vaticination
+"]},{"mot":"orage", "type" : "Nom", "synonyme" : ["bourrasque", "grain", "risee", "rafale", "tornade", "tempête", "trombe", "tourbillon", "cyclone", "tourmente", "typhon", "intemperie", "rigueur", "ouragan", "pluie", "ondee", "averse", "giboulee", "bruine", "deluge", "crachin", "houle", "tonnerre", "foudre", "eclair
+"]},{"mot":"orageuse", "type" : "Adjectif", "synonyme" : ["houleuse", "agitee", "troublee", "tumultueuse", "violente
+"]},{"mot":"orageusement", "type" : "Adverbe", "synonyme" : ["tumultueusement", "en desordre", "bruyamment
+"]},{"mot":"orageux", "type" : "Adjectif", "synonyme" : ["houleux", "tumultueux", "agite", "trouble", "mouvemente", "pluvieux", "bruineux", "humide
+"]},{"mot":"oraison", "type" : "Nom", "synonyme" : ["allocution", "discours", "harangue", "laïus", "speech", "adresse", "briefing", "eloge", "louange", "compliment", "apologie", "panegyrique", "dithyrambe", "glorification", "encensement", "approbation", "felicitation", "congratulations", "applaudissement", "flatterie", "priere", "Angelus", "Oremus", "Pater", "Ave", "secrete", "peroraison", "oremus", "patenôtre", "marmonnement", "meditation", "supplique", "supplication", "invocation", "imploration", "conjuration", "adoration", "requête", "instance", "demande", "invitation", "sollicitation
+"]},{"mot":"oral", "type" : "Adjectif Nom", "synonyme" : ["buccal", "verbal", "oratoire", "eglise", "chapelle", "sanctuaire", "formel", "parle", "vocal
+"]},{"mot":"oralement", "type" : "Adverbe", "synonyme" : ["verbalement", "vocalement
+"]},{"mot":"oraliser", "type" : "?", "synonyme" : ["enoncer", "reciter
+"]},{"mot":"orange", "type" : "Adjectif Nom Verbe", "synonyme" : ["agrume", "fruit", "citron", "pamplemousse", "pomelo", "bergamote", "clementine", "mandarine", "navel", "maltaise
+"]},{"mot":"orang-outan", "type" : "Nom", "synonyme" : ["gorille", "singe", "chimpanze
+"]},{"mot":"orant", "type" : "Adjectif", "synonyme" : ["agenouille", "priant
+"]},{"mot":"orateur", "type" : "Nom", "synonyme" : ["communicant", "conferencier", "discoureur", "bavard", "verbeux", "diseur", "devin", "harangueur", "debatteur", "rheteur", "intervenant", "participant", "tribun", "speaker", "predicateur", "declamateur", "parleur", "phraseur", "prêcheur", "sermonneur", "moralisateur", "evangelisateur", "conseilleur", "apôtre", "doctrinaire", "missionnaire", "predicant", "sermonnaire", "rhetoricien", "argumentateur", "grondeur
+"]},{"mot":"oratoire", "type" : "Adjectif Nom", "synonyme" : ["eglise", "chapelle", "sanctuaire", "oral
+"]},{"mot":"oratorio", "type" : "Nom", "synonyme" : ["opera", "operette", "drame
+"]},{"mot":"oratrice", "type" : "Nom", "synonyme" : ["diseuse", "devineresse", "harangueuse", "conferenciere", "predicatrice", "speakerine
+"]},{"mot":"oraux", "type" : "Adjectif Nom", "synonyme" : ["buccaux", "verbaux
+"]},{"mot":"orbe", "type" : "Adjectif", "synonyme" : ["globe", "boule", "rond
+"]},{"mot":"orbiculaire", "type" : "Adjectif", "synonyme" : ["circulaire", "spherique
+"]},{"mot":"orbite", "type" : "Nom Verbe", "synonyme" : ["mouvance", "dependance", "rond", "cercle", "ellipse", "tour", "rotation", "giration", "revolution", "circonvolution", "roulement", "virevolte", "pirouette", "conversion", "alternance", "assolement", "roulement
+"]},{"mot":"orbiter", "type" : "Verbe", "synonyme" : ["graviter", "tourner
+"]},{"mot":"orchestrateur", "type" : "Nom", "synonyme" : ["compositeur", "arrangeur", "musicien", "adaptateur
+"]},{"mot":"orchestration", "type" : "Nom", "synonyme" : ["harmonisation", "accompagnement", "arrangement", "instrumentation
+"]},{"mot":"orchestratrice", "type" : "?", "synonyme" : ["adaptatrice", "arrangeuse
+"]},{"mot":"orchestre", "type" : "Nom Verbe", "synonyme" : ["clique", "bande", "sabot", "fanfare", "cuivres", "harmonie", "orpheon", "trompes", "ensemble", "formation", "groupe", "trio", "quatuor", "quintette", "sextuor", "quartette
+"]},{"mot":"orchestre", "type" : "Verbe", "synonyme" : ["instrumente", "harmonise", "arrange
+"]},{"mot":"orchestre folklorique", "type" : "?", "synonyme" : ["bagad", "ensemble
+"]},{"mot":"orchestrer", "type" : "Verbe", "synonyme" : ["harmoniser", "concilier", "accorder", "arranger", "allier", "coordonner", "instrumenter
+"]},{"mot":"orchidee", "type" : "Nom", "synonyme" : ["orchis
+"]},{"mot":"orchis", "type" : "Nom", "synonyme" : ["orchidee
+"]},{"mot":"ordinaire", "type" : "Adjectif Nom", "synonyme" : ["banal", "communal", "commun", "collectif", "vulgaire", "commune", "collective", "ville", "courant", "actuel", "flot", "vent", "familier", "intime", "domestique", "connu", "habituel", "coutumier", "normal", "quotidien", "simple", "amical", "usuel", "facile", "aise", "general", "constant", "universel", "global", "unanime", "total", "vague", "indecis", "machinal", "traditionnel", "rituel", "consacre", "accoutume", "habituelle", "coutumiere", "quotidienne", "normale", "familiere", "machinale", "traditionnelle", "rituelle", "courante", "consacree", "usuelle", "accoutumee", "mediocre", "moyen", "quelconque", "modere", "passable", "maigre", "minime", "pietre", "negligeable", "minable", "petit", "mince", "menu", "carte", "naturel", "regulier", "legitime", "correct", "plebeien", "populaire", "proletaire", "classique", "usite", "orthodoxe", "use", "usitee", "usee", "frequent", "rebattu", "canaille", "effronte", "epais", "populacier", "trivial", "grossier
+"]},{"mot":"ordinairement", "type" : "Adverbe", "synonyme" : ["banalement", "communement", "habituellement", "couramment", "generalement", "facilement", "aisement", "frequemment", "regulierement", "souvent", "usuellement", "normalement", "naturellement", "classiquement", "volontiers", "benevolement", "gracieusement
+"]},{"mot":"ordinaires", "type" : "Adjectif Nom", "synonyme" : ["generaux", "habituels", "communs", "constants", "courants", "collectifs", "universels", "globaux", "unanimes", "totaux", "vagues", "indecis
+"]},{"mot":"ordinal", "type" : "Adjectif", "synonyme" : ["numeral", "numerique", "cardinal
+"]},{"mot":"ordinant", "type" : "Nom", "synonyme" : ["computer", "calculateur", "micro", "ordinateur
+"]},{"mot":"ordinateur", "type" : "Nom", "synonyme" : ["automate", "robot", "androïde", "machine", "marionnette", "jouet", "computer", "ordinant", "calculateur", "micro
+"]},{"mot":"ordinogramme", "type" : "?", "synonyme" : ["organigramme
+"]},{"mot":"ordo", "type" : "Nom", "synonyme" : ["directoire", "bureau
+"]},{"mot":"ordonnance", "type" : "Nom Verbe", "synonyme" : ["loi", "legislation", "droit", "code", "justice", "legalite", "acte", "arrêt", "arrête", "edit", "constitution", "jurisprudence", "charte", "prescription", "agencement", "domestique", "invalidation", "peremption", "nullite", "regle", "instruction", "recommandation", "precepte", "sentence", "jugement", "verdict", "decret", "arbitrage", "pensee", "adage", "aphorisme", "maxime", "serviteur", "valet", "laquais", "chasseur", "groom", "statut", "reglement", "convention", "protocole
+"]},{"mot":"ordonnancement", "type" : "Nom", "synonyme" : ["hierarchisation", "structuration", "ordre
+"]},{"mot":"ordonnancer", "type" : "Verbe", "synonyme" : ["arranger
+"]},{"mot":"ordonnant", "type" : "Verbe", "synonyme" : ["arrangeant", "conciliant", "contentant", "blessant
+"]},{"mot":"ordonnateur", "type" : "Nom", "synonyme" : ["amenageur", "agenceur", "architecte", "constructeur", "bâtisseur", "createur", "ingenieur
+"]},{"mot":"ordonne", "type" : "Adjectif Verbe", "synonyme" : ["aligne", "range", "arrange", "trace", "enfile", "enumere", "fourni", "presente", "coherent", "homogene", "adherent", "logique", "rationnel", "harmonieux", "agreable", "ajuste", "accorde", "beau", "equilibre", "eurythmique", "melodieux", "musical", "proportionne", "symetrique", "hierarchique", "echelonne", "structure", "methodique", "systematique", "organise", "cartesien", "reflechi", "soigne", "propre", "avenant", "net", "elegant", "coquet", "consciencieux", "minutieux", "delicat", "fini", "etudie", "poli", "recherche", "soigneux", "applique", "attentif", "meticuleux", "scrupuleux", "serieux", "tatillon", "regle", "absolu", "deductif
+"]},{"mot":"ordonnee", "type" : "Adjectif Nom Verbe", "synonyme" : ["harmonieuse", "agreable", "ajustee", "accordee", "belle", "equilibree", "eurythmique", "melodieuse", "musicale", "proportionnee", "symetrique", "rangee", "alignee", "classee", "groupee", "classifiee", "casee", "placee", "triee", "amenagee", "arrangee", "agencee", "organisee
+"]},{"mot":"ordonner", "type" : "Verbe", "synonyme" : ["adjurer", "supplier", "implorer", "prier", "conjurer", "commander", "aligner", "ranger", "arranger", "tracer", "enfiler", "enumerer", "fournir", "presenter", "contenter", "apprêter", "classer", "assigner", "attribuer", "cataloguer", "classifier", "diviser", "grouper", "placer", "repartir", "repertorier", "trier", "enjoindre", "imposer", "exiger", "prescrire", "decreter", "sommer", "contraindre", "obliger", "mener", "conduire", "diriger", "dominer", "dicter", "stipuler", "decider", "inspirer", "demander", "vouloir", "reclamer", "requerir", "hierarchiser", "agencer", "distribuer", "echelonner", "etager", "graduer", "organiser", "structurer", "subordonner", "legiferer", "administrer", "codifier", "arrêter", "edicter", "regler", "reglementer", "mander", "citer", "convoquer", "appeler", "peigner", "demêler", "coiffer", "carder", "recommander", "fixer", "disposer", "caser", "amenager", "serier
+"]},{"mot":"ordre", "type" : "Nom", "synonyme" : ["alternance", "tour", "flux", "rythme", "succession", "frequence", "cadence", "periode", "variation", "bascule", "bulletin", "billet", "acte", "certificat", "recu", "recepisse", "ticket", "bordereau", "communique", "annonce", "journal", "revue", "cote", "classement", "rangement", "classification", "arrangement", "repartition", "tri", "triage", "nomenclature", "hierarchisation", "clerge", "eglise", "commande", "achat", "commandement", "pouvoir", "communaute", "groupe", "confrerie", "collectivite", "association", "corporation", "congregation", "corps", "societe", "couvent", "monastere", "cloître", "compagnie", "diktat", "oukase", "directive", "instruction", "recommandation", "injonction", "sommation", "education", "culture", "enquête", "ordonnancement", "organisation", "classe", "proportion", "rapport", "combinaison", "equilibre", "balancement", "justesse", "beaute", "pourcentage", "prorata", "mesure", "correspondance", "comparaison", "sacrement", "baptême", "confirmation", "mariage", "penitence", "securite", "sûrete", "assurance", "calme", "confiance", "tranquillite", "quietude", "abri", "consortium", "trust", "holding", "pool", "humanite", "civilisation", "sorte", "maniere", "acabit", "forme", "trempe", "facon", "variete", "espece
+"]},{"mot":"ordre etabli", "type" : "?", "synonyme" : ["establishment", "systeme
+"]},{"mot":"ordure", "type" : "Nom", "synonyme" : ["charogne", "pourriture", "salete", "crasse", "salissure", "encrassement", "malproprete", "souillure", "tache", "impurete", "detritus", "dechet", "residu", "rebut", "debris", "reste", "immondice", "excrement", "excretion", "dejections", "feces", "selle", "grossierete", "vulgarite", "trivialite", "obscenite", "grivoiserie", "goujaterie", "insolence", "rusticite", "insulte", "injure", "cochonnerie", "dejection", "fange", "vidange", "balayure", "gadoue", "poussiere", "cendre", "poussier", "escarbille", "contamination", "pollution", "avilissement", "corruption", "fletrissure", "peche
+"]},{"mot":"ordurier", "type" : "Adjectif", "synonyme" : ["abject", "avili", "bas", "honteux", "ignoble", "ignominieux", "infâme", "sordide", "sale", "vil", "graveleux", "obscene", "grivois", "grossier", "croustillant", "cru", "egrillard", "gras", "licencieux", "lubrique", "ose", "scabreux", "scatologique
+"]},{"mot":"orduriere", "type" : "Adjectif", "synonyme" : ["graveleuse", "obscene", "grivoise", "grossiere", "croustillante", "crue", "egrillarde", "grasse", "licencieuse", "lubrique", "osee", "scabreuse", "scatologique", "injurieuse", "abjecte
+"]},{"mot":"oreade", "type" : "Nom", "synonyme" : ["nymphe", "naïade", "dryade", "nereide", "oceanide", "hyade", "hamadryade", "deesse", "chrysalide
+"]},{"mot":"oree", "type" : "Nom", "synonyme" : ["bord", "bordure", "côte", "rebord", "pourtour", "banlieue", "peripherie", "contour", "tour", "lisere", "limite", "rive", "côte", "entree", "acces", "vestibule", "seuil", "prologue", "admission", "arrivee", "debut", "exorde", "lisiere", "extremite", "frontiere", "lisere", "bande
+"]},{"mot":"oreille", "type" : "Nom", "synonyme" : ["esgourde", "portugaise", "ormeau", "haliotide", "myosotis", "pavillon", "villa", "drapeau
+"]},{"mot":"oreille de souris", "type" : "?", "synonyme" : ["myosotis", "plante a petites fleurs
+"]},{"mot":"oreiller", "type" : "Nom", "synonyme" : ["coussin", "bourrelet", "coussinet", "polochon", "pouf", "traversin
+"]},{"mot":"oreillons", "type" : "Nom", "synonyme" : ["parotidite
+"]},{"mot":"oremus", "type" : "?", "synonyme" : ["oraison
+"]},{"mot":"Oremus", "type" : "?", "synonyme" : ["oraison", "priere", "Angelus", "Pater", "Ave", "secrete", "peroraison", "discours
+"]},{"mot":"orfevre", "type" : "Nom Verbe", "synonyme" : ["bijoutier", "joaillier", "horloger", "bijoutiere", "joailliere", "horlogere", "ciseleur
+"]},{"mot":"orfevrerie", "type" : "Nom", "synonyme" : ["argenterie", "vaisselle", "bijouterie", "joaillerie", "horlogerie
+"]},{"mot":"orfroi", "type" : "Nom", "synonyme" : ["broderie", "damas", "dentelle", "feston", "filet", "guipure
+"]},{"mot":"organe", "type" : "Nom", "synonyme" : ["instrument", "appareil", "outil", "ustensile", "accessoire", "objet", "partie", "journal", "porte-parole", "representant", "truchement", "voix", "entremetteur", "viscere", "boyaux", "tripes", "entrailles", "intestin", "son", "gorge", "cri", "chant", "ton", "parole
+"]},{"mot":"organigramme", "type" : "Nom", "synonyme" : ["ordinogramme
+"]},{"mot":"organique", "type" : "Adjectif", "synonyme" : ["corporel", "physique", "charnel", "physiologique", "materiel", "sexuel", "lesionnel", "lesionnelle", "vegetatif", "physionomie
+"]},{"mot":"organiquement", "type" : "Adverbe", "synonyme" : ["physiquement", "corporellement", "materiellement
+"]},{"mot":"organisant", "type" : "Verbe", "synonyme" : ["constituant", "caracteristique", "essentiel", "fondamental", "ingredient", "composant", "formant", "creant", "instaurant", "etablissant", "edifiant", "construisant
+"]},{"mot":"organisateur", "type" : "Adjectif", "synonyme" : ["animateur", "âme", "chef", "responsable", "entraîneur", "moteur", "presentateur", "planificateur", "programmateur", "sequenceur", "minuteur", "promoteur", "initiateur", "investigateur", "createur", "protagoniste
+"]},{"mot":"organisation", "type" : "Nom", "synonyme" : ["concertation", "entente", "combinaison", "coordination", "planification", "synchronisation", "arrangement", "discipline", "art", "regle", "science", "matiere", "instauration", "constitution", "etablissement", "fondation", "ordre", "classe", "commandement", "organisme", "office", "service", "bureau", "corps", "administration", "programmation", "structuration", "amenagement", "elaboration", "generation", "genese", "disposition", "structure", "composition", "agencement", "construction", "armature", "contexture", "forme", "taylorisation", "optimisation", "productivisme
+"]},{"mot":"organise", "type" : "Adjectif Verbe", "synonyme" : ["dirige", "conduit", "gouverne", "administre", "gere", "regi", "regente", "regle", "commande", "guide", "preside", "mene", "domine", "achemine", "discipline", "obeissant", "soumis", "methodique", "systematique", "logique", "ordonne", "cartesien", "reflechi", "structure", "prepare", "apprête", "accommode", "arrange", "dresse", "dispose", "prevu", "echafaude", "combine", "concerte", "ourdi", "nourri", "goupille", "vivant", "vif", "fort", "expressif", "anime", "vivace", "respirant
+"]},{"mot":"organisee", "type" : "Adjectif Verbe", "synonyme" : ["rangee", "alignee", "classee", "ordonnee", "groupee", "classifiee", "casee", "placee", "triee", "amenagee", "arrangee", "agencee
+"]},{"mot":"organiser", "type" : "Verbe", "synonyme" : ["constituer", "former", "creer", "instaurer", "etablir", "composer", "faire", "bâtir", "edifier", "construire", "arranger", "diriger", "conduire", "gouverner", "administrer", "gerer", "regir", "regenter", "regler", "commander", "guider", "presider", "mener", "dominer", "acheminer", "hierarchiser", "agencer", "classer", "distribuer", "echelonner", "etager", "graduer", "ordonner", "structurer", "subordonner", "monter", "elever", "grimper", "assembler", "planifier", "programmer", "projeter", "preparer", "apprêter", "accommoder", "dresser", "disposer", "prevoir", "echafauder", "combiner", "concerter", "ourdir", "nourrir", "goupiller", "ranger", "aligner", "grouper", "classifier", "caser", "placer", "trier", "amenager", "rationaliser", "codifier", "normaliser", "standardiser", "regulariser", "fixer", "charpenter", "tayloriser", "rentabiliser", "optimiser
+"]},{"mot":"organisme", "type" : "Nom", "synonyme" : ["institution", "etablissement", "fondation", "college", "ecole", "faculte", "societe", "organisation", "office", "service", "bureau", "corps", "administration
+"]},{"mot":"organsin", "type" : "Nom", "synonyme" : ["soie", "grege", "brocard", "pekin", "satin", "taffetas
+"]},{"mot":"orge", "type" : "Nom", "synonyme" : ["malt", "cereale
+"]},{"mot":"orgelet", "type" : "Nom", "synonyme" : ["compere-loriot", "loriot", "chalaze", "chalazion", "tumeur", "tumefaction", "enflure", "excroissance", "tuberosite", "ampoule", "loupe", "kyste", "abces", "furoncle", "fibrome", "cancer
+"]},{"mot":"orgie", "type" : "Nom", "synonyme" : ["bacchanale", "debauche", "ribote", "bombance", "bombe", "fête", "noce", "ripaille", "ribouldingue
+"]},{"mot":"orgue", "type" : "Nom", "synonyme" : ["limonaire
+"]},{"mot":"orgue de mer", "type" : "?", "synonyme" : ["tubipore
+"]},{"mot":"orgueil", "type" : "Nom", "synonyme" : ["amour-propre", "fierte", "dignite", "ambition", "arrogance", "insolence", "mepris", "dedain", "morgue", "suffisance", "superiorite", "autosatisfaction", "contentement", "vanite", "triomphalisme", "fatuite", "infatuation", "pretention", "jactance", "megalomanie", "folie des grandeurs", "paranoïa", "outrecuidance", "audace", "aplomb", "presomption", "impertinence", "effronterie", "superbe", "gloriole", "satisfaction", "futilite
+"]},{"mot":"orgueilleuse", "type" : "Adjectif Nom", "synonyme" : ["arrogante", "fiere", "insolente", "infatuee", "hautaine", "pretentieuse", "presomptueuse", "suffisante", "pretendue", "vaniteuse", "hardie", "audacieuse
+"]},{"mot":"orgueilleusement", "type" : "Adverbe", "synonyme" : ["fierement", "presomptueusement", "pretentieusement", "vaniteusement", "arrogamment
+"]},{"mot":"orgueilleux", "type" : "Adjectif Nom", "synonyme" : ["altier", "hautain", "fier", "dedaigneux", "arrogant", "insolent", "meprisant", "suffisant", "important", "rogue", "superbe", "bêcheur", "distant", "pretentieux", "snob", "vaniteux", "fierot", "faraud", "infatue", "fat", "impertinent", "impoli", "effronte", "impudent", "irrespectueux", "desagreable", "insultant", "grossier", "cynique", "megalomane", "paranoïaque", "outrecuidant", "presomptueux", "audacieux", "affecte
+"]},{"mot":"oriel", "type" : "Nom", "synonyme" : ["bay-window", "bow-window", "veranda", "bungalow", "galerie", "varangue
+"]},{"mot":"orient", "type" : "Nom", "synonyme" : ["est", "levant", "elevant", "fermentant
+"]},{"mot":"orientable", "type" : "Adjectif", "synonyme" : ["directionnel", "directif", "positionnable
+"]},{"mot":"orientation", "type" : "Nom", "synonyme" : ["aiguillage", "branchement", "bifurcation", "changement", "finalite", "but", "dessein", "destination", "fin", "intention", "motivation", "teleologie", "tendance", "direction", "position", "situation", "exposition", "emplacement", "disposition", "aplomb", "equilibre", "attitude", "resolution
+"]},{"mot":"orienter", "type" : "Verbe", "synonyme" : ["aiguiller", "diriger", "axer", "gouverner", "conduire", "guider", "braquer", "viser", "mener", "emmener", "piloter", "promener", "accompagner", "reconduire", "raccompagner
+"]},{"mot":"orifice", "type" : "Nom", "synonyme" : ["ouverture", "pore", "trou", "interstice", "fissure
+"]},{"mot":"oriflamme", "type" : "Nom", "synonyme" : ["banderole", "calicot", "banniere", "couleurs", "drapeau", "enseigne", "etendard", "fanion", "flamme", "guidon", "gonfanon", "gonfalon
+"]},{"mot":"origan", "type" : "Nom", "synonyme" : ["marjolaine", "dictame
+"]},{"mot":"originaire", "type" : "Adjectif", "synonyme" : ["autochtone", "indigene", "aborigene", "naturel", "initial", "premier", "debutant", "liminaire", "elementaire", "primitif", "rudimentaire", "primordial", "issu", "natif", "issue", "native", "nee", "ouverture", "sortie", "porte", "passage", "debouche", "exutoire", "solution", "echappatoire", "expedient", "aboutissement", "resultat", "conclusion", "natal", "inne", "originel", "originelle", "initiale", "primitive
+"]},{"mot":"originairement", "type" : "Adverbe", "synonyme" : ["initialement", "primitivement
+"]},{"mot":"originaires", "type" : "Adjectif", "synonyme" : ["initiaux", "premiers", "debutants", "elementaires", "primitifs", "rudimentaires", "primordiaux
+"]},{"mot":"original", "type" : "Adjectif", "synonyme" : ["archetype", "prototype", "type", "essence", "modele", "principe", "etalon", "exemple", "parangon", "authentique", "legal", "vrai", "fantaisiste", "boheme", "irregulier", "capricieux", "amateur", "dilettante", "fantasque", "lunatique", "changeant", "indecis", "bizarre", "inclassable", "unique", "inedit", "nouveau", "inimitable", "acheve", "impayable", "incomparable", "inegalable", "parfait", "reproduction", "mannequin", "specimen", "non-conformiste", "independant", "individualiste", "contestataire", "heterodoxe", "neuf", "recent", "frais", "naissant", "novice", "moderne", "inattendu", "inouï", "insolite", "renouvele", "inhabituel", "olibrius", "phenomene", "zigoto", "hâbleur", "pittoresque", "typique", "folklorique", "originalite", "caractere", "style", "coloris", "princeps", "truculent", "picaresque", "comique", "hardi", "excessif", "cru", "deconcertant", "singulier", "specifique", "caracteristique", "significatif", "distinctif", "personnel", "notoire", "remarquable", "particulier", "attributif
+"]},{"mot":"originale", "type" : "Adjectif Nom", "synonyme" : ["nouvelle", "information", "evenement", "depêche", "echo", "bruit", "neuve", "recente", "inedite", "moderne", "particuliere", "singuliere", "distinctive", "propre", "remarquable", "specifique", "personnelle", "privee
+"]},{"mot":"originalement", "type" : "Adverbe", "synonyme" : ["etrangement", "singulierement
+"]},{"mot":"originalite", "type" : "Nom", "synonyme" : ["ecceite", "propre", "fantaisie", "caprice", "imagination", "humour", "initiative", "esprit", "innovation", "nouveaute", "creation", "invention", "hardiesse", "changement", "non-conformisme", "independance", "personnalite", "cachet", "chic", "particularisme", "coutume", "habitude", "specificite", "particularite", "pittoresque", "typique", "original", "folklorique", "caractere", "style", "coloris", "singularite", "bizarrerie", "anomalie", "etrangete", "excentricite", "extravagance", "exception", "unicite", "exemplarite
+"]},{"mot":"originaux", "type" : "Adjectif Nom", "synonyme" : ["nouveaux", "authentiques
+"]},{"mot":"origine", "type" : "Nom Verbe", "synonyme" : ["commencement", "debut", "naissance", "preliminaire", "source", "racine", "prelude", "depart", "primeur", "envoi", "avenement", "introduction", "entree", "etymologie", "evolution", "formation", "genealogie", "lignee", "filiation", "famille", "extraction", "ascendance", "descendance", "souche", "race", "pedigree", "genese", "elaboration", "œuvre", "noyau", "centre", "cœur", "groupe", "provenance", "fondement", "cause", "creation", "pepiniere", "ecole", "principe", "norme", "terroir", "pays", "terre
+"]},{"mot":"originel", "type" : "Adjectif", "synonyme" : ["naissant", "commencant", "debutant", "originaire", "issu", "initial", "primitif", "premier", "liminaire", "meilleur", "principal", "superieur", "aîne", "ancêtre", "pionnier", "major", "primaire", "ancien", "elementaire", "naïf", "grossier", "simple", "visceral", "instinctif", "inconscient", "naturel", "inne", "splanchnique
+"]},{"mot":"originelle", "type" : "Adjectif", "synonyme" : ["initiale", "originaire", "primitive", "ancienne", "premiere", "primaire", "elementaire", "naïve", "grossiere", "simple
+"]},{"mot":"originellement", "type" : "Adverbe", "synonyme" : ["initialement", "au debut", "primitivement", "premierement", "primo", "anciennement
+"]},{"mot":"origines", "type" : "Nom Verbe", "synonyme" : ["noyaux", "centres", "cœurs", "groupes", "premices", "geneses", "commencements", "debuts", "avant-goûts", "primeurs
+"]},{"mot":"oripeau", "type" : "Nom", "synonyme" : ["accoutrement", "affublement", "deguisement", "harnachement", "attifement", "defroque", "nippe", "fripe", "guenille", "ajustement", "chiffon", "haillon", "serpilliere", "loque", "charpie", "chiffe", "fagotage", "harde", "lambeau
+"]},{"mot":"oripeaux", "type" : "Nom", "synonyme" : ["loques", "haillons", "guenilles", "lambeaux
+"]},{"mot":"orle", "type" : "Nom", "synonyme" : ["bordure", "filet
+"]},{"mot":"ormeau", "type" : "Nom", "synonyme" : ["haliotide", "oreille", "myosotis
+"]},{"mot":"ornant", "type" : "Verbe", "synonyme" : ["enrichissant", "fructueux", "avantageux", "lucratif", "payant", "productif", "remunerateur", "rentable
+"]},{"mot":"orne", "type" : "Verbe", "synonyme" : ["agremente", "enjolive", "embelli", "enrichi", "rehausse", "releve", "pare", "ajoure", "aere", "perce", "ouvert", "constelle", "brillant", "etoile", "parseme", "seme", "empanache", "decore", "enguirlande", "ameliore", "fleuri", "riant", "seduisant", "elegant", "choisi", "colore", "frais", "vif", "image", "figure", "metaphorique", "tatoue", "marque
+"]},{"mot":"ornee", "type" : "Verbe", "synonyme" : ["illustree", "decoree", "eclaircie", "enrichie", "distinguee
+"]},{"mot":"ornemaniste", "type" : "Adjectif", "synonyme" : ["sculpteur", "statuaire", "modeleur", "imagier
+"]},{"mot":"ornement", "type" : "Nom", "synonyme" : ["affiquet", "bijou", "bibelot", "parure", "bagatelle", "arabesque", "dessin", "broderie", "volute", "moresque", "joyau", "bordure", "bord", "garniture", "cordon", "haie", "ligne", "barriere", "carnele", "bracelet", "chaîne", "jonc", "gourmette", "enjolivement", "accessoire", "fioriture", "enjolivure", "feston", "frange", "guirlande", "passementerie", "torsade", "fleuron", "assortiment", "enroulement", "enlacement", "rinceau", "decor", "motif", "raison", "cause", "decoration", "embellissement", "parement", "pavoisement", "sculpture", "gravure", "moulure", "buste", "monument", "statue
+"]},{"mot":"ornemental", "type" : "Adjectif", "synonyme" : ["decoratif
+"]},{"mot":"ornementation", "type" : "Nom", "synonyme" : ["decoration
+"]},{"mot":"ornementaux", "type" : "Adjectif", "synonyme" : ["decoratifs
+"]},{"mot":"ornemente", "type" : "Verbe", "synonyme" : ["meuble", "garni", "occupe", "rempli", "enrichi
+"]},{"mot":"ornementer", "type" : "Verbe", "synonyme" : ["embellir", "orner", "enjoliver", "agrementer", "arranger", "enrichir", "rehausser", "parer", "decorer", "egayer", "imager", "broder", "meubler", "garnir", "equiper
+"]},{"mot":"ornements", "type" : "Nom", "synonyme" : ["bijoux", "joyaux", "parures
+"]},{"mot":"orner", "type" : "Verbe", "synonyme" : ["agrementer", "enjoliver", "embellir", "enrichir", "rehausser", "relever", "parer", "ajourer", "aerer", "percer", "ouvrir", "emailler", "decorer", "arranger", "ornementer", "egayer", "empanacher", "enguirlander", "ennoblir", "anoblir", "idealiser", "elever", "grandir", "garnir", "emplir", "illustrer", "eclairer", "expliquer", "eclaircir", "imager", "broder", "incruster", "damasquiner", "sertir", "pigmenter", "colorer", "tacheter", "fleurir", "tatouer", "marquer
+"]},{"mot":"orniere", "type" : "Nom Verbe", "synonyme" : ["bourbier", "marais", "marecage", "cloaque", "fange", "boue", "fondriere", "decharge", "trou
+"]},{"mot":"ornithose", "type" : "?", "synonyme" : ["psittacose
+"]},{"mot":"oronge", "type" : "Nom", "synonyme" : ["amanite
+"]},{"mot":"oronge blanche", "type" : "?", "synonyme" : ["coucoumelle", "amanite ovoïde", "grisette
+"]},{"mot":"orpailleur", "type" : "Nom", "synonyme" : ["pailleteur
+"]},{"mot":"orphelin", "type" : "Adjectif Nom", "synonyme" : ["pupille", "abandonne", "seul", "solitaire", "prunelle
+"]},{"mot":"orpheon", "type" : "Nom", "synonyme" : ["chœur", "chorale", "ensemble", "chorus", "fanfare", "clique", "cuivres", "harmonie", "orchestre", "trompes
+"]},{"mot":"orpiment", "type" : "Nom", "synonyme" : ["orpin", "sedum
+"]},{"mot":"orpin", "type" : "Nom", "synonyme" : ["joubarbe", "carline", "artichaut", "orpiment", "sedum
+"]},{"mot":"orque", "type" : "Nom", "synonyme" : ["epaulard", "rorqual", "baleine", "balenoptere", "squale", "requin", "marteau
+"]},{"mot":"orseille", "type" : "Nom", "synonyme" : ["lecanore", "rocelle
+"]},{"mot":"orteil", "type" : "Nom", "synonyme" : ["pouce", "doigt
+"]},{"mot":"orthodontie", "type" : "Nom", "synonyme" : ["odontologie", "stomatologie
+"]},{"mot":"orthodoxe", "type" : "Adjectif Nom", "synonyme" : ["chretien", "baptise", "catholique", "protestant", "fidele", "ouaille", "paroissien", "conformiste", "conservateur", "traditionaliste", "discipline", "traditionnel", "classique", "coutumier", "habituel", "usite", "familier", "courant", "ordinaire", "usuel", "use", "traditionnelle", "coutumiere", "habituelle", "usitee", "familiere", "courante", "usuelle", "usee
+"]},{"mot":"orthodoxie", "type" : "Nom", "synonyme" : ["conformisme", "conservatisme", "traditionalisme", "tradition
+"]},{"mot":"orthogenie", "type" : "Nom", "synonyme" : ["contrôle", "planning familial
+"]},{"mot":"orthogonal", "type" : "Adjectif", "synonyme" : ["axial", "central", "perpendiculaire", "vertical
+"]},{"mot":"orthogonalement", "type" : "Adverbe", "synonyme" : ["perpendiculairement
+"]},{"mot":"orthogonaux", "type" : "Adjectif", "synonyme" : ["perpendiculaires
+"]},{"mot":"orthographier", "type" : "Verbe", "synonyme" : ["ecrire", "conjuguer
+"]},{"mot":"orthopediste", "type" : "Nom", "synonyme" : ["bandagiste
+"]},{"mot":"orthophonie", "type" : "Nom", "synonyme" : ["logopedie", "phoniatrie", "reeducation
+"]},{"mot":"orthopnee", "type" : "?", "synonyme" : ["dyspnee
+"]},{"mot":"ortie blanche", "type" : "?", "synonyme" : ["lamier
+"]},{"mot":"oryx", "type" : "Nom", "synonyme" : ["antilope", "algazelle", "bubale", "cob", "damalisque", "gnou", "impala", "nilgaut", "saïga", "springbok
+"]},{"mot":"os", "type" : "Nom", "synonyme" : ["hic", "difficulte", "ossements", "carcasse", "squelette", "restes", "ossature", "charpente", "canevas", "trognon", "residu
+"]},{"mot":"oscar", "type" : "Nom", "synonyme" : ["Cesar", "prix", "recompense", "medaille", "decoration", "diplôme", "accessit", "citation", "mention", "satisfecit", "prime", "pourboire", "gratification", "benefice
+"]},{"mot":"oscillant", "type" : "Adjectif Verbe", "synonyme" : ["alternatif", "periodique", "successif", "cadence", "sinusoïdal", "ballant", "pendant", "chancelant", "branlant", "faible", "hesitant", "incertain", "trebuchant", "vacillant", "confus", "craintif", "desoriente", "douteux", "embarrasse", "empêche", "flottant", "fluctuant", "indecis", "irresolu
+"]},{"mot":"oscillateur", "type" : "Adjectif Nom", "synonyme" : ["alternateur
+"]},{"mot":"oscillation", "type" : "Nom", "synonyme" : ["amplitude", "portee", "variation", "periode", "ecart", "magnitude", "bringuebalement", "brimbalement", "cahotement", "cahot", "fluctuation", "flottement", "balancement", "variabilite", "changement", "mobilite", "va-et-vient", "mouvement", "battement", "ballant", "roulis", "tangage", "ondulation", "secouement", "houle", "trebuchement", "vacillement", "tremblement", "frissonnement", "tremblotement", "fremissement", "spasme", "convulsion", "frisson", "tressaillement", "trepidation", "ebranlement", "secousse
+"]},{"mot":"osciller", "type" : "Verbe", "synonyme" : ["baller", "balancer", "boiter", "claudiquer", "clopiner", "boitiller", "bringuebaler", "brimbaler", "brinquebaler", "agiter", "cahoter", "secouer", "chanceler", "tituber", "vaciller", "flageoler", "branler", "basculer", "hesiter", "deliberer", "douter", "tergiverser", "flotter", "barguigner", "atermoyer", "attendre", "penduler", "tanguer", "rouler", "remuer", "trebucher", "chavirer", "buter", "tomber", "choir", "varier", "changer", "moduler", "differer", "diversifier", "bigarrer
+"]},{"mot":"oscillographe", "type" : "Nom", "synonyme" : ["oscillometre
+"]},{"mot":"oscillometre", "type" : "Nom", "synonyme" : ["oscillographe
+"]},{"mot":"ose", "type" : "Nom Verbe", "synonyme" : ["glucide", "hydrate", "oside", "monosaccharide
+"]},{"mot":"ose", "type" : "Adjectif Verbe", "synonyme" : ["egrillard", "coquin", "fripon", "gaillard", "erotique", "libertin", "leste", "grivois", "ehonte", "insolent", "impudent", "effronte", "impudique", "audacieux", "hardi", "cynique", "graveleux", "obscene", "grossier", "croustillant", "cru", "gras", "licencieux", "lubrique", "ordurier", "scabreux", "scatologique", "courageux", "aventureux", "intrepide", "entreprenant", "brave", "resolu", "decide", "determine", "energique", "assure", "temeraire", "imprudent", "etourdi", "inconsequent", "inconsidere", "irreflechi", "leger", "malavise", "libre", "polisson", "canaille
+"]},{"mot":"osee", "type" : "Adjectif", "synonyme" : ["graveleuse", "obscene", "grivoise", "grossiere", "croustillante", "crue", "egrillarde", "grasse", "licencieuse", "lubrique", "orduriere", "scabreuse", "scatologique", "hardie", "audacieuse", "courageuse", "aventureuse", "intrepide", "entreprenante", "brave", "resolue", "decidee", "determinee", "energique", "assuree", "temeraire
+"]},{"mot":"oseille", "type" : "Nom", "synonyme" : ["monnaie", "brique", "piece", "devise
+"]},{"mot":"oser", "type" : "Verbe", "synonyme" : ["braver", "affronter", "defier", "provoquer", "narguer", "mepriser", "offenser", "violer", "entreprendre", "commencer", "engager", "entamer", "declencher", "tenter", "essayer", "risquer
+"]},{"mot":"oside", "type" : "Nom", "synonyme" : ["glucide", "hydrate", "ose
+"]},{"mot":"osier", "type" : "Nom", "synonyme" : ["vannerie", "rotin", "paille", "roseau", "bambou", "raphia
+"]},{"mot":"osmonde", "type" : "Nom", "synonyme" : ["fougere aquatique
+"]},{"mot":"osmose", "type" : "Nom", "synonyme" : ["influence", "synergie", "interpenetration
+"]},{"mot":"osque", "type" : "Adjectif Nom", "synonyme" : ["italique", "penche
+"]},{"mot":"ossature", "type" : "Nom", "synonyme" : ["armature", "charpente", "squelette", "carcasse", "echafaudage", "treillis", "bâti", "support", "soutien", "base", "structure", "architecture", "nervure", "assemblage", "châssis", "os", "ossements", "canevas
+"]},{"mot":"ossement", "type" : "?", "synonyme" : ["relique", "restes", "cendres", "tresor", "fetiche", "amulette", "souvenir
+"]},{"mot":"ossements", "type" : "Nom", "synonyme" : ["os", "carcasse", "squelette", "restes", "ossature", "charpente", "canevas
+"]},{"mot":"osseux", "type" : "Adjectif", "synonyme" : ["decharne", "maigre
+"]},{"mot":"ossification", "type" : "Nom", "synonyme" : ["osteogenese", "recalcification
+"]},{"mot":"ossifier", "type" : "Verbe", "synonyme" : ["scleroser", "figer", "petrifier
+"]},{"mot":"ossu", "type" : "Adjectif", "synonyme" : ["membru
+"]},{"mot":"ossuaire", "type" : "Nom", "synonyme" : ["charnier", "cimetiere", "necropole", "columbarium", "catacombes", "crypte", "hypogee", "catacombe
+"]},{"mot":"ostensible", "type" : "Adjectif", "synonyme" : ["ostentatoire", "apparent", "public", "evident", "visible", "perceptible", "percevable", "appreciable", "distinct", "voyant", "manifeste", "sensible
+"]},{"mot":"ostensiblement", "type" : "Adverbe", "synonyme" : ["visiblement", "publiquement
+"]},{"mot":"ostensoir", "type" : "Nom", "synonyme" : ["reliquaire", "châsse", "coffret
+"]},{"mot":"ostentation", "type" : "Nom", "synonyme" : ["affectation", "emploi", "apparat", "pompe", "faste", "etalage", "eclat", "ceremonial", "solennite", "luxe", "cortege", "fla-fla", "facon", "flafla", "gloriole", "morgue", "infatuation", "fatuite", "dedain", "arrogance", "fierte", "outrecuidance", "presomption", "importance", "montre", "parade", "pose", "attitude", "place
+"]},{"mot":"ostentatoire", "type" : "Adjectif", "synonyme" : ["fastueux", "somptueux", "luxueux", "eclatant", "beau", "magnifique", "riche", "splendide", "pompeux", "ostensible", "apparent", "public", "evident", "visible
+"]},{"mot":"osteogenese", "type" : "Nom", "synonyme" : ["ossification
+"]},{"mot":"osteopathe", "type" : "Nom", "synonyme" : ["chiropracteur", "chiropraticien
+"]},{"mot":"osteosclerose", "type" : "?", "synonyme" : ["eburnation
+"]},{"mot":"ostraciser", "type" : "Verbe", "synonyme" : ["excommunier", "anathematiser", "maudire", "renvoyer", "censurer", "chasser", "bannir", "blâmer", "exclure", "rejeter", "repousser
+"]},{"mot":"ostracisme", "type" : "Nom", "synonyme" : ["boycott", "quarantaine", "exclusion", "elimination", "expulsion", "renvoi", "revocation", "destitution", "radiation", "epuration", "suppression", "interdiction", "excommunication", "anatheme", "malediction", "censure", "blâme", "interdit", "bannissement", "exil", "ban", "relegation", "expatriation", "proscription", "eloignement", "separation", "isolement", "rejet", "eviction", "condamnation", "racisme", "xenophobie", "segregation", "discrimination", "apartheid
+"]},{"mot":"ostreiculteur", "type" : "Nom", "synonyme" : ["amareyeur", "aquaculteur", "aquiculteur", "conchyliculteur", "mytiliculteur", "pisciculteur", "huîtrier
+"]},{"mot":"ostreicultrice", "type" : "Nom", "synonyme" : ["huîtriere
+"]},{"mot":"ostreiculture", "type" : "Nom", "synonyme" : ["aquaculture", "aquiculture", "conchyliculture", "mytiliculture", "pisciculture", "alevinage", "elevage", "engraissement", "nourrissage", "apiculture", "aviculture
+"]},{"mot":"ostrogoth", "type" : "Adjectif Nom", "synonyme" : ["malappris", "malotru", "sauvage
+"]},{"mot":"otage", "type" : "Nom", "synonyme" : ["garant", "caution", "repondant", "prisonnier", "captif", "embastille", "arrête", "sequestre", "detenu", "interne", "prevenu", "bagnard", "deporte
+"]},{"mot":"otarie", "type" : "Nom", "synonyme" : ["loutre de mer", "pinnipede", "phoque", "morse
+"]},{"mot":"ôter", "type" : "Verbe", "synonyme" : ["arracher", "deraciner", "extraire", "deplanter", "deterrer", "enlever", "detacher", "sortir", "tirer", "effacer", "gommer", "gratter", "recouvrir", "estomper", "raturer", "rayer", "biffer", "barrer", "annuler", "supprimer", "radier", "emparer", "emporter", "retirer", "degager", "debarrasser", "separer", "defaire", "decoller", "declouer", "laver", "excepter", "exclure", "reserver", "ecarter", "retrancher", "oublier", "negliger", "epargner", "plumer", "deplumer", "depouiller", "deposseder", "sevrer", "priver", "soustraire", "detourner", "prendre", "subtiliser", "escamoter", "dissimuler", "preserver
+"]},{"mot":"otique", "type" : "Adjectif", "synonyme" : ["auriculaire
+"]},{"mot":"otocyon", "type" : "Nom", "synonyme" : ["chien oreillard
+"]},{"mot":"oto-rhino-laryngologiste", "type" : "Nom", "synonyme" : ["laryngologue
+"]},{"mot":"ottoman", "type" : "Adjectif", "synonyme" : ["gros-grain", "turc
+"]},{"mot":"ottomane", "type" : "Adjectif Nom", "synonyme" : ["sofa", "canape", "divan", "causeuse", "banquette", "meridienne
+"]},{"mot":"ou", "type" : "Conjonction", "synonyme" : ["ou bien", "sinon", "soit", "bien
+"]},{"mot":"où", "type" : "Pronom", "synonyme" : ["dans", "sur", "dans lequel", "pendant lequel
+"]},{"mot":"ouaille", "type" : "Nom", "synonyme" : ["brebis", "agnelle", "vacive", "chretien", "baptise", "catholique", "orthodoxe", "protestant", "fidele", "paroissien", "sûr", "assidu", "constant", "sincere", "devoue", "loyal", "adepte", "croyant", "partisan", "pratiquant
+"]},{"mot":"ouaouaron", "type" : "Nom", "synonyme" : ["grenouille mugissante", "grenouille-taureau
+"]},{"mot":"ouate", "type" : "Nom Verbe", "synonyme" : ["bourre", "etoupe
+"]},{"mot":"ouate", "type" : "Adjectif Verbe", "synonyme" : ["brumeux", "nebuleux", "couvert", "humide", "feutre", "silencieux", "amorti", "etouffe", "discret
+"]},{"mot":"ouatee", "type" : "Adjectif Verbe", "synonyme" : ["brumeuse", "nebuleuse", "couverte", "humide
+"]},{"mot":"ouater", "type" : "Verbe", "synonyme" : ["feutrer", "garnir", "rembourrer", "molletonner
+"]},{"mot":"ou bien", "type" : "?", "synonyme" : ["ou", "sinon", "soit
+"]},{"mot":"oubli", "type" : "Nom", "synonyme" : ["absence", "carence", "defaut", "manque", "disparition", "eloignement", "separation", "etourderie", "distraction", "inattention", "amnesie", "agnosie", "aphasie", "apraxie", "euphorie", "gaiete", "aise", "beatitude", "bonheur", "detente", "soulagement", "optimisme", "joie", "ingratitude", "meconnaissance", "omission", "lacune", "trou", "inadvertance", "negligence", "amnistie", "pardon
+"]},{"mot":"oubliable", "type" : "Adjectif", "synonyme" : ["effacable", "pardonnable", "prescriptible
+"]},{"mot":"oublie", "type" : "Nom", "synonyme" : ["hostie", "patene", "eucharistie", "plaisir
+"]},{"mot":"oublie", "type" : "Verbe", "synonyme" : ["inecoute", "omis", "neglige
+"]},{"mot":"oublier", "type" : "Verbe", "synonyme" : ["excepter", "exclure", "reserver", "ecarter", "ôter", "retrancher", "enlever", "negliger", "epargner", "meconnaître", "ignorer", "sous-estimer", "mesestimer", "mejuger", "manquer", "omettre", "delaisser", "dedaigner", "mepriser", "taire", "effacer", "desapprendre", "eponger", "amnistier", "pardonner", "scotomiser", "forclore
+"]},{"mot":"oubliette", "type" : "Nom", "synonyme" : ["cachot
+"]},{"mot":"oublieuse", "type" : "Adjectif Nom", "synonyme" : ["insoucieuse", "insouciante", "indifferente", "imprevoyante", "negligente", "indolente", "frivole", "etourdie", "legere", "fataliste", "ingrate", "egoïste
+"]},{"mot":"oublieux", "type" : "Adjectif Nom", "synonyme" : ["amnesique", "agnosique", "aphasique", "apraxique", "ingrat", "laid", "sterile", "insouciant", "insoucieux", "indifferent", "imprevoyant", "negligent", "indolent", "frivole", "etourdi", "leger", "fataliste", "desordonne", "paresseux", "egoïste
+"]},{"mot":"ouche", "type" : "Nom", "synonyme" : ["verger", "jardin", "plantation
+"]},{"mot":"ouest", "type" : "Adjectif Nom", "synonyme" : ["couchant", "occident", "ponant
+"]},{"mot":"oui", "type" : "Adverbe Nom", "synonyme" : ["amen", "soit", "paradoxe", "O.K.", "bien", "parfaitement", "convenablement", "correctement", "propriete", "avoir", "capital", "richesse", "fortune", "patrimoine", "possessions", "assurement", "certainement", "entendu", "positif", "affirmatif
+"]},{"mot":"ouï", "type" : "Verbe", "synonyme" : ["entendu", "capable", "compris
+"]},{"mot":"ouï-dire", "type" : "Nom", "synonyme" : ["bruit", "on-dit", "rumeur
+"]},{"mot":"ouïe", "type" : "Interjection Nom Verbe", "synonyme" : ["esse", "cheville", "audition", "perception
+"]},{"mot":"ouïes", "type" : "Nom Verbe", "synonyme" : ["branchies", "opercules
+"]},{"mot":"ouille", "type" : "Interjection Verbe", "synonyme" : ["aïe
+"]},{"mot":"ouïr", "type" : "Verbe", "synonyme" : ["ecouter", "entendre", "percevoir", "ausculter", "comprendre
+"]},{"mot":"ouistiti", "type" : "Nom", "synonyme" : ["sagouin
+"]},{"mot":"oukase", "type" : "Nom", "synonyme" : ["diktat", "ordre", "edit
+"]},{"mot":"ouragan", "type" : "Nom", "synonyme" : ["cyclone", "tempête", "orage", "tourmente", "bourrasque", "tornade", "tourbillon", "typhon", "houle", "trombe", "grain
+"]},{"mot":"ouralien", "type" : "Adjectif", "synonyme" : ["touranien
+"]},{"mot":"ouralienne", "type" : "Adjectif", "synonyme" : ["touranienne
+"]},{"mot":"ourdi", "type" : "Verbe", "synonyme" : ["prepare", "apprête", "accommode", "arrange", "dresse", "organise", "dispose", "prevu", "echafaude", "combine", "concerte", "nourri", "goupille
+"]},{"mot":"ourdir", "type" : "Verbe", "synonyme" : ["combiner", "arranger", "accorder", "disposer", "associer", "composer", "assembler", "allier", "assortir", "marier", "agencer", "calculer", "tramer", "comploter", "conspirer", "projeter", "intriguer", "manigancer", "fricoter", "tisser", "preparer", "apprêter", "accommoder", "dresser", "organiser", "prevoir", "echafauder", "concerter", "nourrir", "goupiller
+"]},{"mot":"ourdissage", "type" : "Nom", "synonyme" : ["tissage", "tressage", "tramage", "nattage
+"]},{"mot":"ourle", "type" : "Adjectif Verbe", "synonyme" : ["arachneen", "fin", "dentele", "transparent", "aerien", "vaporeux
+"]},{"mot":"ourler", "type" : "Verbe", "synonyme" : ["coudre", "bâtir", "faufiler", "monter", "raccommoder", "rapiecer", "ravauder", "repriser", "surfiler", "surjeter", "creneler", "denteler", "decouper", "border", "entourer", "franger
+"]},{"mot":"ourlet", "type" : "Nom", "synonyme" : ["bordure", "rebord", "repli", "pli
+"]},{"mot":"ours", "type" : "Nom", "synonyme" : ["urside", "ourson", "misanthrope ", "plantigrade", "meliphage 
+"]},{"mot":"(Nom)", "type" : "Nom", "synonyme" : ["jouet", "ours en peluche", "nounours ", "peluche", "toutou
+"]},{"mot":"oust", "type" : "Interjection", "synonyme" : ["dehors
+"]},{"mot":"out", "type" : "Adverbe", "synonyme" : ["depasse", "hors circuit
+"]},{"mot":"outarde", "type" : "Nom", "synonyme" : ["becasse", "barge", "courlis", "echassier", "huîtrier
+"]},{"mot":"outil", "type" : "Nom", "synonyme" : ["accessoire", "instrument", "complement", "ustensile", "objet", "praticable", "engin", "machine", "appareil", "arme", "organe", "dispositif", "moteur", "locomotive
+"]},{"mot":"outillage", "type" : "Nom", "synonyme" : ["attirail", "harnachement", "equipement", "assortiment", "appareil", "bagage", "materiel", "concret", "physique", "palpable", "tangible", "materiau", "mobilier", "machine", "matos", "appareillage", "instruments
+"]},{"mot":"outiller", "type" : "Verbe", "synonyme" : ["industrialiser", "mecaniser", "developper", "equiper", "pourvoir", "munir", "fournir
+"]},{"mot":"outilleur", "type" : "Nom", "synonyme" : ["ajusteur", "aleseur", "monteur
+"]},{"mot":"outlaw", "type" : "Nom", "synonyme" : ["hors-la-loi", "desperado", "bandit
+"]},{"mot":"outplacement", "type" : "?", "synonyme" : ["replacement
+"]},{"mot":"output", "type" : "Nom", "synonyme" : ["produit
+"]},{"mot":"outrage", "type" : "Nom Verbe", "synonyme" : ["affront", "humiliation", "vexation", "camouflet", "avanie", "raillerie", "offense", "indignite", "soufflet", "gifle", "attentat", "attaque", "agression", "crime", "viol", "sacrilege", "explosion", "injure", "insulte", "invective", "impolitesse", "insolence", "sarcasme", "vilenie", "infamie", "jurement", "serment", "blaspheme", "imprecation", "juron", "profanation", "irrespect", "irreverence", "impiete", "violation", "infraction", "desobeissance", "atteinte", "derogation", "manquement", "viole", "violon
+"]},{"mot":"outrage", "type" : "Adjectif", "synonyme" : ["bafoue", "ridiculise", "trompe", "berne", "humilie", "raille", "persifle", "vilipende", "moque
+"]},{"mot":"outrageant", "type" : "Adjectif Verbe", "synonyme" : ["attentatoire", "prejudiciable", "insultant", "injurieux", "outrageux
+"]},{"mot":"outrager", "type" : "Verbe", "synonyme" : ["bafouer", "ridiculiser", "tromper", "berner", "humilier", "railler", "persifler", "vilipender", "moquer", "engueuler", "insulter", "invectiver", "agonir", "offenser", "salir", "maudire", "injurier", "blesser", "violer", "profaner", "souiller", "degrader", "polluer", "desobeir
+"]},{"mot":"outrageuse", "type" : "Adjectif", "synonyme" : ["injurieuse", "offensante", "insultante", "blessante
+"]},{"mot":"outrageusement", "type" : "Adverbe", "synonyme" : ["excessivement", "trop", "demesurement", "exagerement", "surabondamment", "injurieusement", "effrontement", "injustement", "mechamment", "violemment
+"]},{"mot":"outrageux", "type" : "Adjectif", "synonyme" : ["injurieux", "insultant", "outrageant", "offensant", "blessant
+"]},{"mot":"outrance", "type" : "Nom", "synonyme" : ["exces", "excedent", "comble", "surplus", "profusion", "surabondance", "plethore", "demesure", "exageration", "prodigalite", "satiete", "luxe", "abus
+"]},{"mot":"outrancier", "type" : "Adjectif", "synonyme" : ["exagerateur", "excessif", "exagere", "outre", "abusif", "deregle", "exorbitant", "demesure", "surabondant", "extrême", "monstrueux", "fou", "effroyable", "insupportable", "incontinent", "aussitôt", "hier", "voyant", "criard", "eclatant", "indiscret", "provocateur
+"]},{"mot":"outranciere", "type" : "Adjectif", "synonyme" : ["exageratrice", "excessive", "exageree", "outree", "abusive", "dereglee", "exorbitante", "demesuree", "surabondante", "extrême", "monstrueuse", "folle", "effroyable", "insupportable
+"]},{"mot":"outre", "type" : "Adverbe Nom Preposition Verbe", "synonyme" : ["baudruche", "ballon", "boyau", "pellicule", "independamment", "individuellement
+"]},{"mot":"outre", "type" : "Adjectif", "synonyme" : ["abusif", "exagere", "excessif", "demesure", "exorbitant", "immodere", "extrême", "injuste", "inique", "contraint", "force", "affecte", "embarrasse", "artificiel", "faux", "factice", "effrene", "dechaîne", "illimite", "passionne", "debride", "outrancier", "deregle", "surabondant", "monstrueux", "fou", "effroyable", "insupportable", "oblige", "ouvert", "abuse", "incontinent", "aussitôt", "indigne", "revolte", "scandalise", "suffoque
+"]},{"mot":"outrecuidance", "type" : "Nom", "synonyme" : ["effronterie", "culot", "toupet", "hardiesse", "audace", "impudence", "impertinence", "sans-gêne", "gloriole", "morgue", "ostentation", "infatuation", "fatuite", "dedain", "arrogance", "fierte", "presomption", "importance", "aplomb", "orgueil
+"]},{"mot":"outrecuidant", "type" : "Adjectif Verbe", "synonyme" : ["presomptueux", "orgueilleux", "audacieux", "fat", "suffisant", "arrogant", "pretentieux", "vaniteux", "fier", "pedant", "satisfait
+"]},{"mot":"outree", "type" : "Adjectif", "synonyme" : ["excessive", "exageree", "outranciere", "abusive", "dereglee", "exorbitante", "demesuree", "surabondante", "extrême", "monstrueuse", "folle", "effroyable", "insupportable
+"]},{"mot":"outrepasser", "type" : "Verbe", "synonyme" : ["empieter", "chevaucher", "enjamber", "usurper", "franchir", "traverser", "sauter", "passer", "escalader", "parcourir", "depasser", "abuser", "exceder", "deborder", "transcender", "transposer
+"]},{"mot":"outrer", "type" : "Verbe", "synonyme" : ["exagerer", "ajouter", "broder", "amplifier", "forcer", "grossir", "bluffer", "pousser", "surestimer", "enfler", "abuser", "surcharger", "caricaturer
+"]},{"mot":"outre-tombe", "type" : "?", "synonyme" : ["posthume
+"]},{"mot":"outsider", "type" : "Nom", "synonyme" : ["challenger", "adversaire", "concurrent", "postulant", "impetrant", "candidat", "aspirant", "quemandeur", "pretendant
+"]},{"mot":"ouvert", "type" : "Adjectif Nom Verbe", "synonyme" : ["accueillant", "affable", "amene", "aimable", "accort", "avenant", "abordable", "hospitalier", "gracieux", "ajoure", "aere", "perce", "orne", "beant", "grand", "large", "bienveillant", "amical", "brave", "bon", "debonnaire", "comprehensif", "favorable", "gentil", "indulgent", "prevenant", "communicatif", "expansif", "confiant", "causant", "exuberant", "liant", "disjoint", "different", "distinct", "dispos", "agile", "alerte", "allegre", "decouple", "delie", "eveille", "frais", "ingambe", "leste", "vif", "souple", "entrebâille", "entrouvert", "eventre", "etripe", "demonstratif", "franc", "debordant", "fendu", "crevasse", "fissure", "fendille", "force", "oblige", "outre", "abuse", "fracture", "casse", "brise", "rompu", "viole", "droit", "loyal", "direct", "sincere", "honnête", "cordial", "spontane", "carre", "precis", "net", "clair", "declare", "charitable", "empresse", "genereux", "sympathique", "poreux", "permeable", "spongieux", "public", "manifeste", "evident", "banal", "commun", "notoire", "officiel", "auditoire", "audience", "assistance", "foule", "spectateurs", "vrai", "authentique", "veritable", "familier
+"]},{"mot":"ouverte", "type" : "Adjectif Verbe", "synonyme" : ["bee", "beante", "expansive", "exuberante", "demonstrative", "communicative", "confiante", "franche", "debordante", "droite", "loyale", "directe", "sincere", "honnête", "cordiale", "spontanee", "carree", "precise", "nette", "claire", "declaree", "hospitaliere", "accueillante", "affable", "aimable", "amene", "avenante", "charitable", "empressee", "genereuse", "sympathique", "poreuse", "permeable", "spongieuse", "fissuree", "publique", "manifeste", "evidente", "banale", "commune", "notoire", "officielle
+"]},{"mot":"ouvertement", "type" : "Adverbe", "synonyme" : ["franchement", "directement", "brutalement", "simplement", "clairement", "nettement", "evidemment", "carrement", "resolument", "hardiment", "vraiment", "certainement", "hautement", "indiscretement", "visiblement", "publiquement", "manifestement
+"]},{"mot":"ouverture", "type" : "Nom", "synonyme" : ["ajour", "jour", "aeration", "aperture", "baie", "anse", "fruit", "bâillement", "echancrure", "beance", "bonde", "bouchon", "tampon", "bondon", "trou", "commissure", "fente", "jonction", "joint", "pli", "repli", "creneau", "embrasure", "mâchicoulis", "meurtriere", "parapet", "deverrouillage", "ecaillage", "entrebâillement", "entrouverture", "evasement", "agrandissement", "elargissement", "fenêtre", "croisee", "lucarne", "vasistas", "tabatiere", "lunette", "soupirail", "judas", "guichet", "hublot", "sabord", "gueule", "bouche", "hygiaphone", "inauguration", "baptême", "commencement", "dedicace", "debut", "etrenne", "premiere", "vernissage", "issue", "native", "originaire", "nee", "sortie", "porte", "passage", "debouche", "exutoire", "solution", "echappatoire", "expedient", "aboutissement", "resultat", "conclusion", "imposte", "œil-de-bœuf", "faîtiere", "meat", "orifice", "acces", "percage", "perforation", "perforage", "taraudage", "penetration", "percee", "trouee", "breche", "dechirure", "chemin", "transpercee", "decelee", "reussie", "perspective", "vue", "aspect", "optique", "panorama", "paysage", "pertuis", "etranglement", "pore", "interstice", "fissure", "sas", "entree", "seuil", "portillon", "portique", "proposition", "offre", "avance", "ultimatum", "conseil", "suggestion", "sincerite", "franchise", "loyaute", "veracite", "droiture", "authenticite", "exactitude", "verite", "presentation", "vision
+"]},{"mot":"ouvertures", "type" : "Nom", "synonyme" : ["creneaux", "embrasures", "mâchicoulis", "meurtrieres", "parapets
+"]},{"mot":"ouvrable", "type" : "Adjectif", "synonyme" : ["travaille
+"]},{"mot":"ouvrage", "type" : "Nom Verbe", "synonyme" : ["creation", "univers", "livre", "ecrit", "œuvre", "brochure", "fascicule", "imprime", "livret", "opuscule", "plaquette", "publication", "edition", "volume", "album", "travail", "entreprise", "tableau", "sculpture", "composition", "production", "produit", "resultat", "marchandise", "fabrication", "apparition", "proclamation", "avis", "annonce", "lancement", "sortie", "reproduction
+"]},{"mot":"ouvrage", "type" : "Adjectif", "synonyme" : ["travaille", "cisele", "fouille", "ouvre", "manufacture
+"]},{"mot":"ouvrager", "type" : "Verbe", "synonyme" : ["travailler", "ciseler", "faconner", "fouiller
+"]},{"mot":"ouvrages", "type" : "Nom Verbe", "synonyme" : ["travaux", "labeurs", "tâches", "besognes", "œuvres", "actions", "corvees", "etudes", "exercices", "pratiques", "operations
+"]},{"mot":"ouvrant", "type" : "Adjectif Nom Verbe", "synonyme" : ["battant
+"]},{"mot":"ouvre", "type" : "Verbe", "synonyme" : ["force", "vigueur", "contrainte", "oblige", "abuse
+"]},{"mot":"ouvre", "type" : "Adjectif Verbe", "synonyme" : ["manufacture", "ouvrage
+"]},{"mot":"ouvre-bouteille", "type" : "Nom", "synonyme" : ["decapsuleur", "tire-bouchon
+"]},{"mot":"ouvreur", "type" : "Nom", "synonyme" : ["placier
+"]},{"mot":"ouvreuse", "type" : "Nom", "synonyme" : ["placiere
+"]},{"mot":"ouvrier", "type" : "Adjectif Nom", "synonyme" : ["artisan", "artiste", "compagnon", "faconnier", "manœuvre", "agissements", "manie", "intrigue", "machination", "manouvrier", "travailleur", "salarie", "proletaire", "proletarien", "employe", "journalier", "tâcheron", "laborieux", "consciencieux", "applique", "studieux", "actif", "producteur
+"]},{"mot":"ouvriere", "type" : "Adjectif Nom", "synonyme" : ["travailleuse", "salariee", "manœuvre
+"]},{"mot":"ouvriers", "type" : "Adjectif Nom", "synonyme" : ["proletariat", "salaries
+"]},{"mot":"ouvrir", "type" : "Verbe", "synonyme" : ["ajourer", "aerer", "percer", "orner", "crocheter", "forcer", "ecarquiller", "ecarter", "entrebâiller", "entrouvrir", "epanouir", "eclore", "elargir", "obliger", "abuser", "fracturer", "casser", "rompre", "violer", "frayer", "tracer", "inaugurer", "baptiser", "consacrer", "etrenner", "dedicacer", "inciser", "couper", "entailler", "debrider", "scarifier", "defaire", "deboucher", "deboutonner", "decacheter", "declouer", "decouvrir", "desserrer", "tirer", "degager
+"]},{"mot":"ouvroir", "type" : "Nom", "synonyme" : ["atelier", "manufacture", "chantier", "boutique", "hangar", "laboratoire
+"]},{"mot":"ouzo", "type" : "Nom", "synonyme" : ["anisette", "anis", "pastis
+"]},{"mot":"ovaire", "type" : "Nom", "synonyme" : ["gonade", "glande", "testicule
+"]},{"mot":"ovale", "type" : "Adjectif Nom Verbe", "synonyme" : ["ellipse", "raccourci", "elliptique", "ovoïde", "ovoïdal", "ove
+"]},{"mot":"ovales", "type" : "Adjectif Nom Verbe", "synonyme" : ["ovoïdaux", "elliptiques
+"]},{"mot":"ovation", "type" : "Nom", "synonyme" : ["acclamation", "applaudissement", "bravo", "transport", "delire", "hourra", "vivat", "ban
+"]},{"mot":"ovationner", "type" : "Verbe", "synonyme" : ["acclamer", "applaudir", "glorifier", "crier
+"]},{"mot":"ove", "type" : "?", "synonyme" : ["ovoïde", "ovale", "ellipse
+"]},{"mot":"overdrive", "type" : "?", "synonyme" : ["surmultiplication
+"]},{"mot":"ovibos", "type" : "Nom", "synonyme" : ["bœuf musque
+"]},{"mot":"ovide", "type" : "?", "synonyme" : ["ovin
+"]},{"mot":"ovin", "type" : "Adjectif Nom", "synonyme" : ["ovide
+"]},{"mot":"ovocyte", "type" : "Nom", "synonyme" : ["œuf", "ovule", "oosphere", "germe", "lente
+"]},{"mot":"ovogenese", "type" : "Nom", "synonyme" : ["gametogenese", "spermatogenese
+"]},{"mot":"ovoïdal", "type" : "Adjectif", "synonyme" : ["elliptique", "ovale
+"]},{"mot":"ovoïdaux", "type" : "Adjectif", "synonyme" : ["elliptiques", "ovales
+"]},{"mot":"ovoïde", "type" : "Adjectif", "synonyme" : ["elliptique", "ovale", "ove", "ellipse
+"]},{"mot":"ovulation", "type" : "Nom", "synonyme" : ["ponte", "generation
+"]},{"mot":"ovule", "type" : "Nom Verbe", "synonyme" : ["œuf", "ovocyte", "oosphere", "germe", "lente", "oocyte", "gamete", "embryon", "pilule", "dragee", "granule", "gelule", "cachet", "comprime
+"]},{"mot":"oxalide", "type" : "?", "synonyme" : ["alleluia", "chant de joie
+"]},{"mot":"oxydant", "type" : "Adjectif Nom Verbe", "synonyme" : ["rouillant", "rongeant
+"]},{"mot":"oxydation", "type" : "Nom", "synonyme" : ["anodisation", "galvanisation", "nickelage", "carburation", "cementation", "combustion", "ignition", "feu", "calcination", "inflammation", "incendie", "incineration", "chauffage", "deflagration", "patine", "depôt", "couche", "concretion
+"]},{"mot":"oxyde", "type" : "Verbe", "synonyme" : ["rubigineux", "rouille
+"]},{"mot":"oxyder", "type" : "Verbe", "synonyme" : ["anodiser", "galvaniser", "nickeler", "rouiller", "brûler", "ronger", "detruire
+"]},{"mot":"oxygene", "type" : "Adjectif Verbe", "synonyme" : ["platine", "blond", "blondi", "dore
+"]},{"mot":"oxygene", "type" : "Nom Verbe", "synonyme" : ["air", "grand air", "aere
+"]},{"mot":"oxygener", "type" : "Verbe", "synonyme" : ["aerer", "decolorer
+"]},{"mot":"oyat", "type" : "Nom", "synonyme" : ["elyme des sables
+"]}]}

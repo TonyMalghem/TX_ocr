@@ -1,0 +1,38 @@
+{"liste":[{"mot":"wagon", "type" : "Nom", "synonyme" : ["fourgon", "pique-feu", "voiture", "vehicule", "attelage", "camion", "carriole", "chariot", "charrette", "fardier", "berline", "cabriolet", "coupe", "train", "plateau", "wagonnet
+"]},{"mot":"wagon-bar", "type" : "Nom", "synonyme" : ["voiture-bar
+"]},{"mot":"wagon-citerne", "type" : "Nom", "synonyme" : ["wagon-reservoir
+"]},{"mot":"wagon-lit", "type" : "Nom", "synonyme" : ["pullman", "sleeping
+"]},{"mot":"wagonnet", "type" : "Nom", "synonyme" : ["benne", "comporte", "hotte", "panier", "recipient", "chariot", "banne", "berline", "lorry", "wagon", "voiture", "fourgon", "plateau
+"]},{"mot":"wagon-reservoir", "type" : "Nom", "synonyme" : ["wagon-citerne
+"]},{"mot":"wagon-salon", "type" : "Nom", "synonyme" : ["pullman
+"]},{"mot":"wagons-bars", "type" : "Nom", "synonyme" : ["voitures-bars
+"]},{"mot":"wagons-citernes", "type" : "Nom", "synonyme" : ["wagons-reservoirs
+"]},{"mot":"wagons-lits", "type" : "Nom", "synonyme" : ["pullmans", "sleepings
+"]},{"mot":"wagons-reservoirs", "type" : "Nom", "synonyme" : ["wagons-citernes
+"]},{"mot":"wagons-salons", "type" : "Nom", "synonyme" : ["pullmans
+"]},{"mot":"walkie-talkie", "type" : "Nom", "synonyme" : ["emetteur-recepteur
+"]},{"mot":"walkman", "type" : "Nom", "synonyme" : ["baladeur", "promeneur
+"]},{"mot":"wallaby", "type" : "Nom", "synonyme" : ["kangourou
+"]},{"mot":"wallonisme", "type" : "Nom", "synonyme" : ["belgicisme", "flandricisme
+"]},{"mot":"wargame", "type" : "Nom", "synonyme" : ["jeu de guerre", "jeu de simulation
+"]},{"mot":"warning", "type" : "?", "synonyme" : ["feu de detresse", "avertissement
+"]},{"mot":"warrant", "type" : "Nom", "synonyme" : ["nantissement", "antichrese", "gage", "caution
+"]},{"mot":"warranter", "type" : "Verbe", "synonyme" : ["gager
+"]},{"mot":"wassingue", "type" : "Nom", "synonyme" : ["serpilliere", "chiffon", "toile", "torchon", "panosse
+"]},{"mot":"water-closet", "type" : "Nom", "synonyme" : ["cabinet", "commodites", "latrines", "lavabo", "sanitaires", "toilettes", "vespasiennes
+"]},{"mot":"water-closets", "type" : "Nom", "synonyme" : ["latrines
+"]},{"mot":"wateringue", "type" : "Nom", "synonyme" : ["moere
+"]},{"mot":"waterproof", "type" : "Adjectif Nom", "synonyme" : ["etanche", "impermeable
+"]},{"mot":"waters", "type" : "Nom", "synonyme" : ["toilettes
+"]},{"mot":"week-end", "type" : "Nom", "synonyme" : ["vacance
+"]},{"mot":"wellingtonia", "type" : "Nom", "synonyme" : ["sequoia
+"]},{"mot":"whiskies", "type" : "Nom", "synonyme" : ["whiskys
+"]},{"mot":"whisky", "type" : "Nom", "synonyme" : ["rye", "scotch", "adhesif", "bourbon
+"]},{"mot":"whiskys", "type" : "?", "synonyme" : ["whiskies
+"]},{"mot":"whist", "type" : "Nom", "synonyme" : ["bridge", "prothese
+"]},{"mot":"wigwam", "type" : "Nom", "synonyme" : ["hutte", "tente", "tipi
+"]},{"mot":"winch", "type" : "Nom", "synonyme" : ["cabestan
+"]},{"mot":"winchester", "type" : "Nom", "synonyme" : ["carabine
+"]},{"mot":"wombat", "type" : "Nom", "synonyme" : ["phascolome
+"]},{"mot":"woofer", "type" : "Nom", "synonyme" : ["haut-parleur", "baffle", "enceinte", "tweeter
+"]}]}

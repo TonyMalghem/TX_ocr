@@ -1,0 +1,163 @@
+{"liste":[{"mot":"ubac", "type" : "Nom", "synonyme" : ["versant", "pente", "raillere", "adret", "face
+"]},{"mot":"ubiquiste", "type" : "?", "synonyme" : ["omnipresent", "ubiquitaire
+"]},{"mot":"ubiquitaire", "type" : "?", "synonyme" : ["omnipresent", "ubiquiste
+"]},{"mot":"ubiquite", "type" : "Nom", "synonyme" : ["omnipresence", "simultaneite", "dedoublement
+"]},{"mot":"ukase", "type" : "Nom", "synonyme" : ["commandement", "arrêt", "loi
+"]},{"mot":"ulceration", "type" : "Nom", "synonyme" : ["brûlure", "aigreur", "ampoule", "cloque", "feu", "inflammation", "irradiation", "irritation", "insolation", "rougeur", "chancre", "lesion", "bouton", "abces", "tumeur", "escarrification", "necrose", "ulcere", "cautere", "abrasion", "aphte
+"]},{"mot":"ulcere", "type" : "Nom Verbe", "synonyme" : ["escarre", "necrose", "exutoire", "abces", "ulceration", "chancre", "cautere", "brûlure", "abrasion", "aphte
+"]},{"mot":"ulcerer", "type" : "Verbe", "synonyme" : ["mortifier", "blesser", "humilier", "offenser", "choquer
+"]},{"mot":"ulmaire", "type" : "Nom", "synonyme" : ["reine-des-pres", "spiree
+"]},{"mot":"ulterieur", "type" : "Adjectif", "synonyme" : ["futur", "prochain", "posterieur", "eventuel", "possible", "avenir", "suivant", "consecutif", "derriere
+"]},{"mot":"ulterieurement", "type" : "Adverbe", "synonyme" : ["apres", "ensuite", "posterieurement", "subsequemment", "derriere
+"]},{"mot":"ultimatum", "type" : "Nom", "synonyme" : ["intimation", "appel", "assignation", "avertissement", "convocation", "injonction", "sommation", "proposition", "offre", "ouverture", "avance", "conseil", "suggestion", "commandement
+"]},{"mot":"ultime", "type" : "Adjectif", "synonyme" : ["extrême", "final", "terminal", "excessif", "suprême", "comble", "dernier
+"]},{"mot":"ultramoderne", "type" : "Adjectif", "synonyme" : ["moderniste", "in", "moderne
+"]},{"mot":"ultramontain", "type" : "Adjectif", "synonyme" : ["italien", "transalpin", "papal", "pontifical
+"]},{"mot":"ultramontaine", "type" : "Adjectif Nom", "synonyme" : ["italienne", "transalpine
+"]},{"mot":"ultramontains", "type" : "Nom Adjectif", "synonyme" : ["papaux", "pontificaux
+"]},{"mot":"ultrasonique", "type" : "Adjectif", "synonyme" : ["supersonique", "ultrasonore
+"]},{"mot":"ultrasonore", "type" : "Adjectif", "synonyme" : ["ultrasonique", "supersonique
+"]},{"mot":"ululement", "type" : "Nom", "synonyme" : ["hululement
+"]},{"mot":"ululer", "type" : "Verbe", "synonyme" : ["boubouler", "hululer", "huer
+"]},{"mot":"un", "type" : "Determinant Adjectif Nom", "synonyme" : ["indivisible", "indivis", "insecable", "irreductible", "le", "ce", "excretion", "certain", "un être", "une personne", "on", "unique", "premier", "simple", "seul", "rare", "bizarre
+"]},{"mot":"unanime", "type" : "Adjectif", "synonyme" : ["general", "habituel", "ordinaire", "commun", "constant", "courant", "collectif", "universel", "global", "total", "vague", "indecis
+"]},{"mot":"unanimement", "type" : "Adverbe", "synonyme" : ["absolument", "completement", "entierement", "generalement", "totalement", "collectivement", "universellement
+"]},{"mot":"unanimes", "type" : "Adjectif", "synonyme" : ["generaux", "habituels", "ordinaires", "communs", "constants", "courants", "collectifs", "universels", "globaux", "totaux", "vagues", "indecis
+"]},{"mot":"unanimite", "type" : "Nom", "synonyme" : ["consentement", "acceptation", "accord", "acquiescement", "adhesion", "agrement", "approbation", "assentiment", "autorisation", "complaisance", "consensus", "permission", "conformite", "harmonie", "unite", "uniformite", "egalite", "regularite", "ressemblance", "monotonie", "troupe
+"]},{"mot":"unau", "type" : "Nom", "synonyme" : ["paresseux
+"]},{"mot":"un couple de", "type" : "?", "synonyme" : ["deux", "une paire de", "un duo de", "quelques
+"]},{"mot":"un duo de", "type" : "?", "synonyme" : ["deux", "une paire de", "un couple de", "quelques
+"]},{"mot":"une", "type" : "Determinant Adjectif Nom", "synonyme" : ["la", "cette
+"]},{"mot":"une paire de", "type" : "?", "synonyme" : ["deux", "un couple de", "un duo de", "quelques
+"]},{"mot":"une personne", "type" : "?", "synonyme" : ["excretion", "certain", "un", "un être", "on
+"]},{"mot":"un être", "type" : "?", "synonyme" : ["excretion", "certain", "un", "une personne", "on
+"]},{"mot":"uni", "type" : "Adjectif Nom Verbe", "synonyme" : ["accole", "attenant", "contigu", "joint", "annexe", "rattache", "reuni", "rejoint", "coalescent", "soude", "connexe", "adherent", "analogue", "dependant", "lie", "voisin", "groupe", "assemble", "inseparable", "indissociable", "consubstantiel", "inherent", "inevitable", "ligue", "coalise", "associe", "marie", "epouse", "conjoint", "assorti", "relie", "rassemble", "solidaire", "engage", "responsable", "coherent", "uniforme", "semblable
+"]},{"mot":"unicellulaire", "type" : "Adjectif", "synonyme" : ["monocellulaire", "protiste
+"]},{"mot":"unicite", "type" : "Nom", "synonyme" : ["exemplarite", "originalite
+"]},{"mot":"unicolore", "type" : "Adjectif", "synonyme" : ["monochrome
+"]},{"mot":"unidirectionnelle", "type" : "Adjectif", "synonyme" : ["directionnelle", "directive
+"]},{"mot":"unieme", "type" : "Adjectif", "synonyme" : ["enieme", "ixieme", "tantieme
+"]},{"mot":"unificateur", "type" : "Adjectif Nom", "synonyme" : ["cohesif", "integrateur", "conjonctif", "connectif", "reunificateur", "federateur", "federatif", "rassembleur", "totalisateur
+"]},{"mot":"unification", "type" : "Nom", "synonyme" : ["fusionnement", "absorption", "reunion", "integration", "assimilation", "fusion", "concentration", "incorporation", "reunification", "radicalisation
+"]},{"mot":"unificatrice", "type" : "Adjectif Nom", "synonyme" : ["cohesive", "integrative", "conjonctive", "connective", "reunificatrice
+"]},{"mot":"unifier", "type" : "Verbe", "synonyme" : ["normaliser", "standardiser", "rationaliser", "unir", "fusionner", "mêler", "niveler", "uniformiser", "reunir", "harmoniser", "integrer
+"]},{"mot":"uniforme", "type" : "Adjectif Nom", "synonyme" : ["costume", "habit", "vêtement", "habillement", "tenue", "complet", "tailleur", "livree", "apparence", "monocorde", "monotone", "ennuyeux", "terbe", "regulier", "assidu", "normal", "suivi", "homme", "uni", "semblable", "accoutrement", "toilette", "mise", "defroque", "affaires", "effets", "haillon
+"]},{"mot":"uniformement", "type" : "Adverbe", "synonyme" : ["regulierement", "proportionnellement
+"]},{"mot":"uniformisation", "type" : "Nom", "synonyme" : ["alignement", "nivellement", "rangement", "arrangement", "ajustement", "standardisation", "aplanissement", "egalisation", "arasement", "banalisation", "depersonnalisation", "simplification
+"]},{"mot":"uniformiser", "type" : "Verbe", "synonyme" : ["unifier", "unir", "fusionner", "mêler", "niveler", "reunir", "harmoniser", "integrer", "standardiser", "simplifier
+"]},{"mot":"uniformite", "type" : "Nom", "synonyme" : ["monotonie", "tristesse", "unanimite", "accord", "conformite", "consentement", "harmonie", "unite", "egalite", "regularite", "ressemblance
+"]},{"mot":"unijambiste", "type" : "Adjectif Nom", "synonyme" : ["estropie", "ampute", "eclope", "handicape", "impotent", "infirme", "manchot", "mutile
+"]},{"mot":"unilateral", "type" : "Adjectif", "synonyme" : ["arbitraire
+"]},{"mot":"unilateralement", "type" : "Adverbe", "synonyme" : ["arbitrairement
+"]},{"mot":"unilateraux", "type" : "Adjectif", "synonyme" : ["arbitraires
+"]},{"mot":"unilingue", "type" : "Adjectif", "synonyme" : ["monolingue
+"]},{"mot":"union", "type" : "Nom", "synonyme" : ["adjonction", "jonction", "reunion", "annexion", "rattachement", "association", "accession", "incorporation", "amalgame", "melange", "alliage", "alliance", "combinaison", "rapprochement", "fusion", "confusion", "fusionne", "concorde", "conformite", "accord", "affinite", "analogie", "concordance", "harmonie", "similitude", "ressemblance", "unisson", "unite", "conjonction", "assemblage", "rencontre", "emboîtement", "accouplement", "ajustage", "enchâssement", "insertion", "federation", "confederation", "ligue", "coalition", "societe", "syndicat
+"]},{"mot":"union libre", "type" : "?", "synonyme" : ["concubinage", "cohabitation
+"]},{"mot":"unipare", "type" : "?", "synonyme" : ["primipare
+"]},{"mot":"unique", "type" : "Adjectif", "synonyme" : ["exclusif", "special", "specifique", "propre", "personnel", "particulier", "jaloux", "egoïste", "entier", "bute", "etroit", "farouche", "exclusive", "speciale", "personnelle", "particuliere", "jalouse", "entiere", "etroite", "inclassable", "original", "incomparable", "inegalable", "superieur", "parfait", "admirable", "accompli", "inimitable", "acheve", "impayable", "irremplacable", "indispensable", "precieux", "rare", "exceptionnel", "inaccoutume", "inhabituel", "rarissime", "introuvable", "insolite", "singulier", "accidentel", "remarquable", "bizarre", "inconnu", "seul", "isole", "abandonne", "solitaire", "delaisse", "simple", "un", "premier", "indivisible
+"]},{"mot":"uniquement", "type" : "Adverbe", "synonyme" : ["exclusivement", "seulement", "simplement", "cependant", "mais", "neanmoins", "toutefois", "malheureusement", "purement", "strictement", "textuellement
+"]},{"mot":"uniques", "type" : "Adjectif", "synonyme" : ["particuliers", "rares", "specifiques
+"]},{"mot":"unir", "type" : "Verbe", "synonyme" : ["accoler", "embrasser", "coller", "associer", "adherer", "lier", "juxtaposer", "accoupler", "apparier", "marier", "grouper", "appareiller", "assembler", "reunir", "adjoindre", "joindre", "ajouter", "annexer", "attacher", "rattacher", "allier", "relier", "combiner", "mêler", "concilier", "harmoniser", "assortir", "rejoindre", "rassembler", "agglutiner", "agglomerer", "masser", "attrouper", "coaliser", "liguer", "confederer", "conjoindre", "conjuguer", "convoler", "epouser", "coupler", "connecter", "egaliser", "ajuster", "equilibrer", "aplanir", "niveler", "araser", "federer", "affilier", "fiancer", "integrer", "assimiler", "comprendre", "incorporer", "lisser", "polir", "aplatir", "lustrer", "glacer", "adoucir", "satiner", "melanger", "emmêler", "entremêler", "enchevêtrer", "amalgamer", "entrelacer", "brasser", "solidariser", "unifier", "fusionner", "uniformiser", "souder", "enchaîner
+"]},{"mot":"unisson", "type" : "Nom", "synonyme" : ["accord", "harmonie", "concorde", "entente", "coordination", "arrangement", "conciliation", "alliance", "pacte", "conformite", "affinite", "analogie", "concordance", "similitude", "ressemblance", "union", "unite", "sympathie
+"]},{"mot":"unitaire", "type" : "Adjectif Nom", "synonyme" : ["protestant", "simple", "unitarien
+"]},{"mot":"unitarien", "type" : "Adjectif Nom", "synonyme" : ["protestant", "unitaire
+"]},{"mot":"unite", "type" : "Nom", "synonyme" : ["conformite", "accord", "affinite", "analogie", "concordance", "harmonie", "similitude", "ressemblance", "unisson", "union", "ensemble", "assortiment", "coherence", "composition", "conjointement", "collectivement", "simultanement", "identite", "coïncidence", "individu", "homme", "humain", "être", "personne", "individualite", "echantillon", "specimen", "indivisibilite", "unanimite", "consentement", "uniformite", "assemblage", "association", "fusion", "alliance", "entente", "abouchement", "troupe
+"]},{"mot":"univalent", "type" : "Adjectif", "synonyme" : ["monovalent
+"]},{"mot":"univers", "type" : "Nom", "synonyme" : ["cosmos", "creation", "ouvrage", "macrocosme", "monde", "terre", "planete", "foule", "abîme", "nature", "temperament", "Monde", "Cosmos", "Terre", "Galaxie", "tout", "ciel", "espace
+"]},{"mot":"Univers", "type" : "?", "synonyme" : ["terre", "sol", "propriete", "lieu
+"]},{"mot":"universalisation", "type" : "Nom", "synonyme" : ["internationalisation", "mondialisation", "generalisation
+"]},{"mot":"universalise", "type" : "Verbe", "synonyme" : ["generalise", "repandu", "etendu", "propage", "ebruite", "divulgue
+"]},{"mot":"universaliser", "type" : "Verbe", "synonyme" : ["generaliser", "repandre", "etendre", "propager", "ebruiter", "divulguer", "internationaliser", "mondialiser", "diffuser
+"]},{"mot":"universalisme", "type" : "Nom", "synonyme" : ["œcumenicite", "universalite", "mondialisme
+"]},{"mot":"universaliste", "type" : "Adjectif", "synonyme" : ["internationaliste
+"]},{"mot":"universalite", "type" : "Nom", "synonyme" : ["œcumenicite", "mondialisme", "universalisme", "totalite
+"]},{"mot":"universel", "type" : "Adjectif", "synonyme" : ["encyclopedique", "general", "habituel", "ordinaire", "commun", "constant", "courant", "collectif", "global", "unanime", "total", "vague", "indecis", "infini", "illimite", "absolu", "continu", "eternel", "perpetuel", "demesure", "incalculable", "interminable", "innombrable", "indefini", "international", "mondial", "cosmopolite", "macrocosmique", "galactique", "planetaire", "œcumenique", "complet", "omniscient", "cosmique", "astral", "celeste
+"]},{"mot":"universellement", "type" : "Adverbe", "synonyme" : ["mondialement", "partout", "internationalement", "urbi et orbi", "unanimement", "absolument", "completement", "entierement", "generalement", "totalement", "collectivement
+"]},{"mot":"universels", "type" : "Adjectif", "synonyme" : ["generaux", "habituels", "ordinaires", "communs", "constants", "courants", "collectifs", "globaux", "unanimes", "totaux", "vagues", "indecis", "internationaux", "mondiaux", "cosmopolites
+"]},{"mot":"universitaire", "type" : "Adjectif", "synonyme" : ["estudiantin", "etudiant", "professeur
+"]},{"mot":"universite", "type" : "Nom", "synonyme" : ["ecole", "college", "institution", "internat", "externat", "pension", "conservatoire", "prytanee", "seminaire", "gymnase", "C.E.G.", "lycee", "fac", "faculte", "institut", "possibilite", "academie
+"]},{"mot":"univitellin", "type" : "Adjectif", "synonyme" : ["monozygote
+"]},{"mot":"univoque", "type" : "Adjectif", "synonyme" : ["clair
+"]},{"mot":"untel", "type" : "Nom", "synonyme" : ["trucmuche", "machin
+"]},{"mot":"uperisation", "type" : "Nom", "synonyme" : ["pasteurisation", "sterilisation", "asepsie
+"]},{"mot":"uppercut", "type" : "Nom", "synonyme" : ["crochet
+"]},{"mot":"uraninite", "type" : "Nom", "synonyme" : ["pechblende
+"]},{"mot":"uranoscope", "type" : "Nom", "synonyme" : ["rascasse blanche
+"]},{"mot":"urbain", "type" : "Adjectif", "synonyme" : ["citadin
+"]},{"mot":"urbanisme", "type" : "Nom", "synonyme" : ["architecture", "charpente", "logement
+"]},{"mot":"urbanite", "type" : "Nom", "synonyme" : ["atticisme", "elegance de style", "raffinement", "finesse", "civilite", "courtoisie", "politesse", "savoir-vivre", "bienseance", "education", "tact", "sociabilite", "amabilite", "affabilite
+"]},{"mot":"urbi et orbi", "type" : "?", "synonyme" : ["partout", "universellement
+"]},{"mot":"urceole", "type" : "Adjectif", "synonyme" : ["utriculeux
+"]},{"mot":"ure", "type" : "Nom", "synonyme" : ["aurochs", "bison", "zebu", "urus
+"]},{"mot":"uree", "type" : "Nom", "synonyme" : ["urine", "miction
+"]},{"mot":"urgence", "type" : "Nom", "synonyme" : ["obligation
+"]},{"mot":"urgent", "type" : "Adjectif Verbe", "synonyme" : ["imperieux", "tyrannique", "dictatorial", "cassant", "dominateur", "tranchant", "magistral", "irresistible", "imperatif", "pressant", "indispensable", "primordial", "inevitable", "instant", "necessaire", "insistant", "astreignant", "contraignant", "appuyant", "presse
+"]},{"mot":"urgente", "type" : "Adjectif", "synonyme" : ["imperieuse", "tyrannique", "dictatoriale", "cassante", "dominatrice", "tranchante", "magistrale", "irresistible", "imperative", "pressante", "indispensable", "primordiale", "inevitable
+"]},{"mot":"urger", "type" : "Verbe", "synonyme" : ["presser
+"]},{"mot":"urinaire", "type" : "Adjectif Nom", "synonyme" : ["genital", "genito-urinaire", "urogenital
+"]},{"mot":"urinaires", "type" : "Adjectif Nom", "synonyme" : ["urogenitaux", "genito-urinaires", "genitaux
+"]},{"mot":"urinal", "type" : "Nom", "synonyme" : ["pistolet", "vase
+"]},{"mot":"urine", "type" : "Nom Verbe", "synonyme" : ["miction", "uree
+"]},{"mot":"urinoir", "type" : "Nom", "synonyme" : ["edicule", "toilettes", "vespasienne
+"]},{"mot":"urne", "type" : "Nom", "synonyme" : ["amphore", "vase", "tombeau", "tombe", "caveau", "sepulcre", "stele", "mausolee", "monument", "sepulture", "cenotaphe", "sarcophage", "dalle", "catacombes", "charnier", "boîte
+"]},{"mot":"urnes", "type" : "Nom", "synonyme" : ["tombeaux", "tombes", "caveaux", "sepulcres", "steles", "mausolees", "monuments", "sepultures", "cenotaphes", "sarcophages", "dalles", "catacombes", "charniers
+"]},{"mot":"urogenital", "type" : "Adjectif", "synonyme" : ["genito-urinaire", "urinaire", "genital
+"]},{"mot":"urogenitaux", "type" : "Adjectif", "synonyme" : ["genito-urinaires", "urinaires", "genitaux
+"]},{"mot":"urographie", "type" : "Nom", "synonyme" : ["nephrographie
+"]},{"mot":"urolagnie", "type" : "Nom", "synonyme" : ["ondinisme
+"]},{"mot":"urologie", "type" : "Nom", "synonyme" : ["nephrologie
+"]},{"mot":"urometre", "type" : "Nom", "synonyme" : ["areometre", "alcoometre", "densimetre", "glucometre", "lactometre", "oleometre
+"]},{"mot":"uropode", "type" : "Nom", "synonyme" : ["queue
+"]},{"mot":"uropygial", "type" : "Adjectif", "synonyme" : ["coccygien
+"]},{"mot":"urticaire", "type" : "Nom", "synonyme" : ["eruption", "exantheme
+"]},{"mot":"urubu", "type" : "Nom", "synonyme" : ["vautour
+"]},{"mot":"urus", "type" : "Nom", "synonyme" : ["bison", "aurochs", "ure
+"]},{"mot":"us", "type" : "Nom", "synonyme" : ["coutume", "habitude", "tradition", "usage", "regle", "mode", "mœurs", "coutumes", "usages", "principes", "habitudes", "moralites
+"]},{"mot":"usage", "type" : "Nom", "synonyme" : ["coutume", "habitude", "tradition", "regle", "us", "mode", "mœurs", "empirisme", "pragmatisme", "pratique", "routine", "emploi", "fonction", "fashion", "chic", "smart", "maniere", "facon", "frequentation", "contact", "assiduite", "familiarite", "voisinage", "entourage", "connaissance", "accointances", "relation", "rapport", "rite", "rituel", "manie", "marotte", "penchant", "automatisme", "accoutumance", "jouissance", "plaisir", "maniement", "manipulation", "utilisation", "manutention", "normalite", "norme", "possession", "acquisition", "disposition", "maîtrise", "propriete", "detention", "appropriation", "destination", "application
+"]},{"mot":"usage", "type" : "Adjectif", "synonyme" : ["fane", "abîme", "altere", "decati", "decolore", "defraîchi", "delave", "fletri", "pâli", "terni", "vieilli", "use", "avachi", "fatigue", "râpe", "elime", "dechire", "fripe", "delabre", "miteux
+"]},{"mot":"usager", "type" : "Adjectif", "synonyme" : ["utilisateur", "client
+"]},{"mot":"usages", "type" : "Nom", "synonyme" : ["mœurs", "us", "coutumes", "principes", "habitudes", "moralites
+"]},{"mot":"usant", "type" : "Adjectif Verbe", "synonyme" : ["epuisant", "ereintant", "extenuant", "fatigant", "tuant", "abîmant", "consommant", "agissant
+"]},{"mot":"use", "type" : "Adjectif Verbe", "synonyme" : ["elime", "râpe", "aminci", "employe", "embauche", "eraille", "erafle", "blesse", "egratigne", "rebattu", "connu", "ecule", "ressasse", "fatigue", "rechauffe", "trivial", "banal", "commun", "vulgaire", "traditionnel", "classique", "coutumier", "habituel", "usite", "familier", "orthodoxe", "courant", "ordinaire", "usuel", "usage", "avachi", "defraîchi", "dechire", "fripe", "delabre", "miteux
+"]},{"mot":"usee", "type" : "Adjectif Verbe", "synonyme" : ["employee", "embauchee", "traditionnelle", "classique", "coutumiere", "habituelle", "usitee", "familiere", "orthodoxe", "courante", "ordinaire", "usuelle
+"]},{"mot":"user", "type" : "Verbe", "synonyme" : ["abraser", "consumer", "brûler", "detruire", "devorer", "embraser", "ronger", "aneantir", "ruiner", "dissiper", "culotter", "noircir", "roder", "salir", "elimer", "râper", "employer", "embaucher", "emprunter", "laminer", "aplatir", "ecraser", "etirer", "reduire", "recourir", "appeler", "grignoter", "corroder", "eroder", "inquieter", "abîmer", "consommer", "agir", "utiliser
+"]},{"mot":"usine", "type" : "Nom Verbe", "synonyme" : ["acierie", "fonderie", "siderurgie", "etablissement", "maison", "entreprise", "firme", "institution", "fabrique", "manufacture", "industrie", "magasin", "comptoir", "banque", "ecole", "societe", "atelier", "ingeniosite", "shop", "forge", "distillerie", "raffinerie", "centrale
+"]},{"mot":"usiner", "type" : "Verbe", "synonyme" : ["aleser", "ajuster", "fraiser", "percer", "calibrer", "rectifier", "evaser", "polir", "fabriquer", "faire", "produire", "manufacturer", "confectionner", "elaborer", "realiser", "fraiseuse", "transformer", "faconner
+"]},{"mot":"usines", "type" : "Nom Verbe", "synonyme" : ["affaires", "commerces", "entreprises", "firmes", "industries", "societes
+"]},{"mot":"usite", "type" : "Adjectif Verbe", "synonyme" : ["consacre", "saint", "traditionnel", "classique", "coutumier", "habituel", "familier", "orthodoxe", "courant", "ordinaire", "usuel", "use", "employe", "commun", "frequent
+"]},{"mot":"usitee", "type" : "Adjectif Verbe", "synonyme" : ["traditionnelle", "classique", "coutumiere", "habituelle", "familiere", "orthodoxe", "courante", "ordinaire", "usuelle", "usee
+"]},{"mot":"usnee", "type" : "Nom", "synonyme" : ["lichen", "lecanore", "parmelie", "rocelle", "verrucaire
+"]},{"mot":"ustensile", "type" : "Nom", "synonyme" : ["accessoire", "outil", "instrument", "complement", "objet", "praticable", "engin", "machine", "appareil", "arme", "organe", "recipient", "receptacle", "reservoir", "contenant", "emballage", "pot", "boîte", "bouteille", "bocal", "vase", "plat", "seau", "cuve
+"]},{"mot":"usuel", "type" : "Adjectif", "synonyme" : ["familier", "intime", "domestique", "connu", "habituel", "coutumier", "ordinaire", "normal", "quotidien", "simple", "amical", "facile", "aise", "machinal", "traditionnel", "rituel", "courant", "consacre", "commun", "accoutume", "banal", "classique", "usite", "orthodoxe", "use", "employe", "frequent
+"]},{"mot":"usuelle", "type" : "Adjectif", "synonyme" : ["habituelle", "coutumiere", "ordinaire", "quotidienne", "normale", "familiere", "machinale", "traditionnelle", "rituelle", "courante", "consacree", "commune", "accoutumee", "classique", "usitee", "orthodoxe", "usee
+"]},{"mot":"usuellement", "type" : "Adverbe", "synonyme" : ["habituellement", "couramment", "ordinairement", "frequemment", "regulierement", "souvent", "communement
+"]},{"mot":"usufructuaire", "type" : "Adjectif", "synonyme" : ["usufruitier
+"]},{"mot":"usufruit", "type" : "Nom", "synonyme" : ["jouissance
+"]},{"mot":"usufruitier", "type" : "Adjectif", "synonyme" : ["usufructuaire
+"]},{"mot":"usuraire", "type" : "Adjectif", "synonyme" : ["excessif
+"]},{"mot":"usure", "type" : "Nom", "synonyme" : ["corrosion", "brûlure", "desagregation", "destruction", "erosion", "ravinement", "rouille", "degradation", "interêt", "agio
+"]},{"mot":"usurier", "type" : "Nom", "synonyme" : ["prêteur
+"]},{"mot":"usurpateur", "type" : "Adjectif", "synonyme" : ["plagiaire", "copiste", "pillard", "pirate", "contrefacteur", "imitateur", "profiteur", "beneficiaire", "exploiteur", "speculateur", "agioteur
+"]},{"mot":"usurpation", "type" : "Nom", "synonyme" : ["empietement", "appropriation", "illegalite", "abus", "injustice", "irregularite", "iniquite", "arbitraire", "partialite", "tort", "inegalite", "persecution", "cruaute", "plagiat", "copie", "contrefacon", "demarquage", "pillage", "calque", "emprunt", "pastiche", "imposture", "captation", "dol", "escroquerie
+"]},{"mot":"usurpatoire", "type" : "Adjectif", "synonyme" : ["illicite", "illegal", "defendu", "interdit", "prohibe", "irregulier", "coupable", "clandestin", "delictueux", "subreptice", "arbitraire", "annulable", "attaquable", "abusif", "inique
+"]},{"mot":"usurpe", "type" : "Verbe", "synonyme" : ["injuste", "immerite", "inique", "abusif", "arbitraire", "partial", "illegal", "illegitime", "injustifie", "insoutenable", "inequitable", "deraisonnable", "attentatoire
+"]},{"mot":"usurper", "type" : "Verbe", "synonyme" : ["empieter", "chevaucher", "enjamber", "outrepasser", "envahir", "anticiper", "ravir
+"]},{"mot":"uterin", "type" : "Adjectif", "synonyme" : ["germain", "consanguin
+"]},{"mot":"uterus", "type" : "Nom", "synonyme" : ["matrice", "moule
+"]},{"mot":"utile", "type" : "Adjectif Nom", "synonyme" : ["fructueux", "fecond", "avantageux", "rentable", "profitable", "lucratif", "important", "grave", "considerable", "serieux", "principal", "notable", "essentiel", "capital", "fondamental", "grand", "crucial", "majeur", "dominant", "indispensable", "obligatoire", "necessaire", "primordial", "instructif", "educatif", "edifiant", "enrichissant", "formateur", "instructive", "educative", "edifiante", "enrichissante", "formatrice", "opportun", "propice", "favorable", "indique", "expedient", "bon", "precieux", "commode", "pratique", "efficace
+"]},{"mot":"utilement", "type" : "Adverbe", "synonyme" : ["efficacement", "profitablement", "avantageusement
+"]},{"mot":"utilisable", "type" : "Adjectif", "synonyme" : ["employable", "praticable", "accessible", "abordable", "carrossable", "possible", "envisageable", "disponible
+"]},{"mot":"utilisateur", "type" : "Adjectif Nom", "synonyme" : ["usager", "client
+"]},{"mot":"utilisation", "type" : "Nom", "synonyme" : ["maniement", "manipulation", "emploi", "usage", "manutention", "habitude", "destination", "application
+"]},{"mot":"utilise", "type" : "Verbe", "synonyme" : ["applique", "appose", "assidu", "mis", "administre", "employe", "exploite", "pratique", "servant
+"]},{"mot":"utiliser", "type" : "Verbe", "synonyme" : ["appliquer", "apposer", "administrer", "tendre", "exciper", "arguer", "pretexter", "user
+"]},{"mot":"utilitaire", "type" : "Adjectif", "synonyme" : ["constructif", "realiste", "concret", "positif", "pragmatique", "pratique
+"]},{"mot":"utilite", "type" : "Nom", "synonyme" : ["bouche-trou", "remplacant", "interimaire", "commodite", "confort", "facilite", "avantage", "agrement", "aisance", "aise", "necessite", "exigence", "besoin", "obligation", "profit", "benefice", "rapport", "rendement", "produit", "recolte", "gain", "aubaine", "acquêt", "prebende", "fonction", "interêt
+"]},{"mot":"utopie", "type" : "Nom", "synonyme" : ["chimere", "illusion", "imagination", "folie", "rêve", "rêvasserie", "songe", "mirage", "phantasme", "vision", "fable", "apologue", "parabole", "allegorie", "fabliau", "moralite", "conte", "legende", "saga", "fiction", "fantaisie", "invention", "anecdote", "ideal", "rêve", "imaginaire", "pur", "parfait", "suprême", "immateriel", "metaphysique", "platonique", "archetype", "absolu", "perfection", "modele", "type", "erreur", "leurre", "aberration", "apparence", "duperie", "fantasme", "fantôme", "irrealite", "abstraction", "irreel", "phalanstere", "communaute", "groupe", "societe", "rêverie
+"]},{"mot":"utopique", "type" : "Adjectif", "synonyme" : ["chimerique", "imaginaire", "irreel", "illusoire", "invraisemblable", "impossible", "fou", "fantastique", "faux", "fictif", "invente", "mental", "mythique", "fabuleux", "legendaire", "feint", "fabrique", "irrealisable", "insense", "inaccessible", "inabordable", "inexecutable", "inapplicable", "infaisable", "impraticable", "inconcevable", "impensable", "inconciliable", "irrealiste", "utopiste
+"]},{"mot":"utopisme", "type" : "?", "synonyme" : ["idealisme", "platonisme", "irrealisme
+"]},{"mot":"utopiste", "type" : "Adjectif", "synonyme" : ["idealiste", "platonicien", "irrealiste", "chimerique", "utopique", "imaginatif", "rêveur", "songeur", "visionnaire", "illumine", "prophete", "songe-creux", "devin
+"]},{"mot":"utriculeux", "type" : "Adjectif", "synonyme" : ["urceole
+"]},{"mot":"uva-ursi", "type" : "Nom", "synonyme" : ["busserole
+"]},{"mot":"uvule", "type" : "Nom", "synonyme" : ["luette
+"]}]}

@@ -18,14 +18,12 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
-import android.widget.ScrollView;
 import android.widget.TextView;
 
 import com.projet.tony.tx.R;
 
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.json.JSONTokener;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -49,13 +47,15 @@ public class fin extends Activity {
     private static File baseDir;
     private static File saveFile;
     private static String game;
+    private ImageView imageView;
+    private LinearLayout globalLayout=null;
 
     public void res(){onResume();}
     @Override
     protected void onResume() {
         super.onResume();
         relativeLayout = (RelativeLayout) RelativeLayout.inflate(this, R.layout.activity_fin, null);
-        LinearLayout globalLayout = (LinearLayout) relativeLayout.findViewById(R.id.linearLayoutFin);
+        globalLayout = (LinearLayout) relativeLayout.findViewById(R.id.linearLayoutFin);
         JSONObject jsonHistoire;
 
 
@@ -88,15 +88,15 @@ public class fin extends Activity {
             TextView tv=(TextView) relativeLayout.findViewById(R.id.titre);
             Typeface font = Typeface.createFromAsset(getAssets(), "KQ.ttf");
             tv.setTypeface(font);
-            tv.setTextSize(25);
-            tv.setText("Fin ! Voici votre histoire...");
+            tv.setTextSize(12);
+           // tv.setText("Fin ! Voici votre histoire...");
             TextView title=(TextView) relativeLayout.findViewById(R.id.titleHist);
             title.setTypeface(font);
-            title.setTextSize(18);
+            title.setTextSize(12);
             title.setText(jsonHistoire.get("titre").toString());
-            TextView intro=(TextView) relativeLayout.findViewById(R.id.introHist);
-            intro.setTypeface(font);
-            intro.setTextSize(10);
+            //TextView intro=(TextView) relativeLayout.findViewById(R.id.introHist);
+            //intro.setTypeface(font);
+            //intro.setTextSize(10);
            // intro.setText(jsonHistoire.get("histoire").toString());
 
 
@@ -125,7 +125,7 @@ public class fin extends Activity {
                             ViewGroup.LayoutParams.WRAP_CONTENT,
                             ViewGroup.LayoutParams.WRAP_CONTENT
                     );
-                params.addRule(RelativeLayout.BELOW, R.id.introHist);
+                //params.addRule(RelativeLayout.BELOW, R.id.introHist);
                 globalLayout.setLayoutParams(params);
                 TextView textView = new TextView(this);
                 textView.setPadding(0, 0, 0, 0);
@@ -138,7 +138,7 @@ public class fin extends Activity {
                 );
                 layoutParams.setMargins(0, -10, 0, 0);
                 textView.setLayoutParams(layoutParams);
-                ImageView imageView = new ImageView(this);
+                imageView = new ImageView(this);
                 imageView.setPadding(0, 0, 0, 0);
                 Bitmap bmp = BitmapFactory.decodeFile(baseDir + "/" + imgs[i].getName());
 
